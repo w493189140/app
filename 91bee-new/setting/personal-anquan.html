@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的主页_财经视频直播_国内首家全金融视频平台_小蜂财经</title>
+    <meta name="Keywords" content="财经视频,财经资讯,财经热点,财经分析,高手观点,股票涨,大咖在线,大咖解答,财经大V,财咖说,大V说,洪榕,张姚,陈浩,姜城芳"/>
+    <meta name="Description" content="小蜂财经,国内首家全金融视频平台,5天x7小时证券市场直播,海量理财、基金、互联网金融、互联网经济、财经脱口秀等点播内容,涵盖国内主流投资品种财经直播间,并独家为乐视网财经频道提供视频内容"/>
+    <meta http-equiv="X-UA-Compatible" ;content="IE=edge, chrome=1">
+    <link rel="stylesheet" href="../css/pcreset.css"/>
+    <link rel="stylesheet" href="http://www.91bee.com/js/layer/skin/layer.css"/>
+    <link rel="stylesheet" href="../css/personal-anquan.css"/>
+    <link rel="stylesheet" href="../lib/style.css">
+    <link rel="stylesheet" href="../css/fx-side.css">
+</head>
+<body>
+<!--导航栏-->
+<div class="header clearfix">
+    <div class="logo f_left">
+        <img src="../images2/admin-logo.png" alt="">
+    </div>
+    <div class="head_nav f_left">
+        <ul class="clearfix">
+            <li class="hv_on"><a href="javascript:void (0);">首页</a></li>
+            <li><a href="javascript:void (0);">股市大直播</a></li>
+            <li><a href="javascript:void (0);">投顾服务</a></li>
+            <li><a href="javascript:void (0);">财咖联盟</a></li>
+            <li><a href="javascript:void (0);">热点</a></li>
+            <li><a href="javascript:void (0);">投资学堂</a></li>
+            <li><a href="javascript:void (0);">活动</a></li>
+        </ul>
+    </div>
+    <div class="head_r f_right">
+        <a>注销</a>
+        <span>我是用户名</span>
+        <img src="../images/daoshi2.png">
+    </div>
+</div>
+<!--侧边固定栏-->
+<div class="side-toll">
+    <ul>
+        <li>
+            <a href="javascript:void (0);">
+                <span class="name"><img src="../images2/icon-homepage2.png">我的主页</span>
+            </a>
+        </li>
+        <li class="current">
+            <a href="javascript:void (0);">
+                <span class="name"><img src="../images2/icon-course2.png">我的课程</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void (0);">
+                <span class="name"><img src="../images2/icon-subscription2.png">我的订阅</span>
+                <span  class="num">35</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void (0);">
+                <span class="name"><img src="../images2/icon-assets2.png">我的资产</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void (0);">
+                <span class="name"><img src="../images2/icon-message2.png">我的消息</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void (0);">
+                <span class="name"><img src="../images2/icon-order2.png">我的订单</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:void (0);">
+                <span><img src="../images2/icon-account2.png">账户与安全</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="body-box">
+    <div class="content-box clearfix">
+        <div class="content-dv clearfix">
+              <ul class="tab-nav">
+                  <li class="current" data-name="information">个人资料</li>
+                  <li data-name="head-img">更换头像</li>
+                  <li data-name="password">修改密码</li>
+              </ul>
+             <div class="content">
+                 <div class="information" style="display: block">
+                     <ul>
+                         <li class="title">基本资料</li>
+                         <li class="clearfix">
+                             <div class="name">姓名</div>
+                             <div class="info">
+                                 <input maxlength="11" id="userName" class="input-txt" type="text" placeholder="请输入您的姓名">
+                                 <p id="userNameTip" class="des">建议使用您的真实姓名</p>
+                             </div>
+                         </li>
+                         <li class="clearfix">
+                             <div class="name">生日</div>
+                             <div class="info">
+                                 <input id="userDate" class="input-txt" type="text" readonly="readonly"  placeholder="请输入您的生日">
+                                 <p id="userDateTip" class="des">请按正确格式输入，如：1980-01-01</p>
+                             </div>
+                         </li>
+                         <li class="clearfix sex-box">
+                             <div class="name">性别</div>
+                             <div class="info">
+                                <span class="sex-item on" data-sex="0">
+                                    <i class="iconfont icon_success"></i>
+                                    <em>男</em>
+                                </span>
+                                 <span class="sex-item" data-sex="1">
+                                    <i class="iconfont icon_success"></i>
+                                    <em>女</em>
+                                </span>
+                             </div>
+                         </li>
+                         <li>
+                             <button id="informationBtn" class="btn">保存修改</button>
+                         </li>
+                     </ul>
+                     <ul class="tel-box">
+                         <li class="title">绑定帐号</li>
+                         <li class="clearfix">
+
+                             <div class="name">手机号</div>
+                             <div class="info">
+                                 <input onkeyup="value=value.replace(/[^\d]/g,'')" maxlength="11" disabled="disabled" class="input-txt tel-num" type="tel" placeholder="请输入手机号" value="18888888888">
+                                 <p class="change-btn" id="changeTel">更换绑定手机号</p>
+                                 <p class="des" id="telTip">请输入您要绑定的手机号码</p>
+                             </div>
+                         </li>
+                         <li class="clearfix">
+                             <div class="name">　</div>
+                             <div class="info">
+                                 <input  maxlength="8" disabled="disabled" class="input-txt tel-code" type="text" placeholder="请输入验证码">
+                                 <button id="telSend"  disabled="disabled" class="btn tel-btn">获取验证码</button>
+                                 <p id="telCodeTip" class="des">点击获取验证码，验证码会发送到您的手机</p>
+                             </div>
+                         </li>
+                         <li>
+                             <button disabled="disabled" id="telBtn" class="btn">保存修改</button>
+                         </li>
+                     </ul>
+                     <ul class="email-box">
+                         <li class="title">绑定邮箱</li>
+                         <li class="clearfix">
+                             <div class="name">邮箱</div>
+                             <div class="info">
+                                 <input  maxlength="44" disabled="disabled" class="input-txt email-text" type="text" placeholder="请输入邮箱号" value="xxxxxxxxx@xxxx.com">
+                                 <p id="changeEmail" class="change-btn">更换绑定邮箱</p>
+                                 <p id="emailTip" class="des">请输入一个有效邮箱，绑定后可用于帐号登录</p>
+                             </div>
+                         </li>
+                         <li>
+                             <button  disabled="disabled" id="emailBtn" class="btn">保存修改</button>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="head-img" style="display: none">
+                     <div id="altContent">
+                         <h1>小蜂财经头像上传</h1>
+                     </div>
+                 </div>
+                 <div class="password" style="display: none">
+                     <ul>
+                         <li class="p-mess">*如不需要修改密码，请保持为默认</li>
+                         <li id="oldCode" class="clearfix">
+                             <div class="name">旧密码</div>
+                             <div class="info">
+                                 <input maxlength="30" class="input-txt" type="password" placeholder="请输入新密码" value="">
+                                 <span class="iconfont icon_continue_hover"></span>
+                                 <p class="des">请输入你当前正在使用的密码</p>
+                             </div>
+                         </li>
+                         <li id="newCode1" class="clearfix">
+                             <div class="name">新密码</div>
+                             <div class="info">
+                                 <input maxlength="19" class="input-txt" type="password" placeholder="请输入新密码" value="">
+                                 <span class="iconfont icon_cancel_hover"></span>
+                                 <p class="des">请输入您的新密码，密码必须是6-19位数</p>
+                             </div>
+                         </li>
+                         <li id="newCode2" class="clearfix">
+                             <div class="name">确认新密码</div>
+                             <div class="info">
+                                 <input maxlength="19" class="input-txt" type="password" placeholder="请输入新密码" value="">
+                                 <span class="iconfont icon_continue_hover"></span>
+                                 <p class="des">请重复您的新密码，必须与您上一次一样</p>
+                             </div>
+                         </li>
+                         <li>
+                             <button id="codeBtn" class="btn">保存修改</button>
+                         </li>
+                     </ul>
+                 </div>
+
+             </div>
+
+          </div>
+        <div class="footer">
+            <p>
+                沪ICP备15042190号  /  广播电视制作经营许可证：(沪) 第1186号<br/>
+                Copyright © 2015-2017  小蜂财经  All rights reserved<br/>
+                * 本站所有观点均不作为操作建议。投资有风险  /  购买需谨慎  /  翻录必究
+            </p>
+        </div>
+    </div>
+</div>
+
+<script src="http://open.web.meitu.com/sources/xiuxiu.js" type="text/javascript"></script>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="http://www.91bee.com/js/layer/layer.js"></script>
+<script src="../laydate/laydate.js"></script>
+<script src="../js/personal-anquan.js"></script>
+<script type="text/javascript">
+
+</script>
+</body>
+</html>

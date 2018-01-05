@@ -1,0 +1,117 @@
+.icon_right_arrow:before {
+  content: "\e6d9";
+}
+header {
+  width: 100%;
+  height: 1.2rem;
+  background-color: #4a4a4a;
+  line-height: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 888;
+}
+[data-dpr='1'] header {
+  font-size: 16px;
+}
+[data-dpr='2'] header {
+  font-size: 32px;
+}
+[data-dpr='3'] header {
+  font-size: 48px;
+}
+header .icon_right_arrow {
+  color: #fff;
+}
+[data-dpr='1'] header .icon_right_arrow {
+  font-size: 15px;
+}
+[data-dpr='2'] header .icon_right_arrow {
+  font-size: 30px;
+}
+[data-dpr='3'] header .icon_right_arrow {
+  font-size: 45px;
+}
+header .icon_right_arrow:before {
+  color: #fff;
+  margin: 0 0.10666667rem 0 0.2rem;
+  margin-top: 0.04rem;
+  vertical-align: middle;
+}
+[data-dpr='1'] header .icon_right_arrow:before {
+  font-size: 22px;
+}
+[data-dpr='2'] header .icon_right_arrow:before {
+  font-size: 44px;
+}
+[data-dpr='3'] header .icon_right_arrow:before {
+  font-size: 66px;
+}
+header h3 {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.top_zhanwei {
+  height: 1.2rem;
+}
+.private_list {
+  padding: 0.53333333rem 0.4rem;
+}
+.private_list .item {
+  width: 9.2rem;
+  height: 7.76rem;
+  background: #FFFFFF;
+  border: 0.05333333rem solid #E7E7E7;
+  border-radius: 4px;
+  padding: 0.53333333rem;
+  margin-bottom: 0.53333333rem;
+}
+.private_list .img_box {
+  width: 8.13333333rem;
+  height: 4.58666667rem;
+}
+.private_list .img_box img {
+  width: 100%;
+  height: 100%;
+}
+.private_list .content {
+  width: 100%;
+  margin-top: 0.26666667rem;
+}
+.private_list .content .title {
+  color: #8d8d8d;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 1.49333333rem;
+  border-bottom: 1px solid #e7e7e7;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+[data-dpr='1'] .private_list .content .title {
+  font-size: 16px;
+}
+[data-dpr='2'] .private_list .content .title {
+  font-size: 32px;
+}
+[data-dpr='3'] .private_list .content .title {
+  font-size: 48px;
+}
+.private_list .content .time {
+  margin-top: 0.13333333rem;
+  color: #8d8d8d;
+}
+[data-dpr='1'] .private_list .content .time {
+  font-size: 14px;
+}
+[data-dpr='2'] .private_list .content .time {
+  font-size: 28px;
+}
+[data-dpr='3'] .private_list .content .time {
+  font-size: 42px;
+}

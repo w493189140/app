@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>主题跟投-交易动态</title>
+    <link href="../css/pcreset.css" rel="stylesheet" type="text/css">
+    <link href="../css/base.css" rel="stylesheet" type="text/css">
+    <link href="../css/user_pr.css" rel="stylesheet" type="text/css">
+    <link href="../css/zhutigt3.css" rel="stylesheet" type="text/css">
+    <link href="../css/flip.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--head顶部导航栏-->
+<div class="min">
+<div class="head">
+    <div class="h_by w">
+        <div class="logo"><a href="#"><img src="../images/zqt_logo.png" alt="logo"> </a></div>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">VIP 直播室</a></li>
+            <li class="h_on"><a href="#">证券通产品</a></li>
+            <li><a href="#">视讯</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+        <!--未登录-->
+        <div class="h_by_f"><a href="#">登录</a><i></i><a href="#">注册</a></div>
+        <!--已登录-->
+        <div class="h_by_d" style="display:none;">
+            <div class="h_by_da"><span>呆呆是只猫</span><img src="../images/user.png"></div>
+            <div class="h_by_db">
+                <a href="#">我的产品</a>
+                <a href="#">我的订单</a>
+                <a href="#">修改资料</a>
+                <a href="#">使用帮助</a>
+                <a href="#">退出登录</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--个人中心-->
+<div class="main w">
+    <!--左侧栏-->
+    <div class="side_left">
+        <div class="user">
+            <div><img src="../images/user.png"></div>
+            <p>呆呆是只猫</p>
+            <span><a href="#">退出登录 <i>></i></a></span>
+        </div>
+        <ul>
+            <li><a>我的主页<i class="iconfont">&#xe6b1;</i></a></li>
+            <li><a class="user_click">我的产品<i class="iconfont">&#xe6b1;</i></a>
+                <div class="user_l_li" style="display: block">
+                    <a>解密龙虎榜<i class="iconfont">&#xe6b1;</i></a>
+                    <a>主题情报站<i class="iconfont">&#xe6b1;</i></a>
+                    <a class="u_on">智投一号<i class="iconfont">&#xe6b1;</i></a>
+                </div></li>
+            <li><a>我的订单<i class="iconfont">&#xe6b1;</i></a></li>
+            <li><a>修改密码<i class="iconfont">&#xe6b1;</i></a></li>
+        </ul>
+    </div>
+    <!--右侧栏-主题跟投-->
+<div class="side_right">
+<div class="breadrum"><a href="#">智投一号</a>><span>交易动态</span></div>
+    <!--box1-->
+    <div class="c_by z_box">
+        <h3 class="c_h1 z_box">交易动态</h3>
+        <!--排序-->
+        <div class="sorter z_box">
+            <div class="soer_l f_left">
+                <ul class="clearfix">
+                    <li>时间排序</li>
+                    <li class="s_on">代码排序</li>
+                    <li>类型排序</li>
+                </ul>
+            </div>
+            <div class="soer_r f_right" id="establish">
+                <input type="text" class="fromtm" placeholder="2017-10-11  00:00">
+                <i class="so_hr"></i>
+                <input type="text" class="totm" placeholder="2017-10-11  00:00">
+                <button type="button">查询</button>
+            </div>
+        </div>
+        <div class="secta z_box">
+            <table>
+                <tbody>
+                <tr class="thead">
+                    <th>证券/代码</th>
+                    <th>成交价</th>
+                    <th>成交金额</th>
+                    <th>成交数量</th>
+                    <th>成交时间</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="mai">买</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="maier">卖</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="mai">买</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="maier">卖</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="maier">卖</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="mai">买</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="maier">卖</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="maier">卖</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="mai">买</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="se_name1">华星创业</p>
+                        <p class="se_name2">15487.00</p>
+                        <i class="maier">卖</i>
+                    </td>
+                    <td>
+                        <p class="se_name3">7.870</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">2315670.00</p>
+                    </td>
+                    <td>
+                        <p class="se_name3">30000</p>
+                    </td>
+                    <td>
+                        <p class="se_name4">2017-10-11 15:53:27</p>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--翻页-->
+        <div id="page" class="flip flipb">
+            <div class="nextpage">
+                <a class="prvepage" href="javascript:void(0)">&lt;上一页</a>
+                <a class="prvepage" href="javascript:void(0)">1</a>
+                <!--<a class="prvepage" href="javascript:void(0)">2</a>-->
+                <!--<a class="cur" href="javascript:void(0)">3</a>-->
+                <a class="prvepage" href="javascript:void(0)">4</a>
+                <a class="prvepage" href="javascript:void(0)">5</a>
+                <span>...</span>
+                <a class="prvepage" href="javascript:void(0)">12</a>
+                <a class="prvepage" href="javascript:void(0)">下一页&gt;</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+<!--底部栏-->
+<div class="footer">
+<p>证券内容提供：上海证券通投资资讯科技有限公司（中国证监会核发证书编号：ZX0112），所载文章、数据仅供参考，据此入市，风险自负</p>
+<p>客服电话：021-25055575<em>021-25055571</em> 投诉电话：021-34611119 地址：上海市杨浦区国权路98号国阳大厦7楼</p>
+<p class="footer_ico">ICP证：沪ICP备14046450号-3<span>沪公网安备 31011002001832号</span></p>
+<p>© 2016-2017 Zqt888.cn 版权所有</p>
+</div>
+<script src="../lib/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="../js/basej.js" type="text/javascript"></script>
+<script src="../js/prop.js" type="text/javascript"></script>
+<script src="../laydate/laydate.js"></script>
+<script>
+    $(function(){
+        $(".soer_l li").click(function(){
+            $(".soer_l li").removeClass("s_on");
+            $(this).addClass("s_on")
+        })
+    })
+</script>
+<script>
+    lay('#version').html('-v'+ laydate.v);
+    //执行一个laydate实例
+    laydate.render({
+        elem: '.fromtm'
+        ,type: 'datetime'
+       ,format: 'yyyy-MM-dd HH:mm'
+    });
+    laydate.render({
+        elem: '.totm'
+        ,type: 'datetime'
+        ,format: 'yyyy-MM-dd HH:mm'
+    });
+
+
+</script>
+</body>
+</html>

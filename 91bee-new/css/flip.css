@@ -1,0 +1,30 @@
+/*·­Ò³*/
+.flip{
+    width: 100%;
+    float: left;
+}
+.nextpage{
+    float: right;
+    height: 48px;
+    line-height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #DDDFE1;
+    border-radius: 2px;
+    -ms-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    overflow: hidden;
+}
+.nextpage a,.nextpage span{
+    float: left;
+    padding:0 20px;
+    height: 48px;
+    font-size: 14px;
+    color: #312D3B;
+    border-left: 1px solid #DDDFE1;
+}
+.nextpage a:first-child{
+    border: none;
+}
+.nextpage a:hover,.nextpage a.cur{
+    background: #F7F7F7;
+}

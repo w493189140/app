@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <title>课程列表</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/list.css"/>
+</head>
+
+<body>
+<div class="layout">
+    <!--头部部分-->
+    <header id="topFixed">
+        <a href="javascript:history.go(-1)" class="iconfont icon_right_arrow">返回</a>
+        <h3>课程列表</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <div class="play_list">
+        <div id="wrapper">
+            <ul>
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="img_box f_left">
+                            <img src="../images/news.png" alt=""/>
+
+                            <p class="identity yg">预告</p>
+                        </div>
+                        <div class="content  f_right">
+                            <div class="title">
+                                龙虎榜实战训练营
+                            </div>
+                            <div class="time">
+                                开课时间：05-04 17：00
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="clearfix back_look">
+                    <a href="#">
+                        <div class="img_box f_left">
+                            <img src="../images/news.png" alt=""/>
+
+                            <p class="identity hk">回看</p>
+                        </div>
+                        <div class="content  f_right">
+                            <div class="title">
+                                龙虎榜实战训练营龙虎榜实战训练营龙虎榜实战训练营龙虎榜实战训练营
+                            </div>
+                            <div class="time">
+                                时间：2017-04-19
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="clearfix back_look">
+                    <a href="#">
+                        <div class="img_box f_left">
+                            <img src="../images/news.png" alt=""/>
+
+                            <p class="identity zb">直播中</p>
+                        </div>
+                        <div class="content  f_right">
+                            <div class="title">
+                                龙虎榜实战训练营龙虎榜实战训练营龙虎榜实战训练营龙虎榜实战训练营
+                            </div>
+                            <div class="time">
+                                时间：2017-04-19
+                            </div>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="../js/isWeiXin.js"></script>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../lib/iscroll.js"></script>
+<script>
+    var height = $(window).height();
+    $("#wrapper").css("height", height);
+    var myScroll = new IScroll('#wrapper');
+</script>
+</body>
+
+</html>

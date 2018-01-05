@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <title>修改密码</title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/signs.css"/>
+</head>
+<script type="text/javascript">
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+        // orientationchange 事件是在用户水平或者垂直翻转设备（即方向发生变化）时触发的事件。
+        // onresize 事件会在窗口或框架被调整大小时发生。
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    window.clientWidth = docEl.clientWidth;
+                    if (!window.clientWidth) return;
+                    docEl.style.fontSize = 40 * (window.clientWidth / 640) + 'px';
+                    window.base = 40 * (window.clientWidth / 640);
+                };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        // DOMContentLoaded火狐特有的事件，DOM加载完后触发
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+</script>
+<body>
+<!--头部-->
+<header id="topFixed">
+    <h3>修改密码</h3>
+
+    <div class="head_zw" id="topZhan">返回</div>
+</header>
+<div id="topzhanb"></div>
+<div class="clearfix"></div>
+
+<div class="clearfix"></div>
+<div class="sign_man reg_man">
+    <form action="">
+        <input type="password" id="ret_pass" class="sign_m_inp" placeholder="请输入新密码 (6-16位字符)" maxlength="16">
+        <input type="password" id="ret_passd" class="sign_m_inp" placeholder="请再次输入确认密码" maxlength="16">
+        <button type="button" class="sign_m_bt" id="ret_butx">确认修改</button>
+    </form>
+</div>
+<div class="clearfix"></div>
+<!--错误弹出提示-->
+<div class="s_al">
+    <div class="s_al_bj"></div>
+    <div class="s_alert">
+        <div class="s_al_p">错误提示</div>
+    </div>
+</div>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../js/formj.js"></script>
+<script src="../js/isWeiXin.js"></script>
+<script>
+    //返回上一页
+    document.getElementById("topZhan").onclick = function () {
+        window.history.back()
+    }
+</script>
+</body>
+</html>

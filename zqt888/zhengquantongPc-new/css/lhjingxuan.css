@@ -1,0 +1,196 @@
+
+.icon_left_arrow:before { content: "\e6b1"}
+.icon_play:before { content: "\e6d0"}
+html{
+    font-size: 14px;
+}
+.nav{
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+}
+.nav span:nth-child(1){
+    color: rgba(49,45,59,0.54);
+}
+.contentbox{ width: 850px; float: left;}
+.contentbox img{
+    width: 100%;
+    /*height: 100%;*/
+}
+.contentbox h3{
+    font-size: 24px;
+    line-height: 32px;
+    padding-left: 15px;
+}
+.icon_dable{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background: url("../images/icon_Title.png") no-repeat top center ;
+    vertical-align: middle;
+}
+.contentbox .lists{
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.contentbox li{
+    width:410px;
+    height: 165px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-right: 15px;
+    transition: all 0.3s;-moz-transition: all 0.3s; -webkit-transition: all 0.3s;
+}
+.contentbox li:nth-child(odd){
+    float: left;
+}
+.contentbox li:nth-child(even){
+    float: right;
+}
+.list-item:hover{
+    -webkit-box-shadow: 0px 4px 10px rgba(1,1,1,0.2);
+    -moz-box-shadow: 0px 4px 10px rgba(1,1,1,0.2);
+    -ms-box-shadow: 0px 4px 10px rgba(1,1,1,0.2);
+    box-shadow: 0px 4px 10px rgba(1,1,1,0.2);
+}
+.shares{
+    color: rgba(49,45,59,0.54);
+}
+.text{
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #ddd;
+}
+/*修改新增*/
+.text .date{
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    color: rgba(49,45,59,0.54);
+}
+.shares .name{
+    height: 50px;
+    line-height: 50px;
+    font-size: 28px;
+    color: #548BEE;
+    font-weight: 600;
+    float: left;
+}
+.shares .number{
+    height: 50px;
+    font-size: 24px;
+    color: #F64D41;
+    vertical-align: bottom;
+    margin-left: 20px;
+    float: left;
+    margin-top: 19px;
+}
+.profit{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 6px solid #f2f2f2;
+    position: relative;
+}
+.profit-num{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F64D41;
+}
+.profit-txt{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgba(49,45,59,0.38);
+}
+
+.descript{
+    height: 36px;
+    line-height: 36px;
+    font-size: 17px;
+    color: rgba(49,45,59,0.54);
+    float: left;
+    width: 100%;
+    white-space: nowrap;word-break: keep-all;overflow: hidden;text-overflow: ellipsis;
+}
+.nextpage{
+    padding: 20px 0;
+    height: 50px;
+    text-align: right;
+}
+.nextpage a {
+    border: 1px solid #bfbfbf;
+}
+.nextpage a, .nextpage span {
+    font-size: 12px;
+    color: #8d8d8d;
+    display: inline-block;
+    padding: 1px 9px;
+    margin: 0 3px;
+    border-radius: 3px;
+}
+.nextpage a.cur {
+    border: 1px solid #FF9000;
+    color: #fff;
+    background: #FF9000;
+}
+/*修改新增*/
+.pro_pt{
+    width: 125px;
+    height: 53px;
+    border-right: 1px solid #E7E7E7;
+    padding-right:30px;
+}
+/*修改新增to*/
+.pro_pt1{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    color: #3DDC67;
+    height: 33px;
+    line-height: 33px;
+}
+.pro_pt2{
+    color: #3DDC67;
+    display: block;
+    font-size: 13px;
+    margin-top: 4px;
+    text-align: center;
+    width: 100%;
+}
+.pro_pt2 em:first-child{ margin-right:10px;}
+.pro_pt3{
+    width: 100%;
+    float: left;
+    font-size: 32px;
+    color: #F64D41;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    overflow: hidden;
+}
+.pro_pt4{
+    font-size: 12px;
+    color: rgba(49,45,59,0.38);
+    height: 17px;
+    line-height: 17px;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.pro_pt_2{
+    width:130px;
+    padding-right: 5px;
+    border: none;
+}
+/*修改新增结束*/

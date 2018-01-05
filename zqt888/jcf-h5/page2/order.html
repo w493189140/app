@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <title>我的订单</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/order.css"/>
+</head>
+
+<body>
+<div class="layout">
+    <!--头部部分-->
+    <header id="topFixed">
+        <a href="javascript:history.go(-1)" class="iconfont icon_right_arrow">返回</a>
+        <h3>我的订单</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <ul class="tab_top">
+        <li index="1" class="all current">全部订单</li>
+        <li index="2" class="pending">待支付</li>
+        <li index="3" class="completed">已完成</li>
+    </ul>
+    <ul class="tab_content">
+        <li class="all-list">
+            <!-- 无订单渲染empty-->
+            <div class="empty"  style="display: block">
+                <img src="../images/empty.png"/>
+                <p>暂无订单信息</p>
+            </div>
+            <!-- 有订单渲染ul-->
+            <ul style="display: none">
+                <li class="line-wrapper">
+                     <div class="line-scroll-wrapper clearfix">
+                        <div class="item line-normal-wrapper f_left">
+                            <div class="content clearfix">
+                                <div class="img_box f_left">
+                                    <img src="../images/news.png" alt=""/>
+                                </div>
+                                <div class="text  f_right">
+                                    <div class="title">
+                                        南海仲裁丨热血过后,龙虎榜实战训练营
+                                    </div>
+                                    <p class="teacher">
+                                        讲师：史月波
+                                    </p>
+                                    <p class="price">¥577.00</p>
+                                </div>
+                            </div>
+                            <p class="order_state">
+                                <span class="f_left">订单编号：8749138274982</span>
+                                <span class="f_right success">交易成功</span>
+                            </p>
+                        </div>
+                         <div class="line-btn-delete f_left"><button class="iconfont icon_delete">删除</button></div>
+                     </div>
+                </li>
+                <li class="line-wrapper">
+                     <div class="line-scroll-wrapper clearfix">
+                        <div class="item line-normal-wrapper f_left">
+                            <div class="content clearfix">
+                                <div class="img_box f_left">
+                                    <img src="../images/news.png" alt=""/>
+                                </div>
+                                <div class="text  f_right">
+                                    <div class="title">
+                                        南海仲裁丨热血过后,龙虎榜实战训练营
+                                    </div>
+                                    <p class="teacher">
+                                        讲师：史月波
+                                    </p>
+                                    <p class="price">¥577.00</p>
+                                </div>
+                            </div>
+                            <p class="order_state">
+                                <span class="f_left">订单编号：8749138274982</span>
+                                <span class="f_right fail">交易失败</span>
+                            </p>
+                        </div>
+                         <div class="line-btn-delete f_left"><button class="iconfont icon_delete">删除</button></div>
+                     </div>
+                </li>
+            </ul>
+        </li>
+        <li class="pending-list">
+            <div class="empty"  style="display: none">
+                <img src="../images/empty.png"/>
+                <p>暂无订单信息</p>
+            </div>
+            <ul style="display: block">
+                <li class="line-wrapper">
+                    <div class="line-scroll-wrapper clearfix">
+                        <div class="item line-normal-wrapper f_left">
+                            <div class="content clearfix">
+                                <div class="img_box f_left">
+                                    <img src="../images/news.png" alt=""/>
+                                </div>
+                                <div class="text  f_right">
+                                    <div class="title">
+                                        南海仲裁丨热血过后,龙虎榜实战训练营
+                                    </div>
+                                    <p class="teacher">
+                                        讲师：史月波
+                                    </p>
+                                    <p class="price">¥577.00</p>
+                                </div>
+                            </div>
+                            <p class="order_state">
+                                <span class="f_left">订单编号：8749138274982</span>
+                                <span class="f_right fail">待支付</span>
+                            </p>
+                        </div>
+                        <div class="line-btn-delete f_left"><button class="iconfont icon_delete">删除</button></div>
+                    </div>
+                </li>
+                <li class="line-wrapper">
+                    <div class="line-scroll-wrapper clearfix">
+                        <div class="item line-normal-wrapper f_left">
+                            <div class="content clearfix">
+                                <div class="img_box f_left">
+                                    <img src="../images/news.png" alt=""/>
+                                </div>
+                                <div class="text  f_right">
+                                    <div class="title">
+                                        南海仲裁丨热血过后,龙虎榜实战训练营
+                                    </div>
+                                    <p class="teacher">
+                                        讲师：史月波
+                                    </p>
+                                    <p class="price">¥577.00</p>
+                                </div>
+                            </div>
+                            <p class="order_state">
+                                <span class="f_left">订单编号：8749138274982</span>
+                                <span class="f_right fail">待支付</span>
+                            </p>
+                        </div>
+                        <div class="line-btn-delete f_left"><button class="iconfont icon_delete">删除</button></div>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class="completed-list">
+            <div class="empty"  style="display: none">
+                <img src="../images/empty.png"/>
+                <p>暂无订单信息</p>
+            </div>
+            <ul style="display: block">
+                <li class="line-wrapper">
+                    <div class="line-scroll-wrapper clearfix">
+                        <div class="item line-normal-wrapper f_left">
+                            <div class="content clearfix">
+                                <div class="img_box f_left">
+                                    <img src="../images/news.png" alt=""/>
+                                </div>
+                                <div class="text  f_right">
+                                    <div class="title">
+                                        南海仲裁丨热血过后,龙虎榜实战训练营
+                                    </div>
+                                    <p class="teacher">
+                                        讲师：史月波
+                                    </p>
+                                    <p class="price">¥577.00</p>
+                                </div>
+                            </div>
+                            <p class="order_state">
+                                <span class="f_left">订单编号：8749138274982</span>
+                                <span class="f_right success">已完成</span>
+                            </p>
+                        </div>
+                        <div class="line-btn-delete f_left"><button class="iconfont icon_delete">删除</button></div>
+                    </div>
+                </li>
+                <li class="line-wrapper">
+                    <div class="line-scroll-wrapper clearfix">
+                        <div class="item line-normal-wrapper f_left">
+                            <div class="content clearfix">
+                                <div class="img_box f_left">
+                                    <img src="../images/news.png" alt=""/>
+                                </div>
+                                <div class="text  f_right">
+                                    <div class="title">
+                                        南海仲裁丨热血过后,龙虎榜实战训练营
+                                    </div>
+                                    <p class="teacher">
+                                        讲师：史月波
+                                    </p>
+                                    <p class="price">¥577.00</p>
+                                </div>
+                            </div>
+                            <p class="order_state">
+                                <span class="f_left">订单编号：8749138274982</span>
+                                <span class="f_right success">已完成</span>
+                            </p>
+                        </div>
+                        <div class="line-btn-delete f_left"><button class="iconfont icon_delete">删除</button></div>
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script src="../js/isWeiXin.js"></script>
+
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../js/order.js"></script>
+</body>
+
+</html>

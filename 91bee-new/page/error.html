@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>小蜂财经-错误提示</title>
+    <link href="../css/pcreset.css" rel="stylesheet" type="text/css">
+    <link href="../css/err.css" rel="stylesheet" type="text/css">
+    <link href="../css/module.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--头部-->
+<div class="header clearfix">
+    <div class="w">
+        <a href="#" class="f_left logo">
+            <img src="../images/bee-logo.png" alt="logo"/>
+        </a>
+        <ul class="nav f_left">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">股市大直播</a></li>
+            <li><a href="#">投顾服务</a></li>
+            <li><a href="#">财咖联盟</a></li>
+            <li><a href="#" class="on">热点</a></li>
+            <li><a href="#">投资学堂</a></li>
+            <li><a href="#">活动</a></li>
+        </ul>
+
+        <div class="f_right personal-not">
+            <a href="#">注册</a>|<a href="#">登录</a>
+        </div>
+        <!--
+         <div class="f_right personal-box">
+             <div class="personal">
+                 <div class="head-img img-box f_right">
+                     <img src="http://www.91bee.com//image/bee1446018978542.png" alt="头像"/>
+                 </div>
+                 <div class="name f_right">Darren asdf</div>
+             </div>
+             <div class="dorpmenu">
+                 <ul>
+                     <li><a href="#">个人中心</a></li>
+                     <li><a href="#">我的提问</a></li>
+                     <li><a href="#">我的收藏</a></li>
+                     <li><a href="#">我的订单</a></li>
+                     <li><a href="#">我的课程</a></li>
+                     <li><a href="#">退出登录</a></li>
+                 </ul>
+             </div>
+         </div>
+          -->
+        <div class="search f_right">
+            <input type="text" placeholder="请输入关键字" maxlength="50"/>
+            <span class="iconfont icon_search"></span>
+        </div>
+    </div>
+</div>
+
+<div class="by w">
+    <h2 class="b_h2">很抱歉，您的账号已在别处登录！</h2>
+    <p class="name1">若非本人操作，请及时修改密码。如有疑问，请联系本站。</p>
+    <button type="button" class="by_b1 by_b2"><i id="ms">5</i>秒后跳转至<span>登录</span></button>
+    <br>
+    <a href="#" class="name2">找回密码</a>
+</div>
+
+<!--底部-->
+<div class="footer">
+    <div class="w">
+        <div class="foot-content">
+            <div class="f_left foot-logo img-box">
+                <img src="../images/logo-bottom.png" alt="">
+            </div>
+            <div class="f_left">
+                <ul>
+                    <li class="strong"><a href="#">关于我们</a></li>
+                    <li class="strong"><a href="#">联系我们</a></li>
+                    <li class="strong"><a href="#">关注我们</a></li>
+                    <li><a href="#">版权声明</a></li>
+                    <li><a href="#">广告投放</a></li>
+                    <li><a href="#">微博@小蜂财经</a></li>
+                    <li><a href="#">使用条款</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                </ul>
+                <p class="copyright">沪ICP备15042190号 / 广播电视制作经营许可证：(沪) 第1186号</p>
+                <p class="copyright">Copyright © 2015-2017 小蜂财经 All rights reserved</p>
+            </div>
+            <div class="f_right">
+                <div class="qr-box f_right img-box">
+                    <img src="../images/no-qrcode.png" alt="">
+                    <p>关注微信公众号</p>
+                </div>
+                <div class="qr-box f_right img-box">
+                    <img src="../images/no-qrcode.png" alt="">
+                    <p>APP 下载</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="siteinfoLegal">
+        <p class="w">* 本站所有观点均不作为操作建议。投资有风险 / 购买需谨慎 / 翻录必究</p>
+    </div>
+</div>
+<script src="../lib/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function(){
+        var times = 5; // 5秒
+        countTime = setInterval(function() {
+            times =times-1;
+            $("#ms").html(times);
+            if(times == 0) {
+                clearInterval(countTime);
+            }
+        },1000);
+    })
+</script>
+</body>
+</html>

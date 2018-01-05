@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <title>证券通产品</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/active.css"/>
+</head>
+<body>
+<div class="layout">
+    <!--头部部分-->
+    <header id="topFixed">
+        <a href="javascript:history.go(-1)" class="iconfont icon_right_arrow">返回</a>
+        <h3>证券通产品</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <!--banner-->
+    <section class="header">
+        <img src="../images/jcf_banner.png"/>
+        <div class="style">
+                <div class="style_c">
+                    <div class="content_top">
+                        <p class="name">主题情报站</p>
+                        <p class="price"><span>¥&nbsp;</span><span class="price_text">8888&nbsp;</span></p>
+                        <p class="describe">服务期限：45天</p>
+                        <p class="old-price">原价：<span>¥&nbsp;</span><span class="price_text">9999</span><i> /45天</i></p>
+                    </div>
+                    <div class="content">
+                        <p>课程包含以下服务</p>
+                        <div>
+                            <a class="icon">
+                                <div class="img_box"><img src="../images/icon_zt_select.png"/></div>
+                                <p class="title">主题精选</p>
+                            </a>
+                            <a class="icon img_box">
+                                <div class="img_box"><img src="../images/icon_zt_course.png"/></div>
+                                <p class="title">主题课程</p>
+                            </a>
+                        </div>
+                    </div>
+                    <a target="view_window" href="#"
+                       class="button">立即报名</a>
+                </div>
+        </div>
+    </section>
+    <!-- 投资优势-->
+    <section class="advantage">
+        <p class="title">
+            <img src="../images/title-chara.png"/>
+        </p>
+        <div class="content img_box">
+            <img src="../images/goodness.jpg" onclick="return false"/>
+        </div>
+    </section>
+    <!--投资特色-->
+    <section class="introduce">
+        <div class="title">
+            <img src="../images/title-chara.png"/>
+        </div>
+        <div class="content">
+            <p>
+                主题投资，又称事件驱动。其本质是外围环境和条件发生变化，使得预期向好，从而引发股价的大幅波动。最大的优点，就是时效性强，短期见效果，纠错成本小。既可以规避掉价值投资的时效长，纠错成本大，又可以提前预判，具有前瞻性，不似技术分析跟随变量，有滞后性。
+            </p>
+        </div>
+    </section>
+
+    <!--todo=课程简介-->
+    <section class="description">
+        <div class="title">
+            <img src="../images/title-class.png"/>
+        </div>
+        <div class="content">
+            <div class="video">
+                <img src="../images/flash.png"/>
+            </div>
+            <div class="text">
+                <div class="ox">
+                    从业24年之久的老法师张姚经过多年的实战经验、数据分析以及反复验证,独创龙虎榜战法,根据游资席位、机构席位(包括基金、券商自营、券商理财、社保、保险、QFII等)的交易数据,监测主力动向,揭秘个股异动,捕捉短线牛股。
+                    通过对交易席位的研究，深入了解主力的坐庄手法,轻而易举的抓住主力资金的动向。多角度分析确立合理买卖点位，确立个股在各阶段中的仓位配置，让您在与主力同行的过程中获取超越主力的收益。通过独特的价格、成交量、席位筹码三张王牌完美结合，助您抓稳大牛股。让主力为您铺路，让游资为您抢筹接力，最后成为您的提款机。
+                </div>
+                <!--<div class="switch">「展开」</div>-->
+            </div>
+        </div>
+    </section>
+    <!--todo=老师简介-->
+    <section class="teacher">
+        <div class="title">
+            <img src="../images/title-teacher.png"/>
+        </div>
+        <div class="content">
+            <div class="video">
+                <img src="../images/flash.png"/>
+            </div>
+            <div class="text">
+                <div class="ox1">
+                    从业24年之久的老法师张姚经过多年的实战经验、数据分析以及反复验证,独创龙虎榜战法,根据游资席位、机构席位(包括基金、券商自营、券商理财、社保、保险、QFII等)的交易数据,监测主力动向,揭秘个股异动,捕捉短线牛股。
+                    通过对交易席位的研究，深入了解主力的坐庄手法,轻而易举的抓住主力资金的动向。多角度分析确立合理买卖点位，确立个股在各阶段中的仓位配置，让您在与主力同行的过程中获取超越主力的收益。通过独特的价格、成交量、席位筹码三张王牌完美结合，助您抓稳大牛股。让主力为您铺路，让游资为您抢筹接力，最后成为您的提款机。
+                </div>
+                <!--<div class="switch">「展开」</div>-->
+            </div>
+        </div>
+    </section>
+
+    <!--底部工具栏-->
+    <footer class="foottoll">
+        <button id="login_btn" class="f_left left">登录/注册</button>
+        <button id="buy_btn" class="f_left right">立即报名</button>
+        <!-- 已经登录渲染下边的-->
+        <!--<button id="buy_btn" class="btn_buy">立即报名</button>-->
+    </footer>
+
+
+</div>
+</div>
+<script src="../js/isWeiXin.js"></script>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../lib/swiper-3.4.2.jquery.min.js"></script>
+<script src="../js/active.js"></script>
+
+
+</body>
+
+</html>

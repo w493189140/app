@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'iconfont';
+  /* project id 327643 */
+  src: url('//at.alicdn.com/t/font_m1lze11gj5l5l8fr.eot');
+  src: url('//at.alicdn.com/t/font_m1lze11gj5l5l8fr.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_m1lze11gj5l5l8fr.woff') format('woff'), url('//at.alicdn.com/t/font_m1lze11gj5l5l8fr.ttf') format('truetype'), url('//at.alicdn.com/t/font_m1lze11gj5l5l8fr.svg#iconfont') format('svg');
+}
+.iconfont:before {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon_right_arrow:before {
+  content: "\e6d9";
+}
+.icon-loading:before {
+  content: "\e639";
+}
+.icon-start:before {
+  content: "\e61a";
+}
+.icon_warning_hover:before {
+  content: "\e6f7";
+}
+.layout {
+  background: #f6f8fa url("../images/banner.png") no-repeat;
+  background-size: 100% auto;
+  padding-top: 6rem;
+}
+.first,
+.middle,
+.high {
+  width: 9.46666667rem;
+  height: 9.6rem;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 0.53333333rem;
+  box-shadow: 0 2px 25px -3px rgba(160, 168, 177, 0.7);
+  border-radius: 0.04rem;
+}
+.first h3,
+.middle h3,
+.high h3 {
+  width: 100%;
+}
+.first h3 img,
+.middle h3 img,
+.high h3 img {
+  width: 100%;
+}
+.video-box {
+  padding: 0.26666667rem 0.13333333rem 0;
+}
+.video-box a {
+  display: block;
+}
+.video-box li {
+  padding: 0.13333333rem;
+  width: 50%;
+  float: left;
+}
+.video-box .text {
+  width: 100%;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  background-color: #434a54;
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 0.06666667rem;
+}
+.video {
+  position: relative;
+  height: 2.49333333rem;
+  overflow: hidden;
+}
+.video img {
+  width: 100%;
+}
+.video .icon-start {
+  color: #eee;
+  font-size: 1.2rem;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 2.93333333rem;
+  z-index: 18;
+}
+footer {
+  width: 100%;
+  height: 1.06666667rem;
+  line-height: 0.66666667rem;
+  text-align: center;
+  color: #768082;
+}
+[data-dpr='1'] footer {
+  font-size: 18px;
+}
+[data-dpr='2'] footer {
+  font-size: 36px;
+}
+[data-dpr='3'] footer {
+  font-size: 54px;
+}

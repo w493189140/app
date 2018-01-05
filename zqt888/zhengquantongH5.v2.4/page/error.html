@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <title>风险提示</title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/err.css"/>
+</head>
+<body>
+<!--头部-->
+<header id="topFixed">
+    <h3>风险提示</h3>
+    <div class="head_zw" id="topZhan">返回</div>
+</header>
+<div id="topzhanb"></div>
+<div class="clearfix"></div>
+
+<div class="by">
+    <h2 class="b_h2">很抱歉，您的账号已在别处登录！</h2>
+    <p class="name1">若非本人操作，请及时修改密码。<br>如有疑问，请联系本站。</p>
+    <button type="button" class="by_b1"><i id="ms">5</i>秒后跳转至<span>登录</span></button>
+    <br>
+    <a href="#" class="name2">找回密码</a>
+</div>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../js/isWeiXin.js"></script>
+<script>
+    //返回上一页
+    document.getElementById("topZhan").onclick = function () {
+        window.history.back()
+    }
+</script>
+<script>
+    $(document).ready(function(){
+        var times = 5; // 5秒
+        countTime = setInterval(function() {
+            times =times-1;
+            $("#ms").html(times);
+            if(times == 0) {
+                clearInterval(countTime);
+            }
+        },1000);
+    })
+</script>
+</body>
+</html>

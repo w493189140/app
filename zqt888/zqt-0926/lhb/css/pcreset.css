@@ -1,0 +1,44 @@
+@charset "utf-8";
+body,div,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,button,input,textarea,a,i,em,b,fieldset,form,label,legend{margin:0;padding:0;}
+body,input,button,textarea,select{font-family: "微软雅黑";}
+ol,ul{list-style:none;}
+::-webkit-input-placeholder{color: #999;}
+a{text-decoration:none;color:#333;}
+img{border:0;vertical-align:middle;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+i,em{font-style: normal;}
+b,strong{font-weight: normal;}
+textarea{resize: none;}
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-webkit-touch-callout:none;user-select: none;-webkit-user-select: none;}
+*:before,*:after{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+/*清浮动*/ 
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix {
+    *zoom: 1;
+}
+.w{ width:1000px; margin:0 auto;}
+textarea{ resize:none;}
+
+.img_box>img{
+	width: 100%;
+}
+.f_left{
+	float: left;
+}
+.f_right{
+	float: right;
+}
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体 unicode */
+    font-family:"Microsoft YaHei", "arial", "sans-serif";
+    color: #272727;
+    background: #fff;
+    -webkit-user-select: none;
+}
+/*各浏览器显示不同，去掉蓝色边框*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}

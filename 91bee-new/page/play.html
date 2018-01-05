@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7小时股市大直播</title>
+    <meta http-equiv="X-UA-Compatible" ;content="IE=edge, chrome=1">
+    <link rel="stylesheet" href="../css/pcreset.css"/>
+    <link rel="stylesheet" href="../css/module.css">
+    <link href="../lib/jquery.mCustomScrollbar.min.css" rel="stylesheet" type="text/css">
+    <link href="//cdn.bootcss.com/Swiper/3.4.2/css/swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://www.91bee.com/js/layer/skin/layer.css"/>
+    <link rel="stylesheet" href="../css/play.css"/>
+    <link href="https://player.qiniucc.com/sdk/latest/qiniuplayer.min.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="../css/00.css"/>-->
+    <script src="https://player.qiniucc.com/sdk/latest/qiniuplayer.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--head顶部导航栏-->
+<div class="pageone">
+    <div class="header clearfix">
+        <audio src="http://dwzb.91bee.com/AppName/91bee_phd.m3u8"></audio>
+        <div class="">
+            <a href="#" class="f_left logo">
+                <img src="../images1/bee-logo.png" alt="logo"/>
+            </a>
+            <ul class="nav f_left">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">股市大直播</a></li>
+                <li><a href="#">投顾服务</a></li>
+                <li><a href="#">财咖联盟</a></li>
+                <li><a href="#">热点</a></li>
+                <li class="current"><a href="#">投资学堂</a></li>
+                <li><a href="#">活动</a></li>
+            </ul>
+            <!--
+                        <div class="f_right personal-not">
+                            <a href="#">注册</a>|<a href="#">登录</a>
+                        </div>
+                           -->
+            <div class="f_right personal-box">
+                <div class="personal">
+                    <div class="head-img img-box f_right">
+                        <img src="http://www.91bee.com//image/bee1446018978542.png" alt="头像"/>
+                    </div>
+                    <div class="name f_right">Darren asdf</div>
+                </div>
+                <div class="dorpmenu">
+                    <ul>
+                        <li><a href="#">个人中心</a></li>
+                        <li><a href="#">我的提问</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">我的课程</a></li>
+                        <li><a href="#">退出登录</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="search f_right">
+                <input type="text" placeholder="请输入关键字" maxlength="50"/>
+                <span class="iconfont icon_search"></span>
+            </div>
+        </div>
+    </div>
+    <div class="content-box">
+        <div>
+
+            <div class="leftside f_left">
+
+                <!-- 播放器-->
+                <div class="video-box">
+                    <!-- 视频标题-->
+                    <div class="video-title clearfix">
+                        <div class="f_left clearfix">
+                            <div class="head-img img-box f_left">
+                                <img src="../images/person.png" alt="">
+                            </div>
+                           <div class="f_left info">
+                               <p class="title">财咖联盟财咖联盟财咖联盟财咖联盟财咖联盟财咖联盟财咖联盟财咖联盟财咖联盟财咖联盟</p>
+                               <p>
+                                   <span class="name f_left">财咖联盟</span>
+                                   <span class="f_left subscribe ripple-out">+订阅</span>
+                                   <!--<span class="f_left subscribe already">已订阅</span>-->
+                               </p>
+                           </div>
+                        </div>
+                        <div class="toll f_right clearfix">
+                            <span class="phone iconfont icon_phone">移动端观看</span>
+                            <span class="share iconfont icon_share">分享</span>
+                            <div class="phone-layer">
+                                <div class="qr-box img-box">
+                                    <img src="../images/qrphone.png" alt="二维码"/>
+                                </div>
+                                <p>使用手机扫码观看</p>
+                            </div>
+                            <div class="share-layer bshare-custom">
+                                <a title="分享到新浪微博" href="javascript:void(0);" class="bshare-sinaminiblog"
+                                   onclick="window.open('http://api.bshare.cn/share/sinaminiblog?url=http://www.91bee.com/&publisherUuid=3685825b-1ce9-4524-bb75-851cf2d3956d&title=打造国内首家全金融视频平台—股市大直播&summary=小蜂财经打造是国内首家全金融视频平台,5天x7小时证券市场直播,海量理财、基金、互联网金融、互联网经济、财经脱口秀等点播内容,涵盖国内主流投资品种财经直播间,并独家为乐视网财经频道提供视频内容&pic=http://www.91bee.com/images/beelog.jpg','','height=600,width=800,top=54.5,left=235')"></a>
+                                <a title="分享到QQ好友" href="javascript:void(0);" class="bshare-qqim"
+                                   onclick="window.open('http://api.bshare.cn/share/qqim?url=http://www.91bee.com/&publisherUuid=3685825b-1ce9-4524-bb75-851cf2d3956d&title=打造国内首家全金融视频平台—股市大直播&summary=小蜂财经打造是国内首家全金融视频平台,5天x7小时证券市场直播,海量理财、基金、互联网金融、互联网经济、财经脱口秀等点播内容,涵盖国内主流投资品种财经直播间,并独家为乐视网财经频道提供视频内容&pic=http://www.91bee.com/images/beelog.jpg','','height=600,width=800,top=54.5,left=235')"></a>
+                                <a title="分享到腾讯微博" href="javascript:void(0);" class="bshare-qqmb"
+                                   onclick="window.open('http://api.bshare.cn/share/qqmb?url=http://www.91bee.com/&publisherUuid=3685825b-1ce9-4524-bb75-851cf2d3956d&title=打造国内首家全金融视频平台—股市大直播&summary=小蜂财经打造是国内首家全金融视频平台,5天x7小时证券市场直播,海量理财、基金、互联网金融、互联网经济、财经脱口秀等点播内容,涵盖国内主流投资品种财经直播间,并独家为乐视网财经频道提供视频内容&pic=http://www.91bee.com/images/beelog.jpg','','height=600,width=800,top=54.5,left=235')"></a>
+                                <a title="分享到QQ空间" href="javascript:void(0);" class="bshare-qzone"
+                                   onclick="window.open('http://api.bshare.cn/share/qzone?url=http://www.91bee.com/&publisherUuid=3685825b-1ce9-4524-bb75-851cf2d3956d&title=打造国内首家全金融视频平台—股市大直播&summary=小蜂财经打造是国内首家全金融视频平台,5天x7小时证券市场直播,海量理财、基金、互联网金融、互联网经济、财经脱口秀等点播内容,涵盖国内主流投资品种财经直播间,并独家为乐视网财经频道提供视频内容&pic=http://www.91bee.com/images/beelog.jpg','','height=600,width=800,top=54.5,left=235')"></a>
+                                <a title="分享到豆瓣" href="javascript:void(0);" class="bshare-douban"
+                                   onclick="window.open('http://api.bshare.cn/share/douban?url=http://www.91bee.com/&publisherUuid=3685825b-1ce9-4524-bb75-851cf2d3956d&title=打造国内首家全金融视频平台—股市大直播&summary=小蜂财经打造是国内首家全金融视频平台,5天x7小时证券市场直播,海量理财、基金、互联网金融、互联网经济、财经脱口秀等点播内容,涵盖国内主流投资品种财经直播间,并独家为乐视网财经频道提供视频内容&pic=http://www.91bee.com/images/beelog.jpg','','height=600,width=800,top=54.5,left=235')"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 视频-->
+                    <div class="video img-box">
+                        <img src="../images/flash.jpg"/>
+                        <video id="demo-video" class="video-js vjs-big-play-centered"></video>
+                    </div>
+                </div>
+            </div>
+            <!-- 互动区-->
+            <div class="centerside f_left">
+                <div class="tab-nav clearfix">
+                    <div class="nav-list interact-nav current">互动区</div>
+                    <div class="nav-list host-nav">主持区</div>
+                    <!-- 没有提示框就不渲染hint-->
+                    <!--<div class="hint">-->
+                    <!--<div class="swiper-wrapper">-->
+                    <!--<div class="swiper-slide">A 管理员很忙很忙想知道的问题得不到解决</div>-->
+                    <!--<div class="swiper-slide">B 管理员很忙很忙想知道的问题得不到解决</div>-->
+                    <!--<div class="swiper-slide">C 管理员很忙很忙想知道的问题得不到解决</div>-->
+                    <!--</div>-->
+                    <!--</div>-->
+                </div>
+                <!--互动/支持区content-->
+                <div class="contentbox clearfix">
+                    <div style="display: none" class="host" id="scrollbar2">
+                        <div class="content clearfix">
+                            <ul class="">
+                                <li>
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text">
+                                            <p class="title clearfix"><span
+                                                    class="name">我是管理员我是管理员我是管理员我是管理员</span><span
+                                                    class="roleimg img-box"><img
+                                                    src="../images/user.png"></span><span
+                                                    class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <div class="ask_content">
+                                                <p>老地主家的三儿子此处建仓的理由不是很充分，虽分，虽然还有很多字</p>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text">
+                                            <p class="title clearfix"><span class="name">我是管理员</span><span
+                                                    class="roleimg img-box"><img
+                                                    src="../images/user.png"></span><span
+                                                    class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <div class="ask_content">
+                                                <p>老地主家的三儿子此处建仓的理由家的三儿子此处建仓的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text">
+                                            <p class="title clearfix"><span class="name">我是管理员</span><span
+                                                    class="roleimg img-box"><img
+                                                    src="../images/user.png"></span><span>回复</span><span
+                                                    class="name">普通用户</span><span class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <div class="ask_content">
+                                                <p>老地主家的三儿子此处建仓的理由家的三儿子此处建仓的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+
+                                                <div class="reply">
+                                                    <div class="head-icon img-box"><img
+                                                            src="../images/person.png" alt="头像"/></div>
+                                                    <div class="text">
+                                                        <p class="title clearfix"><span class="name">魏征</span><span
+                                                                class="roleimg img-box"><img
+                                                                src="../images/user.png"></span><span
+                                                                class="time">2016-07-17 07:30</span>
+                                                        </p>
+
+                                                        <p class="ask_content">老师你字然还有很由不是很建仓的理由不是很充分，虽然还</p>
+                                                    </div>
+                                                    <span class="sanjiao"></span>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text">
+                                            <p class="title clearfix"><span class="name">我是管理员</span><span
+                                                    class="roleimg img-box"><img
+                                                    src="../images/user.png"></span><span
+                                                    class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <p class="ask_content">
+                                                老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text">
+                                            <p class="title clearfix"><span class="name">我是管理员</span><span
+                                                    class="roleimg img-box"><img
+                                                    src="../images/user.png"></span><span
+                                                    class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <p class="ask_content">
+                                                老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text">
+                                            <p class="title clearfix"><span class="name">我是管理员</span><span
+                                                    class="roleimg img-box"><img
+                                                    src="../images/user.png"></span><span
+                                                    class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <div class="ask_content">
+                                                <p>老地主家的三很多字</p>
+
+                                                <div class="reply">
+                                                    <div class="head-icon img-box"><img
+                                                            src="../images/person.png" alt="头像"/></div>
+                                                    <div class="text">
+                                                        <p class="title clearfix"><span
+                                                                class="name">我是管理员</span><span
+                                                                class="roleimg img-box"><img
+                                                                src="../images/user.png"></span><span
+                                                                class="time">2016-07-17 07:30</span>
+                                                        </p>
+
+                                                        <p class="ask_content">老师你字然还有很</p>
+                                                    </div>
+                                                    <span class="sanjiao"></span>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div style="display: block" class="interact " id="scrollbar1">
+                        <div class="content clearfix">
+                            <ul class="">
+                                <li class="left_interact">
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">普通用用户</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                                <span class="answer">回复TA</span>
+                                            </p>
+
+                                            <p class="ask_content">我是普通用用户普通用用户普通用用户普通用用户普通用用户</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="left_interact">
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">普通用用户</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                                <span class="answer">回复TA</span>
+                                            </p>
+
+                                            <p class="ask_content">回复<span class="name">@老地主家的三儿子：</span>我是普通用用户普通用用户普通用用户普通用用户普通用用户
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="left_interact super"><!--突出的用户 如管理员-->
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">管理员</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                                <span class="answer">回复TA</span>
+                                            </p>
+
+                                            <p class="ask_content">
+                                                我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员我是管理员</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <li class="right_interact">
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">我的名字我的名字</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <p class="ask_content">我的言论我的言论我的言论我的言论</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="right_interact">
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">我的名字我的名字</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <p class="ask_content">我的言论我的言论我的言论我的言论</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="right_interact">
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">我的名字我的名字</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <p class="ask_content">我的言论我的言论我的言论我的言论</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="right_interact">
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">我的名字我的名字</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <p class="ask_content">我的言论我的言论我的言论我的言论</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="right_interact">
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">我的名字我的名字</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <p class="ask_content">我的言论我的言论我的言论我的言论</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="right_interact">
+                                    <div class="user clearfix">
+                                        <div class="head-icon img-box"><img src="../images/person.png"
+                                                                            alt="头像"/></div>
+                                        <div class="text clearfix">
+                                            <p class="title clearfix">
+                                                <span class="name">我的名字我的名字</span>
+                                                <span class="roleimg img-box"><img
+                                                        src="../images/user.png"></span>
+                                                <span class="time">2016-07-17 07:30</span>
+                                            </p>
+
+                                            <p class="ask_content">我的言论我的言论我的言论我的言论</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="answerme-box">
+                        <span class="answerme">@name</span>在07:37:12时回复了您：此处建仓理由不是很充分，虽然前面几次触及60日均线都有反弹，但是那是在政策的配合...
+                        <span class="close-btn">×</span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="m-input-fuc f-pr">
+                        <!-- emoj -->
+                        <!--<div class="emoj-mask">-->
+                        <div class="m-emojs-select f-pa active" style="display: none;">
+                            <!--  ////////////////////////////////////////////////.biaoqing emoj  表情 //////////////////////////////////////////////// -->
+                            <ul class="clearfix">
+                                <li><img src="http://www.91bee.com/images/qqbq/zhi_thumb.gif"
+                                         title="/zhi_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/shenma_thumb.gif"
+                                         title="/shenma_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/fuyun_thumb.gif"
+                                         title="/fuyun_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/geili_thumb.gif"
+                                         title="/geili_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/weiguan_thumb.gif"
+                                         title="/weiguan_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/weiwu_thumb.gif"
+                                         title="/weiwu_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/panda_thumb.gif"
+                                         title="/panda_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/rabbit_thumb.gif"
+                                         title="/rabbit_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/atm_thumb.gif"
+                                         title="/atm_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/jiong_thumb.gif"
+                                         title="/jiong_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/hufen_thumb.gif"
+                                         title="/hufen_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/liwu_thumb.gif"
+                                         title="/liwu_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sailea_thumb.gif"
+                                         title="/sailea_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/tootha_thumb.gif"
+                                         title="/tootha_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/laugh_thumb.gif"
+                                         title="/laugh_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/tza_thumb.gif"
+                                         title="/tza_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/kl_thumb.gif"
+                                         title="/kl_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/kbsa_thumb.gif"
+                                         title="/kbsa_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/cj_thumb.gif"
+                                         title="/cj_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/shamea_thumb.gif"
+                                         title="/shamea_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/tp_thumb.gif"
+                                         title="/tp_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/bz_thumb.gif"
+                                         title="/bz_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/bs_thumb.gif"
+                                         title="/bs_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/lovea_thumb.gif"
+                                         title="/lovea_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sada_thumb.gif"
+                                         title="/sada_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/heia_thumb.gif"
+                                         title="/heia_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/qq_thumb.gif"
+                                         title="/qq_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sa_thumb.gif"
+                                         title="/sa_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/mb_thumb.gif"
+                                         title="/mb_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/ldln_thumb.gif"
+                                         title="/ldln_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/yhh_thumb.gif"
+                                         title="/yhh_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/zhh_thumb.gif"
+                                         title="/zhh_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/x_thumb.gif" title="/x_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/cry_thumb.gif"
+                                         title="/cry_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/wq_thumb.gif"
+                                         title="/wq_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/t_thumb.gif" title="/t_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/dhq_thumb.gif"
+                                         title="/dhq_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/bba_thumb.gif"
+                                         title="/bba_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/angrya_thumb.gif"
+                                         title="/angrya_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/yw_thumb.gif"
+                                         title="/yw_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/cza_thumb.gif"
+                                         title="/cza_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/88_thumb.gif"
+                                         title="/88_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sk_thumb.gif"
+                                         title="/sk_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sweata_thumb.gif"
+                                         title="/sweata_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sleepya_thumb.gif"
+                                         title="/sleepya_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sleepa_thumb.gif"
+                                         title="/sleepa_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/money_thumb.gif"
+                                         title="/money_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sw_thumb.gif"
+                                         title="/sw_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/cool_thumb.gif"
+                                         title="/cool_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/hsa_thumb.gif"
+                                         title="/hsa_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/hatea_thumb.gif"
+                                         title="/hatea_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/gza_thumb.gif"
+                                         title="/gza_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/dizzya_thumb.gif"
+                                         title="/dizzya_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/beishang_thumb.gif"
+                                         title="/beishang_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/crazya_thumb.gif"
+                                         title="/crazya_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/h_thumb.gif" title="/h_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/yx_thumb.gif"
+                                         title="/yx_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/zm_thumb.gif"
+                                         title="/zm_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/hearta_thumb.gif"
+                                         title="/hearta_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/unheart_thumb.gif"
+                                         title="/unheart_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/pig_thumb.gif"
+                                         title="/pig_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/ok_thumb.gif"
+                                         title="/ok_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/ye_thumb.gif"
+                                         title="/ye_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/good_thumb.gif"
+                                         title="/good_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/z_thumb.gif" title="/z_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/sad_thumb.gif"
+                                         title="/sad_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/no_thumb.gif"
+                                         title="/no_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/come_thumb.gif"
+                                         title="/come_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/lazhu_thumb.gif"
+                                         title="/lazhu_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/clock_thumb.gif"
+                                         title="/clock_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/cake_thumb.gif"
+                                         title="/cake_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/ht_thumb.gif"
+                                         title="/ht_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/weijin_thumb.gif"
+                                         title="/weijin_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/lxhzhuanquan_thumb.gif"
+                                         title="/lxhzhuanquan_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/lxhluguo_thumb.gif"
+                                         title="/lxhluguo_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/bofubianlian_thumb.gif"
+                                         title="/bofubianlian_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/gbzkun_thumb.gif"
+                                         title="/gbzkun_thumb">
+                                </li>
+                                <li><img src="http://www.91bee.com/images/qqbq/boboshengmenqi_thumb.gif"
+                                         title="/boboshengmenqi_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/chnbuyaoya_thumb.gif"
+                                         title="/chnbuyaoya_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/daxiongleibenxiong_thumb.gif"
+                                         title="/daxiongleibenxiong_thumb"></li>
+                                <li><img src="http://www.91bee.com/images/qqbq/youqian_thumb.gif"
+                                         title="/youqian_thumb"></li>
+                            </ul>
+
+                        </div>
+                        <!--</div>-->
+                        <!-- 输入框 按钮  -->
+                        <div class="input-btn">
+                            <a href="javascript:;" class="btn-icon iconfont icon_smile">表情</a>
+                            <a href="javascript:;" onclick="askQuestion('[/camera_thumb]');return false;"
+                               class="btn-icon iconfont icon_flower">鲜花</a>
+                            <a href="javascript:;" onclick="askQuestion('[/camera_thumb]');return false;"
+                               class="btn-icon iconfont icon_applause">掌声</a>
+                            <a id="upImg" href="javascript:;" class="register">免费注册会员</a>
+                            <span class="scaler f_right">1/200</span>
+                        </div>
+                        <!--  输入表单  -->
+                        <div class="form-box">
+                            <form class=" m-fuc-form">
+                                <div id="questionDv" class="emoj-input-text  f_left" name="" cols="30"
+                                     rows="10"
+                                     contenteditable="true">请登录，参与互动
+                                </div>
+                                <input class="f_right msg-send" name="submit" id="btnSubmit" value="提交"
+                                       type="button">
+                                <span class="shape iconfont icon_Shape"></span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <p>
+        </p>
+    </div>
+</div>
+<div class="footer">
+    <div class="w">
+        <div class="foot-content">
+            <div class="f_left foot-logo img-box">
+                <img src="../images1/logo-bottom.png" alt="">
+            </div>
+            <div class="f_left">
+                <ul>
+                    <li class="strong"><a href="#">关于我们</a></li>
+                    <li class="strong"><a href="#">联系我们</a></li>
+                    <li class="strong"><a href="#">关注我们</a></li>
+                    <li><a href="#">版权声明</a></li>
+                    <li><a href="#">广告投放</a></li>
+                    <li><a href="#">微博@小蜂财经</a></li>
+                    <li><a href="#">使用条款</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                </ul>
+                <p class="copyright">沪ICP备15042190号 / 广播电视制作经营许可证：(沪) 第1186号</p>
+                <p class="copyright">Copyright © 2015-2017 小蜂财经 All rights reserved</p>
+            </div>
+            <div class="f_right">
+                <div class="qr-box f_right img-box">
+                    <img src="../images1/no-qrcode.png" alt="">
+                    <p>关注微信公众号</p>
+                </div>
+                <div class="qr-box f_right img-box">
+                    <img src="../images1/no-qrcode.png" alt="">
+                    <p>APP 下载</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="siteinfoLegal">
+        <p class="w">* 本站所有观点均不作为操作建议。投资有风险 / 购买需谨慎 / 翻录必究</p>
+    </div>
+</div>
+<!--登录弹窗-->
+<div class="model login-model" style="display: none;">
+    <div class="alt_login">
+        <div class="login_by">
+            <h1>登录</h1>
+            <div class="by_err"><i class="iconfont">&#xe6f7;</i><span class="er_txt">用户名或者密码输入错误</span></div>
+            <div class="by_in"><input type="text" id="phone" placeholder="请输入手机号码" maxlength="11"></div>
+            <div class="by_in by_in_ps"><input type="password" id="passc" placeholder="请输入密码"
+                                               maxlength="16"><i class="inshow iconfont">&#xe6fa;</i></div>
+            <div class="by_ina"><span><input type="checkbox" id="chbox" checked><label for="chbox">记住我</label></span><a
+                    href="#">忘记密码？</a></div>
+            <div class="by_inb">
+                <button type="button" id="buth">登录</button>
+            </div>
+            <div class="by_hr"></div>
+            <p>还有没有账号？立即<a href="#">注册</a></p>
+        </div>
+        <div class="log_wei">
+            <span class="er_gb iconfont">&#xe69f;</span>
+            <span class="wex_gb iconfont">&#xe6d5;</span>
+        </div>
+        <div class="log_film">
+            <i></i><img src="../images/weira.png">
+        </div>
+    </div>
+</div>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../lib/jquery.mousewheel.min.js"></script>
+<script src="../lib/jquery.mCustomScrollbar.min.js"></script>
+<script src="//cdn.bootcss.com/Swiper/3.4.2/js/swiper.jquery.min.js"></script>
+<script src="http://www.91bee.com/js/layer/layer.js"></script>
+<script src="../js/play.js"></script>
+<script src="../js/module.js"></script>
+<script>
+    var options = {
+        controls: true,
+        url: 'http://pili-live-hls.91bee.com/91bee/dw_live.m3u8',
+        type: 'hls',
+        preload: true,
+        autoplay: false, // 如为 true，则视频将会自动播放
+        stretching: 'letterbox'
+    };
+    var player = new QiniuPlayer('demo-video', options);
+</script>
+
+</body>
+</html>

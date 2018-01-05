@@ -1,0 +1,62 @@
+@import "less_base";
+@import "top2";
+@font: 75rem;
+.iconfont {
+  font-size:20px;
+}
+
+.play_list{
+  padding:0 30/@font;
+  .img_box{
+    width: 260/@font;
+    position: relative;
+    img{
+      width: 100%;
+      height: 146/@font;
+    }
+    .identity{
+      width: 88/@font;
+      height: 36/@font;
+      line-height: 36/@font;
+      text-align: center;
+      color: #fff;
+      background: #548BEE;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .zb{
+      background:#DD524D;
+    }
+    .yg{
+      background: #999;
+    }
+    .hk{
+      background: #548BEE;
+    }
+  }
+  .content{
+    width: 410/@font;
+    .title{
+      .font-size(32);
+      color: #312D3B;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .time{
+      margin-top: 20/@font;
+      .font-size(28);
+      color: rgba(49,45,59,0.54);
+    }
+
+  }
+
+  li{
+    padding: 30/@font 0;
+    border-bottom:1/@font solid #ccc ;
+  }
+  li:nth-last-child(1){
+    border-bottom:0;
+  }
+}

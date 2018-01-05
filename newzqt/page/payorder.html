@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <title>订单支付</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/payorder.css"/>
+    <link rel="stylesheet" href="../lib/layer_flex.css"/>
+    <script src="//at.alicdn.com/t/font_fcbld576hlu9pb9.js"></script>
+</head>
+
+<body>
+<div class="layout">
+    <!--头部部分-->
+    <header id="topFixed">
+        <a href="javascript:history.go(-1)" class="iconfont icon_right_arrow">返回</a>
+        <h3>订单支付</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <section class="details">
+        <h3 class="title">订单详情</h3>
+        <ul>
+            <li class="clearfix price" >
+                <span class="f_left name">课程价格：</span><span class="f_right num">3788元</span>
+            </li>
+            <li class="clearfix date">
+                <span class="f_left name">有效期：</span><span class="f_right num">30天</span>
+            </li>
+            <li class="clearfix number">
+                <span class="f_left name">购买数量：</span><span class="f_right num">1</span>
+            </li>
+        </ul>
+    </section>
+    <section class="confirm">
+        <h3 class="title">确认个人信息</h3>
+        <ul>
+            <li class="clearfix">
+                <label class="name" for="female">手机号：</label>
+                <input class="tel" type="tel" value="手机号是唯一凭证，请认真填写" id="female" />
+            </li>
+            <li class="clearfix">
+                <input class="verification" type="text" placeholder="输入验证码"/> <button id="countdown">获取验证码</button>
+            </li>
+        </ul>
+        <p class="prompt"><span id="confirn" index="true" class="f_left iconfont icon_continue_hover"></span>未注册手机号自动创建证券通帐号，登录即代表您已阅读并同意 <a href="#">《服务协议》</a></p>
+    </section>
+    <section class="paytype">
+        <h3 class="title">支付方式</h3>
+        <ul>
+            <li class="clearfix wx" >
+                    <span class="f_left">
+                    <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-weixin"></use>
+                        </svg>
+                    微信支付</span>
+                    <span class="f_right iconfont icon_continue_hover"></span>
+            </li>
+            <li class="clearfix yl">
+                    <span class="f_left">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-yinlian"></use>
+                    </svg>
+                    银联支付</span>
+                    <span class="f_right iconfont icon_select"></span>
+            </li>
+            <li class="clearfix zfb">
+                    <span class="f_left">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhifubao"></use>
+                    </svg>
+                    支付宝</span>
+                    <span class="f_right iconfont icon_select"></span>
+            </li>
+        </ul>
+    </section>
+    <button class="quit_btn">确认支付</button>
+</div>
+<div id="demo1">dsafkfajsh</div>
+<div id="demo2">dsafkfsdfsdfdsajsh</div>
+<!--模态框部分-->
+<!--已经购买订单提示-->
+<div class="model model_fail">
+    <div class="content_model">
+        <div class="title clearfix">
+            <span class="f_left">订单提示！</span>
+            <a class="btn_close f_right">×</a>
+        </div>
+
+        <p class="text">
+            您于 2017-02-23日 已购买过《龙虎榜基础学堂》课程，截止有效期至 <span>2017-05-20</span> 日，在有效期内不可重复购买课程。
+        </p>
+
+        <button class="btn">进入我的产品服务</button>
+    </div>
+</div>
+<script src="../js/isWeiXin.js"></script>
+
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../js/payorder.js"></script>
+<script src="../lib/layer.js"></script>
+<script>
+    $("#demo1").click(function(){
+        layer.open({
+            title: [
+                '我是标题',
+                'background-color: #FF4351; color:#fff;'
+            ]
+            ,content: '标题风格任你定义。'
+        });
+    })
+</script>
+
+</body>
+
+</html>

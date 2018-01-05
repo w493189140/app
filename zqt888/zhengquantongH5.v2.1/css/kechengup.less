@@ -1,0 +1,180 @@
+@import "less_base";
+@import "top1";
+@font:37.5rem;
+
+:root{
+  background: #f9fafd;
+}
+.main{
+  width: 100%;
+  overflow: hidden;
+}
+/*ÌבÊ¾*/
+.msg_zhan{
+  display: block;
+  height: 40/@font;
+  position: relative;
+}
+.msg{
+  position: absolute;
+  width: 100%;
+  opacity: 0.9;
+  background: #F64D41;
+  height: 40/@font;
+  line-height: 40/@font;
+  display: block;
+  padding: 0 0 0 15/@font;
+  color: #fff;
+  overflow: hidden;
+  top:-40/@font;
+  animation:msgont 1.3s ease 0.3s forwards ;
+  -webkit-animation:msgont 1.3s ease 0.3s forwards ;
+  i{
+    .font-size(40);
+    float: left;
+    width: 22/@font;
+  }
+  span{
+    .font-size(26);
+    margin-left: 5/@font;
+    letter-spacing: -0.3px;
+    -webkit-letter-spacing: -0.3px;
+    float: left;
+    width: 326/@font;
+  }
+}
+.kecheng{
+  width:92%;
+  margin:20/@font 4% 0;
+  display:block;
+  overflow: hidden;
+  height: 404/@font;
+.swiper-slide{
+  width: 345/@font;
+  height: 364/@font;
+  background: #fff;
+  box-shadow: 0 5px 17px 0 rgba(49,45,59,0.07);
+  -webkit-box-shadow: 0 5px 17px 0 rgba(49,45,59,0.07);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  padding: 15/@font 20/@font 0;
+}
+  .kecheng_l1{
+    padding: 15/@font 0;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #E7E7E7;
+    height: 55/@font;
+    line-height: 25/@font;
+    strong{
+      color: rgba(49,45,59,0.54);
+      letter-spacing: -0.64px;
+      .font-size(36);
+      font-weight: normal;
+      float: left;
+    }
+    span{
+      color: #312D3B;
+      .font-size(36);
+      float: right;
+    }
+  }
+  .kecheng_l2{
+    height: 65/@font;
+    line-height: 35/@font;
+    .kecheng_s1{
+      .font-size(56);
+      color: #F64D41;
+      float: right;
+      i{
+        float: left;
+        font-style: normal;
+        .font-size(36);
+        margin-right: 6/@font;
+        margin-top: 4/@font;
+      }
+    }
+  }
+  .kecheng_l3{
+    width: 100%;
+    float: left;
+    padding-top: 15/@font;
+    h4{
+      .font-size(28);
+      color: rgba(49,45,59,0.54);
+      height: 20/@font;
+      line-height: 20/@font;
+    }
+    .kecheng_s2{
+      width: 345/@font;
+      height: 84/@font;
+      overflow: hidden;
+      margin-left: -20/@font;
+      padding: 0 9/@font;
+      span{
+        width: 90/@font;
+        text-align: center;
+        height: 27/@font;
+        line-height: 27/@font;
+        margin:15/@font 9/@font 0;
+        float: left;
+        background: #F2F5F8;
+        border: 1px solid #548BEE;
+        border-radius: 3px;
+        .font-size(24);
+        color: rgba(49,45,59,0.54);
+      }
+    }
+  }
+  .kecheng_l4{
+    a{
+      width: 100%;
+      float: left;
+      margin-top: 30/@font;
+      background: #548BEE;
+      background-image: linear-gradient(-179deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.00) 100%);
+      border-radius: 100px;
+      text-align: center;
+      line-height: 52/@font;
+      height: 52/@font;
+      color: #FFFFFF;
+      .font-size(36);
+    }
+
+  }
+  .kecheng_btn{
+    span{
+      width: 10/@font !important;
+      height: 10/@font !important;;
+      margin: 0 5/@font !important;
+    }
+  }
+}
+.qr{
+  width: 100%;
+  display: block;
+  margin-top: 10/@font;
+  position: relative;
+.qr_img1{
+  width: 100%;
+  position: relative;
+  left: 0;
+}
+.qr_img2{
+  position: absolute;
+  width: 32%;
+  left: 4%;
+  top:16%;
+  }
+}
+@keyframes msgont
+{
+  from {top:-40/@font;}
+  to {top:0;}
+}
+
+@-webkit-keyframes msgont
+{
+  from {top:-40/@font;}
+  to {top:0;}
+}

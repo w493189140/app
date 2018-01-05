@@ -1,0 +1,23 @@
+/*·­Ò³*/
+.nextpage{
+    padding: 20px 0;
+    height: 50px;
+    text-align: right;
+}
+.nextpage a {
+    border: 1px solid #bfbfbf;
+}
+.nextpage a, .nextpage span {
+    font-size: 12px;
+    color: #8d8d8d;
+    display: inline-block;
+    padding: 1px 9px;
+    margin: 0 3px;
+    border-radius: 3px;
+}
+.nextpage a.cur {
+    border: 1px solid #FF9000;
+    color: #fff;
+    background: #FF9000;
+}
+.flip{ float:right; margin-top: 40px;}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <title>龙虎日报</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/dayList.css"/>
+</head>
+
+<body>
+<div class="layout">
+    <!--头部部分-->
+    <header id="topFixed">
+        <a href="javascript:history.go(-1)" class="iconfont icon_right_arrow">返回</a>
+        <h3>龙虎日报</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <div id="wrapper" class="play_list">
+        <!--&lt;!&ndash; 无订单渲染empty&ndash;&gt;-->
+        <!--<div class="empty"  style="display: block">-->
+            <!--<img src="../images/empty.png"/>-->
+            <!--<p>暂无订单信息</p>-->
+        <!--</div>-->
+        <ul>
+            <li class="item clearfix">
+                <a href="#">
+                    <p class="datatime">2017-05-04 推荐</p>
+
+                    <div class="img_box f_left">
+                        <img src="../images/news.png" alt=""/>
+                    </div>
+                    <div class="content  f_right">
+                        <div class="title">
+                            龙虎榜实战训练营
+                        </div>
+                        <div class="descript">
+                            新材料技术革命的引领者，未来成长可期。新材料技术革命的引领者，未来成长可期。
+                        </div>
+                    </div>
+                </a>
+                <span class="corner"><img src="../images/tuijian.png"/></span>
+            </li>
+
+            <li class="item clearfix">
+                <a href="#">
+                    <p class="datatime">2017-05-04 推荐</p>
+
+                    <div class="img_box f_left">
+                        <img src="../images/news.png" alt=""/>
+                    </div>
+                    <div class="content  f_right">
+                        <div class="title">
+                            龙虎榜实战训练营
+                        </div>
+                        <div class="descript">
+                            新材料技术革命的引领者，未来成长可期。新材料技术革命的引领者，未来成长可期。
+                        </div>
+                    </div>
+                </a>
+                <span class="corner"><img src="../images/tuijian.png"/></span>
+            </li>
+            <li class="item clearfix">
+                <a href="#">
+                    <p class="datatime">2017-05-04 推荐</p>
+
+                    <div class="img_box f_left">
+                        <img src="../images/news.png" alt=""/>
+                    </div>
+                    <div class="content  f_right">
+                        <div class="title">
+                            龙虎榜实战训练营
+                        </div>
+                        <div class="descript">
+                            新材料技术革命的引领者，未来成长可期。新材料技术革命的引领者，未来成长可期。
+                        </div>
+                    </div>
+                </a>
+                <span class="corner"><img src="../images/tuijian.png"/></span>
+            </li>
+            <li class="item clearfix">
+                <a href="#">
+                    <p class="datatime">2017-05-04 推荐</p>
+
+                    <div class="img_box f_left">
+                        <img src="../images/news.png" alt=""/>
+                    </div>
+                    <div class="content  f_right">
+                        <div class="title">
+                            龙虎榜实战训练营
+                        </div>
+                        <div class="descript">
+                            新材料技术革命的引领者，未来成长可期。新材料技术革命的引领者，未来成长可期。
+                        </div>
+                    </div>
+                </a>
+                <span class="corner"><img src="../images/tuijian.png"/></span>
+            </li>
+
+
+            <li class="scroll-bottom">
+                松开加载更多
+            </li>
+
+        </ul>
+    </div>
+</div>
+<script src="../js/isWeiXin.js"></script>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../lib/iscroll.js"></script>
+<script>
+    var height = $(window).height()-$("#topFixed").height();
+    $("#wrapper").css("height", height);
+    $("#wrapper ul").css("min-height", height);
+    var myScroll = new IScroll('#wrapper');
+    myScroll.on("scrollEnd",function(e){
+        if(myScroll.maxScrollY == myScroll.y){
+            console.log("我已滚动到底部");
+        }
+    });
+</script>
+</body>
+
+</html>

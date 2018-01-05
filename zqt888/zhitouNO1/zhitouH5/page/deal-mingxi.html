@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <title>主题跟投交易明细</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/mingxi.css"/>
+    <link rel="stylesheet" href="../lib/LCalendar.css">
+</head>
+
+<div class="layout">
+    <!--头部部分-->
+    <header id="topFixed">
+        <a href="#" class="iconfont icon_right_arrow">返回</a>
+        <h3>主题跟投交易明细</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <!--动态-->
+    <section class="search-box">
+        <input class="input-dv" id="date1" readonly="" type="text" value="" placeholder="输入起始日期">
+        <input class="input-dv" id="date2" readonly="" type="text" value="" placeholder="输入结束日期">
+        <input class="btn" type="button" value="查询">
+    </section>
+    <section class="nav">
+        <ul>
+            <li class="current">时间排序 <span class="img-box up"></span></li>
+            <li>代码排序 <span class="img-box"></span></li>
+            <li>类型排序 <span class="img-box"></span></li>
+        </ul>
+    </section>
+    <section class="dynamic-product" id="wrapper">
+        <div id="scroller">
+            <div class="tip_top"><img src="../images/loading.gif" alt=""/></div>
+            <ul class="lists">
+                <li class="list">
+                    <div class="list-top">
+                        <p class="clearfix">
+                            <span class="name f_left">神火股价</span>
+                            <span class="icon f_right">买</span>
+                        </p>
+                        <p class="clearfix second">
+                            <span class="num f_left">000933</span>
+                            <span class="time f_right">2017-10-11 15:53:27</span>
+                        </p>
+                    </div>
+                    <div class="list-bottom clearfix">
+                        <p class="trade-unit f_left">
+                            <span class="name">成交价格</span>
+                            <span class="num">88777.87</span>
+                        </p>
+                        <p class="trade-num f_right">
+                            <span class="name">成交数量</span>
+                            <span class="num">3330000</span>
+                        </p>
+                        <p class="trade-price f_left">
+
+                            <span class="name">成交金额</span>
+                            <span class="num">32416545</span>
+                        </p>
+
+                    </div>
+                </li>
+                <li class="list">
+                    <div class="list-top">
+                        <p class="clearfix">
+                            <span class="name f_left">神火股价</span>
+                            <span class="icon f_right sell">卖</span>
+                        </p>
+                        <p class="clearfix second">
+                            <span class="num f_left">000933</span>
+                            <span class="time f_right">2017-10-11 15:53:27</span>
+                        </p>
+                    </div>
+                    <div class="list-bottom clearfix">
+                        <p class="trade-unit f_left">
+                            <span class="name">成交价格</span>
+                            <span class="num">777.87</span>
+                        </p>
+                        <p class="trade-num f_right">
+                            <span class="name">成交数量</span>
+                            <span class="num">30000</span>
+                        </p>
+                        <p class="trade-price f_left">
+
+                            <span class="name">成交金额</span>
+                            <span class="num">22222</span>
+                        </p>
+
+                    </div>
+                </li>
+                <li class="list">
+                    <div class="list-top">
+                        <p class="clearfix">
+                            <span class="name f_left">神火股价</span>
+                            <span class="icon f_right sell">卖</span>
+                        </p>
+                        <p class="clearfix second">
+                            <span class="num f_left">000933</span>
+                            <span class="time f_right">2017-10-11 15:53:27</span>
+                        </p>
+                    </div>
+                    <div class="list-bottom clearfix">
+                        <p class="trade-unit f_left">
+                            <span class="name">成交价格</span>
+                            <span class="num">777.87</span>
+                        </p>
+                        <p class="trade-num f_right">
+                            <span class="name">成交数量</span>
+                            <span class="num">30000</span>
+                        </p>
+                        <p class="trade-price f_left">
+
+                            <span class="name">成交金额</span>
+                            <span class="num">22222</span>
+                        </p>
+
+                    </div>
+                </li>
+                <li class="list">
+                    <div class="list-top">
+                        <p class="clearfix">
+                            <span class="name f_left">神火股价</span>
+                            <span class="icon f_right sell">卖</span>
+                        </p>
+                        <p class="clearfix second">
+                            <span class="num f_left">000933</span>
+                            <span class="time f_right">2017-10-11 15:53:27</span>
+                        </p>
+                    </div>
+                    <div class="list-bottom clearfix">
+                        <p class="trade-unit f_left">
+                            <span class="name">成交价格</span>
+                            <span class="num">777.87</span>
+                        </p>
+                        <p class="trade-num f_right">
+                            <span class="name">成交数量</span>
+                            <span class="num">30000</span>
+                        </p>
+                        <p class="trade-price f_left">
+
+                            <span class="name">成交金额</span>
+                            <span class="num">22222</span>
+                        </p>
+
+                    </div>
+                </li>
+                <li class="list">
+                    <div class="list-top">
+                        <p class="clearfix">
+                            <span class="name f_left">神火股价</span>
+                            <span class="icon f_right sell">卖</span>
+                        </p>
+                        <p class="clearfix second">
+                            <span class="num f_left">000933</span>
+                            <span class="time f_right">2017-10-11 15:53:27</span>
+                        </p>
+                    </div>
+                    <div class="list-bottom clearfix">
+                        <p class="trade-unit f_left">
+                            <span class="name">成交价格</span>
+                            <span class="num">777.87</span>
+                        </p>
+                        <p class="trade-num f_right">
+                            <span class="name">成交数量</span>
+                            <span class="num">30000</span>
+                        </p>
+                        <p class="trade-price f_left">
+
+                            <span class="name">成交金额</span>
+                            <span class="num">22222</span>
+                        </p>
+
+                    </div>
+                </li>
+            </ul>
+            <div class="tip_bottom"><img src="../images/loading.gif" alt=""/></div>
+        </div>
+    </section>
+
+</div>
+</div>
+<script src="../js/isWeiXin.js"></script>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../lib/LCalendar.js"></script>
+<script src="../lib/iscroll.js"></script>
+<script src="../js/deal-mingxi.js"></script>
+</body>
+</html>

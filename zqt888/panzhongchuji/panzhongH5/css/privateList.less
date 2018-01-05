@@ -1,0 +1,47 @@
+@import "less_base";
+@import "top1";
+.private_list{
+  padding:20/@font 15/@font;
+  .item{
+    width: 345/@font;
+    height: 291/@font;
+    background: #FFFFFF;
+    border:2/@font solid #E7E7E7;
+    border-radius: 4px;
+    padding: 20/@font;
+    margin-bottom: 20/@font;
+
+  }
+  .img_box{
+    width: 305/@font;
+    height: 172/@font;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .content{
+    width: 100%;
+    margin-top: 10/@font;
+    .title{
+      .font-size(32);
+      color: #8d8d8d;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      height: 56/@font;
+      border-bottom: 1px solid #e7e7e7;
+      line-height: 1.5;
+      display:-webkit-box;
+      -webkit-box-orient:vertical;
+      -webkit-line-clamp:2;
+    }
+    .time{
+      margin-top: 5/@font;
+      .font-size(28);
+      color: #8d8d8d;;
+    }
+
+  }
+
+
+}

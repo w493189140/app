@@ -1,0 +1,41 @@
+.xx {
+    position: absolute;
+    font-size: 12px;
+    color: #FFFFFF;
+    background: #F54B5E;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 5px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    left: 83px;
+    top: 12px;
+}
+.chpin_panz li .chpin_pz{
+    background:url("../images/panzhong.png") no-repeat 0px 0px;
+    background-size: 100% auto;
+}
+.chpin_p1{
+    background-position: 0 -1px !important;
+}
+.chpin_p2{
+    background-position:0 -73px !important;
+}
+.pan_txt{
+    display: block;
+    background: #EDEDF1;
+    border-radius: 54px;
+    padding: 0 20px;
+    font-size: 14px;
+    color: rgba(49,45,59,0.54);
+    height: 36px;
+    line-height: 36px;
+    float: left;
+    margin: 0 0 15px 30px;
+}
+.gu_top_l_3 p{
+    width: 155px;
+}
+.gu_top_l_3 p:first-child{
+    width: 135px;
+}

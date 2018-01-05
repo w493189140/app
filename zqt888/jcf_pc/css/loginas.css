@@ -1,0 +1,221 @@
+/*µ¯²ã-µÇÂ¼*/
+.sin_bj {
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.4);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.alt_login {
+    width: 330px;
+    position: fixed;
+    left: 50%;
+    margin-left: -165px;
+    height: 340px;
+    top: 50%;
+    margin-top: -170px;
+    z-index: 12;
+}
+
+.login_by {
+    width: 330px;
+    height: 340px;
+    background: #fff;
+    float: left;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    overflow: hidden;
+    padding: 0px 25px;
+}
+
+.login_by h1 {
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #333px;
+    text-align: center;
+    margin: 20px 0px 15px 0px;
+}
+
+.by_err, .by_in, .by_ina, .by_inb, .by_hr, .login_by p {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.by_err {
+    border: 1px solid #d9d9d9;
+    background: #dedede;
+    color: #4c8dcb;
+    height: 30px;
+    line-height: 29px;
+    padding: 0px 12px;
+}
+
+.by_err i {
+    font-size: 20px;
+    float: left;
+    margin-right: 5px;
+}
+
+.by_in input {
+    width: 100%;
+    float: left;
+    border: 1px solid #d9d9d9;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.by_in_ps {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.by_in_ps input {
+    padding-right: 50px;
+}
+
+.by_in_ps i {
+    color: #999;
+    width: 50px;
+    position: absolute;
+    text-align: center;
+    font-size: 26px;
+    right: 1px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.by_ina {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.by_ina span {
+    float: left;
+    color: #8d8d8d;
+}
+
+.by_ina span input {
+    float: left;
+    margin: 3px 7px 0px 0px;
+}
+
+.by_ina a {
+    float: right;
+    color: #8d8d8d;
+}
+
+.by_ina a:hover, .f_by p a:hover {
+    text-decoration: underline;
+}
+
+.by_inb {
+    margin-top: 5px;
+}
+
+.by_inb button {
+    width: 100%;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #4d8dcb;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.by_hr {
+    background: #e7e7e7;
+    width: 100%;
+    float: left;
+    height: 1px;
+    margin-bottom: 7px;
+}
+
+.login_by p {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #8d8d8d;
+    font-size: 13px;
+}
+
+.login_by p a {
+    color: #87b1d9;
+}
+
+.login_by p a:hover {
+    text-decoration: underline;
+}
+
+.log_wei {
+    position: absolute;
+    right: -45px;
+    top: 0px;
+    width: 35px;
+}
+
+.log_wei span {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-bottom: 7px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    background: #4c8ecb;
+    text-align: center;
+    line-height: 35px;
+    color: #f2f2f2;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.log_film {
+    background: #fff;
+    position: absolute;
+    width: 134px;
+    height: 134px;
+    right: -195px;
+    top: 38px;
+    display: none;
+}
+
+.log_film img {
+    width: 120px;
+    float: left;
+    margin: 7px;
+}
+
+.log_film i {
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 9px solid #fff;
+    border-bottom: 6px solid transparent;
+    float: left;
+    margin-left: -9px;
+    margin-top: 15px;
+}
+
+.by_erz {
+    border: 1px solid #fad2d2;
+    color: #fff;
+    background: #fe0000;
+}

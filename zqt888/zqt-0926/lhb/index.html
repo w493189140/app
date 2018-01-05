@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <link href="css/pcreset.css" rel="stylesheet" type="text/css">
+    <link href="lib/swiper-3.4.2.min.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        html, body {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+        }
+        .w{
+            width: 1200px;
+            margin: auto;
+            position: relative;
+        }
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /*overflow: hidden;*/
+            width: 100%;
+            height: 100%;
+            min-width: 1300px;
+        }
+
+        .swiper-slide img {
+            position: absolute;
+            width: 100%;
+            left: 50%;
+            margin-left: -50%;
+            top: 0;
+        }
+        @media screen and (max-height: 700px) {
+
+
+        }
+    </style>
+</head>
+<body>
+<div class="swiper-container swiper-container-vertical">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/lhb-index_01.jpg"></div>
+        <div style="position: relative" class="swiper-slide">
+            <img src="images/lhb-index_02.jpg">
+            <div class="main w">
+                <img src="images/main02.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide"><img src="images/lhb-index_03.jpg"></div>
+        <div class="swiper-slide"><img src="images/lhb-index_04.jpg"></div>
+        <div class="swiper-slide"><img src="images/lhb-index_05.jpg"></div>
+        <div class="swiper-slide"><img src="images/lhb-index_06.jpg"></div>
+    </div>
+    <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"></div>
+</div>
+
+<script src="lib/jquery-2.1.1.min.js"></script>
+<script src="lib/swiper-3.4.2.jquery.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        speed: 750,
+        slidesPerView: 1,
+        paginationClickable: true,
+        mousewheelControl: true
+    });
+</script>
+</body>
+</html>

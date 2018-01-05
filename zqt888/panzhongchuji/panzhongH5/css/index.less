@@ -1,0 +1,436 @@
+@import "less_base";
+@import "top1";
+.icon-view:before {
+  content: "\e6f9";
+}
+.icon_success:before { content: "\e6f0"}
+.layout{
+  background-color: #efefef;
+}
+.moreoh{
+  color: #548BEE;
+}
+.title img{
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 675/@font;
+  background-color: #fafafa;
+  > img {
+    width: 100%;
+  }
+
+}
+section>.title{
+  width: 100%;
+ margin-top: 10/@font;
+}
+//课程类型
+
+.style {
+  margin-top: -60/@font;
+  padding-bottom: 20/@font;
+  overflow: hidden;
+  ul{
+    width:300%;
+  }
+  .hot_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40/@font;
+  }
+  li{
+   // padding: 0 20/@font;
+    width: 305/@font;
+    height: 562/@font;
+    box-shadow: 0 10px 40px 10px rgba(13,37,62,0.05);
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    &:last-child{
+      margin-right: 0px;
+    }
+    &:nth-child(1){
+      .content_top{
+        background-color: #548BEE;
+      }
+      .content_true .icon_success{
+        color: #548BEE;
+      }
+      .button{
+        background-color: #548BEE;
+      }
+    }
+    &:nth-child(2){
+      .content_top{
+        background-color: #FFCA43;
+      }
+      .content_true .icon_success{
+        color: #FFCA43;
+      }
+      .button{
+        background-color: #FFCA43;
+      }
+    }
+    &:nth-child(3){
+      .content_top{
+        background-color: #F64D41;
+      }
+      .content_true .icon_success{
+        color: #F64D41;
+      }
+      .button{
+        background-color: #F64D41;
+      }
+    }
+  }
+
+  .s_content{
+    .describe{
+      .font-size(36);
+      line-height: 30/@font;
+    }
+    .price{
+      .font-size(60);
+      line-height: 36/@font;
+      height: 50/@font;
+    }
+    .name{
+      .font-size(48);
+      line-height: 56/@font;
+      letter-spacing: 6px;
+    }
+  }
+  .content_top{
+    background-color: #548BEE;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    height: 170/@font;
+    padding-top: 13/@font;
+  }
+  .price_text{
+    font-size: 50/@font;
+    font-weight: 600;
+  }
+  .content{
+    padding: 5/@font 10/@font;
+    text-align: left;
+    p{
+      .font-size(30);
+      line-height: 15/@font;
+      height: 15/@font;
+      margin-top: 30/@font;
+      width: 50%;
+      float: left;
+    }
+  }
+  .content_flase{
+    color: #b2b2b2;
+    border-top: 2px solid #dcdcdc;
+    margin-top: 30/@font;
+    position: relative;
+    .title{
+      width: 105/@font;
+      height: 24/@font;
+      line-height: 24/@font;
+      font-size: 16/@font;
+      color: rgba(49,45,59,0.54);
+      background: #dcdcdc;
+      border-radius: 100px;
+      position: absolute;
+      top: -10/@font;
+      left: 0;
+      right: 0;
+      margin: auto;
+      text-align: center;
+    }
+    .iconfont{
+      color: #e0e0e0;
+    }
+  }
+  .button{
+    width: 245/@font;
+    height: 52/@font;
+    line-height: 52/@font;
+    position: absolute;
+    bottom: 30/@font;
+    left: 25/@font;
+    border-radius: 4/@font;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    .font-size(40);
+    background-color: #FFCA43;
+  }
+  .iconfont{
+    margin-right: 8/@font;
+    font-weight: 600;
+    font-size: 1.3em;
+  }
+}
+
+
+/*四大优势*/
+.advantage{
+  img{
+    width: 100%;
+
+  }
+}
+
+//课程特色
+.introduce{
+  text-align: center;
+  background-color: #fff;
+  .items{
+    padding: 15/@font 15/@font 10/@font;
+  }
+  .item{
+    padding: 8/@font 10/@font 0;
+  }
+  .name{
+    .font-size(36);
+    color: #548BEE;
+    line-height: 36/@font;
+  }
+  .text{
+    .font-size(28);
+    color: rgba(0,0,0,0.54);
+  }
+  li{
+    float: left;
+    width: 170/@font;
+    height: 94/@font;
+    background: #F7F7F7;
+    border-radius: 4/@font;
+    margin-bottom: 10/@font;
+    &:nth-child(even){
+      margin-left: 5/@font;
+    }
+  }
+}
+
+/* 龙虎榜战绩*/
+.grade{
+  li{
+    padding:13px 0;
+    background-color: #fff;
+    margin-bottom: 10/@font;
+  }
+  .img_box{
+    width: 345/@font;
+    height: 161/@font;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    img{
+      width: 100%;
+    }
+    span{
+      width: 70/@font;
+      height: 26/@font;
+      position: absolute;
+      background-color: #548BEE;
+      color: #fff;
+      .font-size(24);
+      text-align: center;
+      line-height: 26/@font;
+    }
+    .back{
+      top: 0;
+      left: 0;
+    }
+    .date{
+      bottom: 0;
+      left: 0;
+    }
+  }
+  h3{
+    .font-size(36);
+    color: rgba(49,45,59,0.70);
+    height: 42/@font;
+    line-height: 42/@font;
+    padding: 0 20/@font;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #c2c2c2;
+  }
+  .t_left{
+    p:nth-child(1){
+      font-size: 28/@font;
+      color: #F64D41;
+    }
+    text-align: center;
+    position: relative;
+    &:after{
+      content: "";
+      height: 40/@font;
+      width: 2px;
+      background-color: #c2c2c2;
+      position: absolute;
+      top: 5/@font;
+      right: -30/@font;
+    }
+  }
+  .t_right{
+    margin-left: 50/@font;
+    padding-top: 6/@font;
+    .font-size(28);
+  }
+  .text{
+    color: rgba(49,45,59,0.54);
+    padding: 5/@font 20/@font;
+
+
+  }
+}
+
+/*课程简介*/
+.description{
+ padding-bottom: 52/@font;
+  .content{
+    padding: 10/@font;
+    .font-size(30);
+    .text{
+      padding: 10/@font 0 20/@font;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+/*底部工具栏*/
+.foottoll{
+  width: 100%;
+  height: 52/@font;
+  position: fixed;
+  bottom: 0;
+  z-index: 888;
+  button{
+    .font-size(36);
+    text-align: center;
+    height: 100%;
+    line-height: 52/@font;
+  }
+  .btn_buy{
+    width: 100%;
+    background: #548BEE;
+    color: #fff;
+  }
+  .left{
+    width: 32%;
+    color: #312D3B;
+    background: #FFFFFF;
+    box-shadow: 0 0 0 0 #D7D7D7;
+  }
+  .right{
+    width: 68%;
+    background: #548BEE;
+    color: #fff;
+  }
+}
+/*购买弹出层*/
+.model{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,0.7);
+  top: 0;
+  z-index: 889;
+}
+
+.content_model{
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+  .font-size(32);
+  .title{
+    line-height: 45/@font;
+    border-bottom: 1px solid #ccc;
+    height: 50/@font;
+    padding: 0 15/@font;
+    .font-size(32);
+    a{
+      font-size: 30/@font;
+      color:rgba(49,45,59,0.54);
+    }
+  }
+  .period {
+    height: 94/@font;
+    margin:0 15/@font;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    .class{
+      width: 300/@font;
+    }
+    .number{
+      line-height: 30/@font;
+      text-align: center;
+      display: inline-block;
+      background-color: #f7f7f7;
+      border: 1/@font solid #ccc;
+      border-radius: 2.5/@font;
+      width: 140/@font;
+      height:33/@font;
+      .font-size(28);
+      margin-top: 10/@font;
+      margin-right: 4/@font;
+    }
+    .now{
+      background: #F3F5F8;
+      border: 1px solid #548BEE;
+      color: #548BEE;
+    }
+    .name{
+      margin-top: 10/@font;
+      color: rgba(49,45,59,0.54);
+    }
+  }
+  .btn{
+    width: 100%;
+    border-radius: 0;
+  }
+  .price{
+    height: 65/@font;
+    line-height: 65/@font;
+    padding:  0 15/@font;
+    vertical-align: middle;
+    .number{
+      .font-size(48);
+      color: #F64D41;
+    vertical-align: middle;
+    }
+    .name{
+      margin-right: 10/@font;
+      color: rgba(49,45,59,0.54);
+    }
+
+  }
+
+  .btn{
+    background: #548BEE;
+    width: 100%;
+    height: 50/@font;
+    .font-size(40);
+    color: #FFFFFF;
+  }
+
+}
+.tip_content{
+  color: #fff;
+  .font-size(26);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  span{
+    color: #5fa9ff;
+  }
+  img{
+    width: 40%;
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <title>意见反馈</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/feedback.css"/>
+</head>
+
+<body>
+<div class="layout">
+    <!--头部部分-->
+    <header id="topFixed">
+        <a href="javascript:history.go(-1)" class="iconfont icon_right_arrow">返回</a>
+        <h3>意见反馈</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <!--互动/支持区-->
+    <form>
+    <h4 class="hui_color">请选择反馈问题的类型</h4>
+    <p class="radio_btn action">
+        <label for="action">功能异常<span class="iconfont icon_continue"></span>
+        </label>
+        <input type="radio" name="question" id="action"/>
+    </p>
+    <p class="radio_btn other">
+        <label for="other">其他问题<span class="iconfont icon_select"></span></label>
+        <input type="radio" name="question" id="other"/>
+
+    </p>
+    <h4 class="hui_color">问题和意见</h4>
+    <p class="textarea">
+        <textarea placeholder="请描述在观看的过程出现的问题或给小蜂的意见。"></textarea>
+    </p>
+    <p class="btn_box"><button class="btn">提交</button></p>
+    </form>
+
+
+</div>
+<script src="../js/isWeiXin.js"></script>
+
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../js/feedback.js"></script>
+
+</body>
+
+</html>

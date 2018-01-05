@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <title>龙虎直播</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/live.css"/>
+</head>
+
+<body>
+<div class="layout">
+    <!--头部部分-->
+    <header id="topFixed">
+        <a href="javascript:history.go(-1)" class="iconfont icon_right_arrow">返回</a>
+        <h3>龙虎直播</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <div class="top_fixed">
+        <!--video部分-->
+        <div class="video">
+            <!-- 把img替换flash video区-->
+            <img src="../images/flash.png"/>
+        </div>
+        <div class="content_nav">
+            <ul class="content_h clearfix">
+                <li class="f_left host_h">主持区</li>
+                <li class="f_left string"></li>
+                <li class="f_left interact_h now">互动区</li>
+            </ul>
+        </div>
+        <p class="hint" style="display: none">想知道的问题得不到解决？<a class="green_color hint_remove" href="#">&nbsp;反馈意见</a></p>
+    </div>
+
+    <!--互动/支持区content-->
+    <div class="content clearfix">
+        <div id="wrapper" style="display: none" class="host">
+            <div id="scroller" class="clearfix">
+                <div class="tip_top"><img src="../images/jiazai.gif" alt=""/></div>
+                <ul>
+                    <li>
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                <p class="huifu">老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+                                <div class="reply">
+                                    <div>
+                                        <p class="title clearfix"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                        <p class="huifu">老师你字</p>
+                                    </div>
+                                    <span class="sanjiao"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                <p class="huifu">老地主</p>
+                                <div class="reply">
+                                    <div>
+                                        <p class="title clearfix"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                        <p class="huifu">老师你好，请问社保基金重入市对股市有什么影响，美联储加息对A股有何影响，虽然还有很多字</p>
+                                    </div>
+                                    <span class="sanjiao"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                <p class="huifu">老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                <p class="huifu">老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tip_bottom"><img src="../images/jiazai.gif" alt=""/></div>
+            </div>
+        </div>
+        <div id="wrapper1" class="interact">
+            <div id="scroller1" class="clearfix">
+                <div class="tip_top"><img src="../images/jiazai.gif" alt=""/></div>
+                <ul>
+                    <li class="left_interact">
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left name">魏征正</span><span
+                                        class="f_left time">2016-07-17 07:30</span><span class="f_left huifui">回复</span>
+                                </p>
+                                <p class="ask_content_l">老师你很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="left_interact">
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left name">魏征正</span><span
+                                        class="f_left time">2016-07-17 07:30</span><span class="f_left huifui">回复</span>
+                                </p>
+                                <p class="ask_content_l">老师你好，请问社保基金重入市对股市有什么影响，此处建仓的理由不是很充分，虽然还有很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="left_interact">
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left name">魏征正</span><span
+                                        class="f_left time">2016-07-17 07:30</span><span class="f_left huifui">回复</span>
+                                </p>
+                                <p class="ask_content_l">老师你好，请问社保基金重入市对股市有什么影响，此处建仓的理由不是很充分，虽然还有很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="left_interact">
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left name">魏征正</span><span
+                                        class="f_left time">2016-07-17 07:30</span><span class="f_left huifui">回复</span>
+                                </p>
+                                <p class="ask_content_l">老师你好，请问社保基金重入市对股市有什么影响，此处建仓的理由不是很充分，虽然还有很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="right_interact">
+                        <div class="user clearfix">
+                            <div class="head_icon f_right"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_left clearfix">
+                                <p class="title hui_color"><span class="f_right time">2016-07-17 07:30</span></p>
+                                <p class="ask_content_r">老师你好，请问社保基金重入市对股市有什么影响，此处建仓的理由不是很充分，虽然还有很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="right_interact">
+                        <div class="user clearfix">
+                            <div class="head_icon f_right"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_left clearfix">
+                                <p class="title hui_color"><span class="f_right time">2016-07-17 07:30</span></p>
+                                <p class="ask_content_r">理由不是很</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tip_bottom"><img src="../images/jiazai.gif" alt=""/></div>
+            </div>
+        </div>
+    </div>
+
+    <!--底部工具栏-->
+    <div class="foot">
+        <input class="f_left" placeholder="请登录，参与互动" type="text"/>
+        <button id="askinput" class="f_right">发送</button>
+    </div>
+</div>
+
+<script src="../js/isWeiXin.js"></script>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../lib/iscroll.js"></script>
+<script src="../js/live.js"></script>
+
+
+</body>
+
+</html>

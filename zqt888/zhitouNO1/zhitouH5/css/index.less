@@ -1,0 +1,348 @@
+@import "./less_base";
+@import "./top1";
+.layout{
+  background-color: #f9fbfd;
+}
+.moreoh{
+  color: #548BEE;
+}
+/*头部*/
+.head-product{
+  background: url("../images/bg-product.png") top center;
+  background-size:  100% 100%;
+  width: 100%;
+  height: 80/@font;
+  padding: 17/@font 20/@font 0;
+  .head-icon{
+    width: 45/@font;
+    height: 45/@font;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid rgba(255,255,255,0.5);
+  }
+  .info{
+    width: 270/@font;
+    color: #FFFFFF;
+    position: relative;
+    &:before{
+      position: absolute;
+      top: 10/@font;
+      right: 40%;
+      content: "";
+      width: 2/@font;
+      height: 25/@font;
+      background-color: rgba(255,255,255,0.5);
+
+    }
+  }
+  .usertext{
+    h3{
+      .font-size(36);
+      line-height: 26/@font;
+    }
+    .icon-huang{
+      width: 20/@font;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+  }
+  .userinfo{
+    background: rgba(49, 45, 59, 0.38);
+    width: 80/@font;
+    height: 28/@font;
+    text-align: center;
+    line-height: 28/@font;
+    border-radius: 14/@font;
+    .font-size(28);
+    position: relative;
+    margin-top: 8/@font;
+  }
+  .user-icon{
+    position: absolute;
+    top: -3/@font;
+    right: 0;
+    background: #F54B5E;
+    width: 10/@font;
+    height: 10/@font;
+    border-radius: 50%;
+  }
+}
+.main-product{
+  background-color: #fff;
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 10/@font;
+  padding:5/@font 0;
+  .title{
+    .font-size(32);
+    color: #312D3B;
+    line-height: 30/@font;
+    position: relative;
+    padding: 0 15/@font;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 3/@font;
+      height: 14/@font;
+      background: #548BEE;
+      top: 7/@font;
+      left: 6/@font;
+    }
+  }
+  .des{
+    padding: 0 15/@font;
+    .font-size(24);
+    color: rgba(49,45,59,0.54);
+  }
+  .info{
+    text-align: center;
+    padding: 10/@font 0;
+  }
+  .info-num{
+    font-size: 56/@font;
+    color: #F64D41;
+  }
+  .info-name{
+    .font-size(28);
+    color: rgba(49, 45, 59, 0.54)
+  }
+  .content{
+    border-top: 1px solid #EAEAEA;
+    .font-size(28);
+    color: #312D3B;
+  }
+  .nav li{
+    float: left;
+    width: 36%;
+    border-right: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
+    background: #FBFBFD;
+    height: 34/@font;
+    line-height: 34/@font;
+    text-align: center;
+    color: rgba(49, 45, 59, 0.54)
+  }
+  .nav li:nth-last-child(1){
+    border-right: 0;
+    width: 28%;
+  }
+  .nav .current{
+    background: #FFF;
+    border-bottom: 0;
+    color: rgba(49, 45, 59, 1);
+  }
+}
+//主题跟投
+.des-product{
+  background-color: #fff;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 10/@font;
+  .title{
+    .font-size(32);
+    color: #312D3B;
+    line-height: 44/@font;
+    position: relative;
+    padding: 0 15/@font;
+    border-bottom: 1px solid #EAEAEA;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 3/@font;
+      height: 14/@font;
+      background: #548BEE;
+      top: 14/@font;
+      left: 6/@font;
+    }
+  }
+ .content{
+   .font-size(28);
+   color: #312D3B;
+   line-height: 22/@font;
+   padding: 10/@font 15/@font;
+ }
+}
+//交易动态
+.dynamic-product{
+  background-color: #fff;
+  border-top: 1px solid #EAEAEA;
+  margin-bottom: 10/@font;
+  .title{
+    .font-size(32);
+    color: #312D3B;
+    line-height: 44/@font;
+    position: relative;
+    padding: 0 15/@font;
+    border-bottom: 1px solid #EAEAEA;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 3/@font;
+      height: 14/@font;
+      background: #548BEE;
+      top: 14/@font;
+      left: 6/@font;
+    }
+    .btn{
+      color: #548BEE;
+      float: right;
+      .font-size(28);
+    }
+  }
+  .list{
+    padding: 0 15/@font;
+    border-bottom: 1px solid #EAEAEA;
+  }
+ .list-top{
+   border-bottom: 1px dashed #E7EBEF;
+   padding: 5/@font 0;
+   line-height: 26/@font;
+   .font-size(32);
+   .name{
+    font-weight: 600;
+   }
+   .icon{
+     margin-top: 2/@font;
+     background: #F64D41;
+     border: 1px solid rgba(246,77,65,0.70);
+     border-radius: 2/@font;
+     width: 20/@font;
+     height: 20/@font;
+     text-align: center;
+     line-height: 21/@font;
+     font-size: 13/@font;
+     color: #FFFFFF;
+   }
+   .time{
+     .font-size(26);
+   }
+   .sell{
+     background: #43A649;
+     border: 1px solid #43A649;
+   }
+ }
+  .second{
+    color: rgba(49, 45, 59, 0.54);
+    //margin-top: 3/@font;
+    .font-size(32);
+  }
+  .list-bottom{
+    .font-size(28);
+    padding: 5/@font 0;
+    .name{
+      color: rgba(49, 45, 59, 0.54);
+      float: left;
+    }
+    .num{
+      color: #312D3B;
+      float: right;
+    }
+    p{
+      width: 45%;
+      line-height: 26/@font;
+    }
+  }
+}
+//当前持仓
+.warehouse-product{
+  background-color: #fff;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 10/@font;
+  .title{
+    .font-size(32);
+    color: #312D3B;
+    line-height: 44/@font;
+    position: relative;
+    padding: 0 15/@font;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 3/@font;
+      height: 14/@font;
+      background: #548BEE;
+      top: 14/@font;
+      left: 6/@font;
+    }
+    .btn{
+      color: #548BEE;
+      float: right;
+      .font-size(28);
+    }
+  }
+  .content{
+    overflow-x:auto ;
+    .font-size(28);
+    table{
+      min-width:375/@font;
+    }
+    .red{
+      color: #F64D41;
+    }
+    .blue{
+      color: #43A649;
+    }
+    tr{
+      min-width: 375/@font;
+      border-top: 1/@font solid #E7E7E7;
+      td:nth-child(1){
+        padding-left: 10/@font;
+      }
+      th:nth-child(1){
+        padding-left: 10/@font;
+      }
+    }
+    td{
+      padding: 8/@font 5/@font;
+      min-width: 72/@font;
+      p{
+        width: 100%;
+        height: 20/@font;
+        line-height: 20/@font;
+      }
+      p:first-child{
+        height: 20/@font;
+        line-height: 20/@font;
+      }
+    }
+    th{
+      padding:0 5/@font;
+      min-width:70px;
+      height: 40/@font;
+    }
+    .theader{
+      background: #FBFBFD;
+      border-bottom: 1px solid #EAEAEA;
+    }
+  }
+
+}
+//板块配置
+.deploy-product{
+  background-color: #fff;
+  border-top: 1px solid #EAEAEA;
+  .title{
+    .font-size(32);
+    color: #312D3B;
+    line-height: 44/@font;
+    position: relative;
+    padding: 0 15/@font;
+    border-bottom: 1px solid #EAEAEA;
+    &:before{
+      position: absolute;
+      content: "";
+      width: 3/@font;
+      height: 14/@font;
+      background: #548BEE;
+      top: 14/@font;
+      left: 6/@font;
+    }
+  }
+
+}
+
+
+
+.highcharts-credits{
+  display: none;
+}

@@ -1,0 +1,80 @@
+.f_rbao {
+    width: 835px;
+    float: left;
+    margin-top: 20px;
+}
+
+.f_rbao ul li {
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border-bottom: 1px solid #E7E7E7;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.f_rbao ul li:first-child {
+    margin-top: 0px;
+}
+
+.f_rbao ul li:hover {
+    box-shadow: 3px 3px 3px rgba(1, 1, 1, 0.1);
+    -moz-box-shadow: 3px 3px 3px rgba(1, 1, 1, 0.1);
+    -webkit-box-shadow: 3px 3px 3px rgba(1, 1, 1, 0.1);
+}
+
+.f_bao_l {
+    width: 275px;
+    height: 160px;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.f_bao_l img {
+    width: 100%;
+}
+
+.f_bao_r {
+    width: 540px;
+    float: left;
+}
+
+.f_bao_r h6 a {
+    height: 28px;
+    line-height: 28px;
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    font-weight: 900;
+    color: #312D3B;
+}
+
+.f_bao_r p {
+    width: 100%;
+    float: left;
+    margin-top: 11px;
+    line-height: 24px;
+    font-size: 14px;
+    color: rgba(49, 45, 59, 0.54);
+}
+
+.f_bao_r .f_bao_r_2 {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: rgba(49, 45, 59, 0.54);
+}
+
+.f_bao_r .f_bao_r_2 span {
+    margin-right: 3px;
+}
+

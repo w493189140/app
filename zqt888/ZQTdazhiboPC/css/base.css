@@ -1,0 +1,159 @@
+
+
+/*.h_by ul li {*/
+    /*float: left;*/
+/*}*/
+
+/*.h_by ul li a {*/
+    /*height: 70px;*/
+    /*line-height: 70px;*/
+    /*float: left;*/
+    /*font-size: 18px;*/
+    /*color: #fff;*/
+    /*padding: 0px 15px;*/
+    /*border-left: 1px solid rgba(1, 1, 1, 0);*/
+    /*border-right: 1px solid rgba(1, 1, 1, 0);*/
+/*}*/
+
+/*.h_by ul li a:hover, .h_by .h_on a {*/
+    /*background: #02569B;*/
+    /*color: #FCF122;*/
+    /*border-left: 1px solid #1273C3;*/
+    /*border-right: 1px solid #1273C3;*/
+/*}*/
+
+/*.h_by_f, .h_by_d {*/
+    /*float: right;*/
+/*}*/
+
+/*.h_by_f a {*/
+    /*float: left;*/
+    /*margin-top: 20px;*/
+    /*height: 30px;*/
+    /*line-height: 29px;*/
+    /*font-size: 17px;*/
+    /*color: #fff;*/
+    /*padding: 0px 14px;*/
+/*}*/
+
+/*.h_by_f i {*/
+    /*width: 1px;*/
+    /*height: 20px;*/
+    /*margin-top: 25px;*/
+    /*float: left;*/
+    /*background: #E7E7E7;*/
+/*}*/
+
+/*.h_by_f a:hover {*/
+    /*text-decoration: underline;*/
+/*}*/
+
+/*.h_by_d {*/
+    /*position: relative;*/
+/*}*/
+
+/*.h_by_da {*/
+    /*float: left;*/
+/*}*/
+
+/*.h_by_da span {*/
+    /*color: #fff;*/
+    /*font-size: 14px;*/
+    /*margin-right: 15px;*/
+/*}*/
+
+/*.h_by_da img {*/
+    /*width: 40px;*/
+    /*height: 40px;*/
+    /*border-radius: 50%;*/
+    /*-webkit-border-radius: 50%;*/
+    /*-moz-border-radius: 50%;*/
+    /*overflow: hidden;*/
+    /*float: right;*/
+    /*margin-top: 16px;*/
+/*}*/
+
+/*.h_by_db {*/
+    /*width: 160px;*/
+    /*display: none;*/
+    /*border: 1px solid #DDDDDD;*/
+    /*position: absolute;*/
+    /*z-index: 100;*/
+    /*top: 70px;*/
+    /*right: 0px;*/
+    /*box-shadow: 0 0 7px 0 rgba(49, 45, 59, 0.17);*/
+    /*-moz-box-shadow: 0 0 7px 0 rgba(49, 45, 59, 0.17);*/
+    /*-webkit-box-shadow: 0 0 7px 0 rgba(49, 45, 59, 0.17);*/
+    /*background: #FFFFFF;*/
+/*}*/
+
+/*.h_by_db a {*/
+    /*width: 100%;*/
+    /*height: 42px;*/
+    /*line-height: 40px;*/
+    /*color: #312D3B;*/
+    /*font-size: 14px;*/
+    /*padding-left: 20px;*/
+    /*border-bottom: 1px solid #ddd;*/
+    /*float: left;*/
+/*}*/
+
+/*.h_by_db a:hover {*/
+    /*background: #F7F7F7;*/
+/*}*/
+
+/*foot*/
+.footer {
+    width: 100%;
+    padding: 30px 0px;
+    background: #eeeeee;
+    color: #312D3B;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer p {
+    height: 36px;
+    line-height: 36px;
+    width: 1200px;
+    margin: auto;
+}
+
+.footer p em {
+    margin-left: 5px;
+}
+
+.footer p span {
+    margin-left: 15px;
+    padding-left: 30px;
+}
+
+.footer .footer_ico {
+    background: url("../images/hzheng2.png") no-repeat 591px 6px;
+}
+
+
+.nextpage {
+    padding: 20px 0;
+    height: 50px;
+    text-align: right;
+}
+
+.nextpage a {
+    border: 1px solid #bfbfbf;
+}
+
+.nextpage a, .nextpage span {
+    font-size: 12px;
+    color: #8d8d8d;
+    display: inline-block;
+    padding: 1px 9px;
+    margin: 0 3px;
+    border-radius: 3px;
+}
+
+.nextpage a.cur {
+    border: 1px solid #FF9000;
+    color: #fff;
+    background: #FF9000;
+}

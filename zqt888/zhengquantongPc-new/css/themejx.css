@@ -1,0 +1,131 @@
+/*主题情报站/精选*/
+.themej {
+    width: 835px;
+    float: left;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.themej ul li {
+    width: 410px;
+    float: left;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    overflow: hidden;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.themej ul li:nth-child(odd) {
+    margin-right: 15px;
+}
+
+.themej ul li h2 {
+    width: 100%;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.themej ul li h2 span {
+    float: left;
+    font-size: 14px;
+    color: rgba(49, 45, 59, 0.54);
+}
+
+.themej ul li h2 i {
+    height: 22px;
+    float: right;
+    padding: 0 11px;
+    border: 1px solid rgba(125, 171, 255, 0.70);
+    font-size: 12px;
+    color: rgba(125, 171, 255, 0.70);
+    line-height: 20px;
+}
+
+.themej_c {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.themej_c_l {
+    width: 120px;
+    float: left;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.themej_c_l h3 {
+    width: 100%;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 30px;
+    color: #F64D41;
+    letter-spacing: -0.48px;
+}
+
+.themej_c_l p {
+    font-size: 12px;
+    color: rgba(49, 45, 59, 0.38);
+}
+
+.themej_c_r {
+    float: left;
+    margin-top: 6px;
+    line-height: 33px;
+}
+
+.themej_c_r strong {
+    font-size: 24px;
+    color: #548BEE;
+    margin-right: 5px;
+}
+
+.themej_c_r em {
+    font-size: 22px;
+    color: #F64D41;
+}
+
+.themej_b {
+    width: 100%;
+    float: left;
+    border-top: 1px dashed #DDDDDD;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    height: 33px;
+    line-height: 22px;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow: hidden;
+    color: rgba(49, 45, 59, 0.54);
+    font-size: 15px;
+}
+
+.themej ul li:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

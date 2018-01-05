@@ -1,0 +1,402 @@
+@import "./less_base";
+@import "top1";
+.red{
+  color: #f00!important;
+}
+.green{
+  color: #9FE8BA!important;
+}
+.dark{
+  color: #312D3B;
+}
+html,body{
+  background-color: #f9fbfd;
+}
+.banner{
+  background:url("../images1/gegu-bg.png") no-repeat top center;
+  background-size: 100% auto;
+  height: 113/@font;
+  padding: 12/@font 0;
+  .time{
+    background-image: linear-gradient(-152deg, #4666F0 0%, #5E49FA 100%);
+    border-radius: 12/@font;
+    height: 24/@font;
+    line-height: 24/@font;
+    width: 130/@font;
+    color: #FFFFFF;
+    letter-spacing: -0.4px;
+    .font-size(24);
+    text-align: center;
+    margin-bottom: 6/@font;
+    margin-left: 30/@font;
+  }
+  .info{
+    width: 100%;
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      top: 10/@font;
+      width: 1px;
+      height: 40/@font;
+      background: rgba(255,255,255,0.5);
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    div{
+      width: 50%;
+      text-align: center;
+      color: #FFFFFF;
+      font-size: 22/@font;
+
+    }
+    .sum{
+      .font-size(24);
+      color: rgba(255,255,255,0.54);
+    }
+  }
+
+}
+/*banner下的内容*/
+.detail{
+  background-color: #fff;
+  //border-bottom: 1px solid #E7E7E7;
+  margin-bottom: 10/@font;
+  //height: 120/@font;
+  //padding: 5/@font;
+  .font-size(26);
+  text-align: center;
+  color: rgba(49,45,59,0.54);
+
+  .info{
+    padding: 10/@font 5/@font;
+    //height: 95/@font;
+    width: 100%;
+    border-bottom: 1px solid #E7E7E7;
+    .num{
+      .font-size(40);
+      font-weight: 600;
+      color: #312D3B;
+    }
+    li{
+      float: left;
+      width: 25%;
+      position: relative;
+      &:not(:nth-last-child(1)):before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        margin-top: -20/@font;
+        right: 0;
+        width: 2px;
+        height: 40/@font;
+        background-color: #e7e7e7;
+
+      }
+    }
+    .red-color{
+      color: #F64D41;
+      .num{
+        color: #F64D41;
+      }
+    }
+  }
+  .price{
+    //height: 74/@font;
+    padding: 10/@font 5/@font;
+    width: 100%;
+    .font-size(28);
+    li{
+      float: left;
+      width: 25%;
+      position: relative;
+      &:not(:nth-last-child(1)):before{
+        content: "";
+        position: absolute;
+        top: 50%;
+        margin-top: -13/@font;
+        right: 0;
+        width: 2px;
+        height: 26/@font;
+        background-color: #e7e7e7;
+      }
+    }
+    .num{
+      .font-size(32);
+      color: #312D3B;
+      font-weight: 600;
+    }
+  }
+ .btn {
+    background: #F9F9F9;
+   border-bottom: 1px solid #E7E7E7;
+    text-align: center;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    cursor: pointer;
+   .top {
+     display: inline-block;
+     transform: rotate(90deg);
+     -webkit-transform: rotate(90deg);
+   }
+   .down {
+     display: inline-block;
+     transform: rotate(-90deg);
+     -webkit-transform: rotate(-90deg);
+   }
+  }
+}
+
+/*推荐理由*/
+.reason{
+  background-color: #fff;
+  border-top: 1px solid #E7E7E7;
+  .title{
+    height: 44/@font;
+    padding: 8/@font 10/@font;
+    img{
+      height: 18/@font;
+      margin-top: 5/@font;
+    }
+    span{
+      display: inline-block;
+      padding-left: 26/@font;
+      background:url("../images1/icon-tj.png") no-repeat left top;
+      background-size: 22/@font 22/@font;
+    }
+  }
+  .content{
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    padding: 10/@font 15/@font;
+    .font-size(28);
+    color: rgba(-2147483648,-2147483648,-2147483648,0.54);
+    line-height: 24/@font;
+  }
+  .moreoh{
+    color:rgb(84, 139, 238); ;
+  }
+  .person{
+    background: #EDEDF1;
+    border-radius: 20/@font;
+    width: 270/@font;
+    height: 32/@font;
+    line-height: 32/@font;
+    text-align: center;
+    margin:0 auto 5/@font;
+  }
+  .tip{
+    .font-size(24);
+    line-height: 1.3;
+    padding: 10/@font;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    color: rgba(0,0,0,0.5);
+  }
+}
+/*买入前五*/
+.buy-top{
+  margin-top: 10/@font;
+  background-color: #fff;
+  border-bottom: 1px solid #E7E7E7;
+  .time{
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    padding-left: 10/@font;
+    height: 35/@font;
+    line-height: 35/@font;
+    .font-size(28);
+    color: rgba(49,45,59,0.54);
+  }
+  .title{
+    border-bottom: 1px solid #E7E7E7;
+    height: 44/@font;
+    padding: 8/@font 10/@font;
+    line-height: 28/@font;
+    span:nth-child(1){
+      .font-size(32);
+      color: #312D3B;
+      font-weight: 600;
+      padding-left: 26/@font;
+      background:url("../images1/wechat.png") no-repeat left center;
+      background-size: 22/@font 22/@font;
+    }
+    span:nth-child(2){
+      .font-size(26);
+      color: rgba(49,45,59,0.54);
+    }
+  }
+  .content{
+    .font-size(30);
+    color: rgba(49,45,59,0.54);
+  }
+  .t-title{
+    width: 35%;
+    tr:not(:nth-last-child(1)){
+      border-bottom: 1px solid #E7E7E7;
+    }
+    td{
+      padding :10/@font 10/@font 10/@font 13/@font;
+      height: 71/@font;
+      span{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display:-webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:2;
+      }
+    }
+    .current {
+      padding: 0 0.1rem;
+    }
+    .current span {
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      line-height: 1.2;
+      font-size: 0.8em;
+    }
+  }
+  .t-info{
+    width: 65%;
+    overflow-y: scroll;
+    table{
+      width:640/@font;
+    }
+    tr:not(:nth-last-child(1)){
+      border-bottom: 1px solid #E7E7E7;
+    }
+    td{
+      padding-left :10/@font;
+      height: 71/@font;
+    }
+    &::-webkit-scrollbar-track-piece {
+      background-color: rgba(0, 0, 0, 0);
+      border-left: 1px solid rgba(0, 0, 0, 0);
+    }
+    &::-webkit-scrollbar {
+      width: 3/@font;
+      height: 5/@font;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.3);
+      background-clip: padding-box;
+      min-height: 8/@font;
+    }
+  }
+  th{
+    padding-left :10/@font;
+    background: #FAFAFA;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    height: 46/@font;
+    line-height: 46/@font;
+  }
+}
+/*底部轮播图*/
+.recommend{
+  margin-top: 10/@font;
+  background-color: #fff;
+  height: 165/@font;
+  border-bottom: 1px solid #E7E7E7;
+  border-top: 1px solid #E7E7E7;
+  a{
+    display: block;
+    padding-bottom: 10/@font;
+    border-bottom: 1px solid #E7E7E7;
+  }
+  h3{
+    .font-size(28);
+    color: rgba(49,45,59,0.54);
+    padding: 0 10/@font;
+    height: 40/@font;
+    line-height: 40/@font;
+  }
+  .content{
+    padding: 0 10/@font;
+  }
+  .product{
+    width: 96/@font;
+    height: 80/@font;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    text-align: center;
+  }
+  .info{
+    width: 246/@font;
+    height: 80/@font;
+    .title{
+      .font-size(34);
+      color: #312D3B;
+      font-weight: 600;
+    }
+    .btn{
+      border: 1px solid #7DABFF;
+      border-radius: 100px;
+      width: 74/@font;
+      height: 24/@font;
+      line-height: 24/@font;
+      text-align: center;
+      color: #7DABFF;
+      .font-size(24);
+      float: right;
+    }
+    .txt{
+      .font-size(26);
+      color: rgba(49,45,59,0.54);
+      line-height: 28/@font;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .price{
+      .font-size(24);
+      color: rgba(49,45,59,0.54);
+      span{
+        .font-size(34);
+        color: #F64D41;
+        letter-spacing: -0.4px;
+        line-height: 20/@font;
+      }
+    }
+  }
+  .num{
+    font-size: 23/@font;
+    color: #F64D41;
+    letter-spacing: -0.35px;
+    line-height: 34/@font;
+    margin-top: 10/@font;
+  }
+  .name{
+    color: rgba(49,45,59,0.38);
+  }
+  .swiper-pagination-bullet {
+    width: 10/@font;
+    height: 10/@font;
+    display: inline-block;
+    border-radius: 5/@font;
+    background: #000;
+    opacity: .2;
+  }
+  .swiper-pagination-bullet-active {
+    width: 20/@font;
+  }
+}
+
+#returnBack {
+  border-radius: 0.43rem 0 0 0.43rem;
+  color: #fff;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  padding: 0px 0.13rem 0 0.41rem;
+  letter-spacing: 0.08rem;
+  font-size: 0.43rem;
+  position: fixed;
+  right: -1px;
+  bottom: 2.1rem;
+  z-index: 400;
+  background: rgba(1,1,1,0.5);
+  z-index: 999;
+}

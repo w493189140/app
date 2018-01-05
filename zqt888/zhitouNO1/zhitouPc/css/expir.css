@@ -1,0 +1,36 @@
+/*·þÎñÊ§Ð§*/
+.expir{
+    width: 100%;
+    float: left;
+    background: #f7f7f7;
+    border: 1px solid #dcdcdc;
+    margin-top: 20px;
+    padding: 40px 120px;
+    color: #302d34;
+}
+.exp_h1{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.expir p,.exp_h1{
+    width: 100%;
+    float: left;
+}
+.expir p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.expir p span,.expir p i,.expir p a{
+    padding: 0 5px;
+}
+.expir p i{
+    color: #e4696b;
+}
+.expir p a{
+    text-decoration: underline;
+    color: #6c89cd;
+}
+.exp_img{
+    margin-top: 25px;
+    float: left;
+}

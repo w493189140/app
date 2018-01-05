@@ -1,0 +1,16 @@
+//less 公共变量部分
+@font: 750rem;
+.font-size(@size) {
+  [data-dpr='1'] & {
+    font-size: round(@size/ 2) * 1px;
+  }
+  [data-dpr='2'] & {
+    font-size: @size*1px;
+  }
+  [data-dpr='3'] & {
+    font-size: round(@size * 3 / 2) * 1px;
+  }
+  [data-dpr='4'] & {
+    font-size: round(@size * 2) * 1px;
+  }
+}

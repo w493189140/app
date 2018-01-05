@@ -1,0 +1,494 @@
+/*弹层*/
+.pop_bj {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background: rgba(1, 1, 1, 0.5);
+    z-index: 11;
+    display: none;
+}
+
+.propup {
+    position: fixed;
+    z-index: 12;
+    top: 35%;
+    left: 50%;
+    background: #fff;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.popa {
+    width: 600px;
+    height: 373px;
+    margin-left: -300px;
+}
+
+.pop_h {
+    width: 100%;
+    padding: 0px 20px;
+    border-bottom: 1px solid #E7E7E7;
+    height: 50px;
+    line-height: 50px;
+}
+
+.pop_h span {
+    font-size: 16px;
+    color: #404040;
+}
+
+.pop_h i {
+    float: right;
+    color: #272727;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.pop_u {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    border-bottom: 1px solid #E7E7E7;
+    padding: 0px 8%;
+}
+
+.pop_u .pop_l {
+    width: 100%;
+    float: left;
+    margin-bottom: 35px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.pop_u .pop_l:first-child {
+    height: 22px;
+    line-height: 22px;
+}
+
+.pop_u .pop_l strong {
+    width: 44px;
+    float: left;
+    text-align: left;
+    margin-right: 20px;
+    font-size: 16px;
+    color: rgba(49, 45, 59, 0.54);
+}
+
+.pop_u .pop_l span {
+    font-size: 14px;
+    float: left;
+    color: #312D3B;
+    line-height: 20px;
+}
+
+.pop_l_i a {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    background: #F7F7F7;
+    border: 1px solid #E7E7E7;
+    padding: 0px 10px;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #312D3B;
+    cursor: pointer;
+}
+
+.pop_l_i .pop_l_on {
+    border: 2px solid #548BEE;
+    line-height: 30px;
+}
+
+.pop_l b {
+    float: left;
+    font-size: 24px;
+    color: #F64D41;
+}
+
+.pop_l_2 strong {
+    line-height: 36px;
+}
+
+.propup p {
+    width: 100%;
+    float: left;
+    padding: 0px 8%;
+    font-size: 12px;
+    color: rgba(49, 45, 59, 0.54);
+    margin: 15px 0px 30px 0px;
+}
+
+.pop_a a {
+    width: 84%;
+    float: left;
+    height: 52px;
+    margin: 10px 8% 0px;
+    line-height: 52px;
+    text-align: center;
+    background: #548BEE;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.popb {
+    width: 600px;
+    height: 232px;
+    margin-left: -300px;
+}
+
+.pop_d {
+    width: 100%;
+    float: left;
+    margin: 14px 0px 38px 0px;
+    font-size: 14px;
+    color: #312D3B;
+    line-height: 24px;
+}
+
+.pop_d i {
+    color: #f64d41;
+}
+
+.popb .pop_u {
+    border-bottom: none;
+    margin-top: 10px;
+}
+
+.popb .pop_u .pop_d {
+    margin-bottom: 20px;
+}
+
+.prop_top {
+    width: 100%;
+    height: 140px;
+    background: #f76b61 url("../images/time.png");
+    background-size: 100% 140px;
+    color: #fff;
+    position: relative;
+}
+
+.prop_top span {
+    width: 112px;
+    position: absolute;
+    left: 50%;
+    margin-left: -56px;
+    top: 69px;
+    font-size: 16px;
+    height: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.prop_top span em {
+    font-size: 72px;
+    margin: -10px 10px 0px 10px;;
+    color: #FFFFFF;
+    float: left;
+}
+
+.prop_top span i {
+    float: left;
+}
+
+.prop_tt {
+    width: 100%;
+    float: left;
+    padding: 0px 6%;
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #312D3B;
+}
+
+.prop_cen {
+    width: 100%;
+    float: left;
+    padding: 0px 6%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.prop_cen p {
+    font-size: 16px;
+    color: #312D3B;
+    margin-top: 2px;
+}
+
+.prop_err {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    z-index: 1;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    font-size: 23px;
+    color: #312D3B;
+    cursor: pointer;
+}
+
+.propfix {
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 500px;
+    height: 320px;
+}
+.popc{
+    height: 455px;
+}
+.pope{
+    height: 402px;
+}
+.popcent {
+    float: left;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    background: #fff;
+    height: 455px;
+}
+
+.prop_top2 {
+    background: #548bee url("../images/bg_t1.png");
+    width: 100%;
+    height: 90px;
+    background-size: 100% 90px;
+    color: #fff;
+}
+
+/*修改新增*/
+.prop_top2 span {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 20px 0px 0px 143px;
+}
+
+.prop_top2 span strong {
+    font-size: 15px;
+    float: left;
+    margin-left: -45px;
+}
+
+.prop_top2 span i {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    background: #fff;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #3e7ceb;
+    font-size: 21px;
+}
+
+.prop_top2 span em {
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 15px;
+}
+
+/*修改新增结束*/
+.prop_tt {
+    width: 100%;
+    float: left;
+    padding: 0px 6%;
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 16px;
+    color: #312D3B;
+}
+
+.popd .popcent {
+    height: 320px;
+}
+
+.pope .popcent {
+    height: 400px;
+}
+
+.prop_cen a {
+    width: 70%;
+    float: left;
+    margin: 30px 15% 0px 15%;
+    height: 52px;
+    line-height: 52px;
+    background: #F3BD4C;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.prop_top3 {
+    background-image: url("../images/bg_t2.png");
+}
+
+.prop_top3 span {
+    margin-top: 32px;
+    margin-left: 161px;
+}
+
+.prop_top3 span i {
+    color: #f3bd4c;
+}
+
+.pops {
+    width: 600px;
+    height: 373px;
+    margin-left: -300px;
+}
+
+.pop_renz {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.pop_int, .pop_inb, .pop_ins {
+    width: 100%;
+    float: left;
+    width: 500px;
+    margin: 0px 50px;
+}
+
+.pop_renz span {
+    width: 64px;
+    float: left;
+    margin-right: 1px;
+    text-align: left;
+    font-size: 16px;
+    color: rgba(49, 45, 59, 0.54);
+    height: 38px;
+    line-height: 38px;
+}
+
+.pop_int {
+    margin-bottom: 20px;
+}
+
+.pop_int input {
+    width: 434px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 15px;
+    padding: 0px 15px;
+    background: #F7F7F7;
+    border: 1px solid #DDDDDD;
+    color: rgba(49, 45, 59, 0.54);
+}
+
+.pop_inb {
+    margin-bottom: 20px;
+}
+
+.pop_inb span {
+    height: 32px !important;;
+    line-height: 32px !important;
+}
+
+.pop_inb_r {
+    width: 400px;
+    float: left;
+}
+
+.pop_inb_r p {
+    position: relative;
+    width: 90px;
+    padding: 0px;
+    margin: 0px 15px 0px 0px;
+    height: 32px;
+}
+
+.pop_inb_r p label {
+    width: 90px;
+    line-height: 32px;
+    height: 32px;
+    text-align: center;
+    position: absolute;
+    background: #F7F7F7;
+    border: 1px solid #E7E7E7;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #312D3B;
+}
+
+.pop_inb_r p label.por_on {
+    color: #548BEE;
+    border: 2px solid #548BEE;
+    line-height: 30px;
+}
+
+.pop_inb_r p input {
+    width: 90px;
+    height: 32px;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    filter: alpha(opacity=50);
+}
+
+.pop_inp {
+    width: 100%;
+    height: 17px;
+    line-height: 17px;
+    padding: 9px 0px 0px 50px !important;
+    border-top: 1px solid #E7E7E7;
+    font-size: 12px;
+    margin-top: 0px !important;
+    color: rgba(49, 45, 59, 0.54);
+}
+
+.pop_ins button {
+    background: #548BEE;
+    width: 100%;
+    font-size: 14px;
+    color: #FFFFFF;
+    height: 42px;
+    line-height: 42px;
+    float: left;
+    margin-top: 10px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.phone_txt {
+    width: 200px;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    color: #312D3B;
+    font-size: 16px;
+}

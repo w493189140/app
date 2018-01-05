@@ -1,0 +1,164 @@
+/*我的产品页*/
+.psidec {
+    width: 1120px;
+    position: fixed;
+    left: 50%;
+    margin-left: -560px;
+    bottom: 360px;
+    z-index: 11;
+}
+
+.psider {
+    position: absolute;
+    z-index: 22;
+    right: -58px;
+    width: 50px;
+}
+
+.psider * {
+    transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.psider ul li {
+    width: 50px;
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.psider ul li:first-child {
+    margin: 0;
+}
+
+.psider ul li div span {
+    width: 50px;
+    float: left;
+    height: 50px;
+    background: rgba(49, 45, 59, 0.17) url("../images/zhuye3.png") no-repeat 0 0;
+}
+
+.psider ul li div {
+    width: 50px;
+    float: left;
+    height: 50px;
+    overflow: hidden;
+}
+
+.psider ul li div p {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #548BEE;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding-top: 7px;
+    color: #FFFFFF;
+    float: left;
+}
+
+.psider ul li div:hover span {
+    margin-top: -50px;
+}
+
+.psider .p_ico_1 {
+    background: rgba(49, 45, 59, 0.17) url("../images/icon_fixed_vip.png") no-repeat 8px 8px;
+}
+
+.psider .p_ico_2 {
+    background-position: 8px -101px;
+}
+
+.psider .p_ico_3 {
+    background-position: 9px -167px;
+}
+
+.psider .sild_rx {
+    position: absolute;
+    left: -206px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    display: none;
+}
+
+.psider .sild_rx em {
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 15px;
+    background: #548BEE;
+    border: 1px solid #E8EEF4;
+    box-shadow: 0 0 4px 0 rgba(49, 45, 59, 0.07);
+    -moz-box-shadow: 0 0 4px 0 rgba(49, 45, 59, 0.07);
+    -webkit-box-shadow: 0 0 4px 0 rgba(49, 45, 59, 0.07);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    float: left;
+}
+
+.psider .sild_rx i {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 6px solid #548BEE;
+    border-bottom: 5px solid transparent;
+    float: right;
+    margin-top: 21px;
+    margin-left: -1px;
+}
+
+.frex:hover .sild_rx {
+    display: block;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+}
+
+.psider .sild_kf {
+    position: absolute;
+    left: -90px;
+    top: -28px;
+    display: none;
+}
+
+.psider .sild_kf em {
+    background: #548BEE;
+    border: 1px solid rgba(232, 238, 244, 0.27);
+    box-shadow: 0 0 4px 0 rgba(49, 45, 59, 0.07);
+    -webkit-box-shadow: 0 0 4px 0 rgba(49, 45, 59, 0.07);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 110px;
+    height: 118px;
+    text-align: center;
+    font-size: 12px;
+    color: #FFFFFF;
+    float: left;
+    padding-top: 16px;
+}
+
+.psider .sild_kf em img {
+    width: 70px;
+    height: 70px;
+}
+
+.psider .sild_kf i {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 6px solid #548BEE;
+    border-bottom: 5px solid transparent;
+    float: right;
+    margin-top: 50px;
+    margin-left: -1px;
+}
+/*新增*/
+.ftop{
+    display: none;
+}
+/*新增*/

@@ -1,0 +1,98 @@
+/*◊¢≤·*/
+.by_ind {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.by_ind input {
+    width: 170px;
+    float: left;
+    border: 1px solid #d9d9d9;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.f_by_zca {
+    height: 460px !important;
+}
+
+.f_by_zc .by_in, .f_by_zc .by_err {
+    margin-bottom: 10px !important;
+}
+
+.code_m {
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.code_m img {
+    width: 100px;
+    height: 40px;
+}
+
+.by_ind button {
+    width: 100px;
+    float: left;
+    height: 40px;
+    text-align: center;
+    background: #4d8dcb;
+    color: #fff;
+    line-height: 40px;
+    border: none;
+    margin-left: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.by_ine {
+    width: 100%;
+    float: left;
+    margin: 5px 0px 10px 0px;
+}
+
+.by_ine input {
+    float: left;
+    margin: 3px 5px 0px 0px;
+}
+
+.by_ine label {
+    color: #8d8d8d;
+}
+
+.by_ine a {
+    color: #87b1d9;
+}
+
+.by_ine a:hover {
+    text-decoration: underline;
+}
+
+/*’“ªÿ√‹¬Î*/
+.by_for .by_ind {
+    margin-bottom: 15px;
+}
+
+.by_in_ps {
+    position: relative;
+}
+
+.by_in_ps input {
+    padding-right: 50px;
+}
+
+.by_in_ps i {
+    color: #999;
+    width: 50px;
+    position: absolute;
+    text-align: center;
+    font-size: 26px;
+    right: 1px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}

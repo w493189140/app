@@ -1,0 +1,238 @@
+.breadrum{
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    margin-bottom: 10px;
+    color: rgba(49,45,59,0.54);
+    font-size: 12px;
+}
+.breadrum a{
+    font-size: 14px;
+    color: rgba(49,45,59,0.54);
+    margin: 0 10px;
+}
+.breadrum a:first-child{
+    margin-left: 0;
+}
+.breadrum a:hover{
+    text-decoration: underline;
+}
+.breadrum span{
+    font-size: 14px;
+    color: #312D3B;
+    margin: 0 10px;
+}
+.z_box{
+    width: 100%;
+    float: left;
+}
+.c_by{
+    border:1px solid #E7E7E7;
+}
+.flipb{
+    margin: 20px 0 !important;
+    padding-right: 20px;
+}
+.flipb .nextpage{
+    height: 22px;
+    padding: 0;
+}
+
+.secta table{
+    width: 100%;
+    float: left;
+    padding: 0;
+    border: 0;
+}
+.secta tbody{
+    width: 833px;
+    float: left;
+    margin-left: -2px;
+}
+.secta tr{
+    width: 100%;
+    float: left;
+    padding: 12px 0;
+    border-top: 1px solid #E7E7E7;
+}
+.secta tr td,.secta tr th{
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+}
+.secta tr td{
+    font-size: 14px;
+    color: #312D3B;
+}
+.secta tr th{
+    font-size: 14px;
+    font-weight: normal;
+    color: rgba(49,45,59,0.54);
+}
+.secta tr td p {
+    width: 100%;
+    height: 16px;
+    line-height: 16px;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    float: left;
+}
+.secta .thead{
+    padding: 14px 0;
+    background: #F5F5F5;
+}
+.secta tr td:nth-child(1),.secta tr th:nth-child(1){
+    margin-left: 30px;
+    width: 200px;
+    position: relative;
+}
+.secta .se_name1{
+    height: 22px;
+    font-size: 16px;
+    color: #312D3B;
+    font-weight: 900;
+    width: 140px;
+    line-height: 22px;
+}
+.secta .se_name2{
+    width:100%;
+    color: rgba(49,45,59,0.54);
+    margin-top: 3px;
+}
+.mai,.maier{
+    background: #F64D41;
+    border: 1px solid rgba(246,77,65,0.70);
+    border-radius: 2px;
+    width: 24px;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    position:absolute;
+    right: 35px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.maier{
+    background: #43A649;
+    border: 1px solid #43A649;
+}
+.secta tr td:nth-child(2),.secta tr th:nth-child(2){
+    width: 110px;
+    margin-left: 30px;
+}
+.secta tr td:nth-child(3),.secta tr th:nth-child(3){
+    width: 130px;
+    margin-left:10px;
+}
+.secta tr td:nth-child(4),.secta tr th:nth-child(4){
+    width: 110px;
+    margin-left: 20px;
+}
+.secta tr td:nth-child(5),.secta tr th:nth-child(5){
+    width: 150px;
+    margin-left: 30px;
+}
+.se_name3{
+    width: 100%;
+    margin-top: 5px;
+}
+.se_name4{
+    width: 100%;
+    margin-top: 5px;
+    color: rgba(49,45,59,0.54);
+}
+.secta{
+    border-bottom: 1px solid #E7E7E7;
+}
+.c_h1{
+    height: 56px;
+    line-height: 56px;
+    border-bottom:1px solid #E7E7E7;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #312D3B;
+    font-weight: 900;
+}
+.sorter{
+    padding: 10px 21px;
+}
+.soer_l{
+    margin-left: 6px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.soer_l li{
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    padding-right: 20px;
+    height: 30px;
+    color: rgba(49,45,59,0.54);
+    cursor: pointer;
+}
+.soer_l li:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 5px solid rgba(49,45,59,0.54);
+    position: absolute;
+    left: 63px;
+    top:10px;
+}
+.soer_l li:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid rgba(49,45,59,0.54);
+    position: absolute;
+    left: 63px;
+    top: 16px;
+}
+.soer_l .s_on{
+    color: #ffa800;
+}
+.soer_l .s_on:after {
+    border-bottom: 5px solid #ffa800;
+}
+.soer_l .s_on:before{
+    border-top: 5px solid #ffa800;
+}
+.soer_r{
+    height: 26px;
+    margin-top: 2px;
+}
+.soer_r input{
+    background: #FFFFFF;
+    border: 1px solid rgba(49,45,59,0.30);
+    width: 150px;
+    float: left;
+    height: 26px;
+    padding: 0 10px;
+    line-height: 26px;
+}
+.so_hr{
+    background: rgba(49,45,59,0.30);
+    width: 8px;
+    height: 2px;
+    float: left;
+    margin: 13px 9px;
+}
+.soer_r button{
+    background: rgba(49,45,59,0.54);
+    width: 70px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    cursor: pointer;
+}

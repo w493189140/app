@@ -1,0 +1,158 @@
+/*head*/
+.head {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background: #005DA9;
+    background-image: linear-gradient(-180deg, rgba(52, 157, 243, 0.44) 0%, rgba(0, 93, 169, 0.23) 100%);
+}
+
+.logo, .logo img {
+    width: 172px;
+    float: left;
+}
+
+.logo {
+    margin: 6px 50px 0px 0px;
+}
+
+.h_by ul li {
+    float: left;
+}
+
+.h_by ul li a {
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    padding: 0px 15px;
+    border-left: 1px solid rgba(1, 1, 1, 0);
+    border-right: 1px solid rgba(1, 1, 1, 0);
+}
+
+.h_by ul li a:hover, .h_by .h_on a {
+    background: #02569B;
+    color: #FCF122;
+    border-left: 1px solid #1273C3;
+    border-right: 1px solid #1273C3;
+}
+
+.h_by_f, .h_by_d {
+    float: right;
+}
+
+.h_by_f a {
+    float: left;
+    margin-top: 20px;
+    height: 30px;
+    line-height: 29px;
+    font-size: 17px;
+    color: #fff;
+    padding: 0px 14px;
+}
+
+.h_by_f i {
+    width: 1px;
+    height: 20px;
+    margin-top: 25px;
+    float: left;
+    background: #E7E7E7;
+}
+
+.h_by_f a:hover {
+    text-decoration: underline;
+}
+
+.h_by_d {
+    position: relative;
+    width: auto;
+    height: 70px;
+}
+
+.h_by_da {
+    float: left;
+}
+
+.h_by_da span {
+    color: #fff;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+.h_by_da img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    overflow: hidden;
+    float: right;
+    margin-top: 16px;
+}
+
+.h_by_db {
+    width: 160px;
+    display: none;
+    border: 1px solid #DDDDDD;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    box-shadow: 0 0 7px 0 rgba(49, 45, 59, 0.17);
+    -moz-box-shadow: 0 0 7px 0 rgba(49, 45, 59, 0.17);
+    -webkit-box-shadow: 0 0 7px 0 rgba(49, 45, 59, 0.17);
+    background: #FFFFFF;
+    z-index: 11;
+}
+
+.h_by_db a {
+    width: 100%;
+    height: 42px;
+    line-height: 40px;
+    color: #312D3B;
+    font-size: 14px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ddd;
+    float: left;
+}
+
+.h_by_db a:hover {
+    background: #F7F7F7;
+}
+
+/*foot*/
+.footer {
+    width: 100%;
+    padding: 20px 0px;
+    background: #e8e8e8;
+    color: #312D3B;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.footer p {
+    height: 30px;
+    line-height: 30px;
+    width: 1200px;
+    margin: auto;
+}
+
+.footer p em {
+    margin-left: 5px;
+}
+
+.footer p span {
+    margin-left: 15px;
+    padding-left: 30px;
+}
+
+.footer .footer_ico {
+    background: url("../images/hzheng2.png") no-repeat 591px 6px;
+}
+
+.min {
+    min-height:570px;
+    margin-bottom: 40px;
+}

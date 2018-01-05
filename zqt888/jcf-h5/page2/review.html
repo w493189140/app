@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="../lib/flexible.js"></script>
+    <script src="../lib/flexible_css.js"></script>
+    <title>课程回看</title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/review.css"/>
+</head>
+
+<body>
+<div class="layout">
+    <!--头部部分-->
+    <header  id="topFixed">
+        <a href="javascript:history.go(-1)" class="iconfont icon_right_arrow">返回</a>
+        <h3>课程回看</h3>
+    </header>
+    <div id="topZhan" class="top_zhanwei"></div>
+    <section class="header">
+        <!--video部分-->
+        <div class="video">
+            <!-- 把img替换flash video区-->
+            <img src="../images/flash.png"/>
+        </div>
+        <div class="content_nav">
+            <ul class="content_h clearfix">
+                <li class="f_left brief_h  now">简介</li>
+                <li class="f_left string"></li>
+                <li class="f_left message_h">留言</li>
+            </ul>
+        </div>
+        <p class="hint" style="display: none">想知道的问题得不到解决？<a class="green_color hint_remove" href="#">&nbsp;反馈意见</a></p>
+    </section>
+
+    <!--简介/留言content-->
+    <section class="content clearfix">
+        <div  id="wrapper" class="brief" style="display: block">
+            <div id="scroller"  class="clearfix">
+
+                <p>    从业24年之久的老法师张姚经过多年的实战经验、数据分析以及反复验证，独创龙虎榜战法，根据游资席位、机构席位（包括基金、券商自营、券商理财、社保、保险、QFII等）的交易数据，监测主力动向，揭秘个股异动，捕捉短线牛股。通过对交易席位的研究，深入了解主力的坐庄手法，轻而易举的抓住主力的动向。对其资金实力，操作手法，目标预期等都能了如指掌。让您在与主力同行的过程中获取超越主力的收益。让主力给您抬轿、送你红包，最后成为您的提款机。
+                </p>
+                <p>
+                    课程将结合实战与理论为您清晰解答以下疑难问题：如何理清交易席位、机构与游资操作手法、重要席位与资金进出、连续上榜及一字板、大宗交易中的奥秘、各路资金的表现。
+                </p>
+                <br/>
+             </div>
+        </div>
+        <div id="wrapper1" style="display: none" class="message">
+            <div id="scroller1"  class="clearfix">
+                <div class="tip_top"><img src="../images/jiazai.gif" alt=""/></div>
+                <ul>
+                    <li>
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                <p class="huifu">老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+                                <div class="reply">
+                                    <div>
+                                        <p class="title clearfix"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                        <p class="huifu">老师你字</p>
+                                    </div>
+                                    <span class="sanjiao"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                <p class="huifu">老地主</p>
+                                <div class="reply">
+                                    <div>
+                                        <p class="title clearfix"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                        <p class="huifu">老师你好，请问社保基金重入市对股市有什么影响，美联储加息对A股有何影响，虽然还有很多字</p>
+                                    </div>
+                                    <span class="sanjiao"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                <p class="huifu">老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="user clearfix">
+                            <div class="head_icon f_left"><img src="../images/touxiang.png" alt=""/></div>
+                            <div class="text f_right clearfix">
+                                <p class="title hui_color"><span class="f_left">魏征</span><span class="f_right">2016-07-17 07:30</span></p>
+                                <p class="huifu">老地主家的三儿子此处建仓的理由不是很充分，虽然还有很多字</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tip_bottom"><img src="../images/jiazai.gif" alt=""/></div>
+            </div>
+        </div>
+        <div style="display: none" class="zhanwei"></div>
+    </section>
+
+    <!--底部工具栏-->
+    <section style="display: none" class="foot">
+        <input class="f_left" placeholder="请登录，参与互动" type="text"/>
+        <button id="askinput" class="f_right">发送</button>
+    </section>
+</div>
+<script src="../js/isWeiXin.js"></script>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../lib/iscroll.js"></script>
+<script src="../js/review.js"></script>
+
+
+</body>
+
+</html>

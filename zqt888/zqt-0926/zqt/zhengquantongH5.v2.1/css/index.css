@@ -1,0 +1,237 @@
+/*我的产品*/
+.icon_right_arrow:before {
+  content: "\e6d9";
+}
+header {
+  width: 100%;
+  height: 1.2rem;
+  background-image: linear-gradient(0deg, #4C4C50 1%, #2F3032 100%);
+  background-color: #4c4c50;
+  line-height: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 888;
+}
+[data-dpr='1'] header {
+  font-size: 16px;
+}
+[data-dpr='2'] header {
+  font-size: 32px;
+}
+[data-dpr='3'] header {
+  font-size: 48px;
+}
+[data-dpr='4'] header {
+  font-size: 64px;
+}
+header .icon_right_arrow {
+  color: #fff;
+}
+[data-dpr='1'] header .icon_right_arrow {
+  font-size: 15px;
+}
+[data-dpr='2'] header .icon_right_arrow {
+  font-size: 30px;
+}
+[data-dpr='3'] header .icon_right_arrow {
+  font-size: 45px;
+}
+[data-dpr='4'] header .icon_right_arrow {
+  font-size: 60px;
+}
+header .icon_right_arrow:before {
+  color: #fff;
+  margin: 0 0.10666667rem 0 0.2rem;
+  margin-top: 0.04rem;
+  vertical-align: middle;
+}
+[data-dpr='1'] header .icon_right_arrow:before {
+  font-size: 22px;
+}
+[data-dpr='2'] header .icon_right_arrow:before {
+  font-size: 44px;
+}
+[data-dpr='3'] header .icon_right_arrow:before {
+  font-size: 66px;
+}
+[data-dpr='4'] header .icon_right_arrow:before {
+  font-size: 88px;
+}
+header h3 {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.top_zhanwei {
+  height: 1.2rem;
+}
+.img_box > img {
+  width: 100%;
+}
+.layout {
+  background-color: #f9fbfd;
+}
+section {
+  width: 100%;
+  height: 5.86666667rem;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  margin-top: 0.4rem;
+  background-color: #fff;
+  box-shadow: 0 0 13px 3px #e7e7e7;
+}
+.main {
+  width: 100%;
+  padding: 0.4rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+.main .img_box {
+  width: 4.8rem;
+}
+.main .text {
+  width: 4.10666667rem;
+  margin-top: -0.10666667rem;
+}
+.main .title {
+  color: #020202;
+  line-height: 0.48rem;
+  font-weight: 600;
+}
+[data-dpr='1'] .main .title {
+  font-size: 18px;
+}
+[data-dpr='2'] .main .title {
+  font-size: 36px;
+}
+[data-dpr='3'] .main .title {
+  font-size: 54px;
+}
+[data-dpr='4'] .main .title {
+  font-size: 72px;
+}
+.main .descript {
+  color: rgba(53, 57, 66, 0.54);
+  line-height: 0.53333333rem;
+  margin-top: 0.10666667rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  padding-right: 4px;
+  margin-right: -4px;
+}
+[data-dpr='1'] .main .descript {
+  font-size: 14px;
+}
+[data-dpr='2'] .main .descript {
+  font-size: 28px;
+}
+[data-dpr='3'] .main .descript {
+  font-size: 42px;
+}
+[data-dpr='4'] .main .descript {
+  font-size: 56px;
+}
+.toll {
+  padding: 0.64rem 0.4rem 0;
+  position: relative;
+  color: rgba(49, 45, 59, 0.54);
+  line-height: 0.69333333rem;
+}
+[data-dpr='1'] .toll {
+  font-size: 12px;
+}
+[data-dpr='2'] .toll {
+  font-size: 24px;
+}
+[data-dpr='3'] .toll {
+  font-size: 36px;
+}
+[data-dpr='4'] .toll {
+  font-size: 48px;
+}
+.toll .time {
+  position: absolute;
+  height: 0.53333333rem;
+  line-height: 0.53333333rem;
+  top: -0.26666667rem;
+  left: 0;
+  background-color: #fff;
+  color: rgba(49, 45, 59, 0.38);
+  padding-left: 0.4rem;
+  padding-right: 0.13333333rem;
+}
+.toll strong {
+  color: #312D3B;
+  margin-top: -0.02666667rem;
+}
+[data-dpr='1'] .toll strong {
+  font-size: 12px;
+}
+[data-dpr='2'] .toll strong {
+  font-size: 24px;
+}
+[data-dpr='3'] .toll strong {
+  font-size: 36px;
+}
+[data-dpr='4'] .toll strong {
+  font-size: 48px;
+}
+.toll .ticker {
+  vertical-align: middle;
+}
+[data-dpr='1'] .toll .ticker {
+  font-size: 14px;
+}
+[data-dpr='2'] .toll .ticker {
+  font-size: 28px;
+}
+[data-dpr='3'] .toll .ticker {
+  font-size: 42px;
+}
+[data-dpr='4'] .toll .ticker {
+  font-size: 56px;
+}
+.toll span {
+  display: inline-block;
+}
+.toll p > span:nth-child(1) {
+  width: 3.6rem;
+  position: relative;
+}
+.toll p > span:nth-child(1):before {
+  content: "";
+  width: 1px;
+  height: 0.26666667rem;
+  background-color: rgba(49, 45, 59, 0.54);
+  position: absolute;
+  top: 0.21333333rem;
+  right: 0.16rem;
+}
+.toll button {
+  color: #FFFFFF;
+  background: #548BEE;
+  box-shadow: 0 3px 12px 0 rgba(67, 149, 255, 0.4);
+  border-radius: 2.66666667rem;
+  width: 2.45333333rem;
+  height: 0.85333333rem;
+  line-height: 0.85333333rem;
+  margin-top: 0.29333333rem;
+}
+[data-dpr='1'] .toll button {
+  font-size: 14px;
+}
+[data-dpr='2'] .toll button {
+  font-size: 28px;
+}
+[data-dpr='3'] .toll button {
+  font-size: 42px;
+}
+[data-dpr='4'] .toll button {
+  font-size: 56px;
+}

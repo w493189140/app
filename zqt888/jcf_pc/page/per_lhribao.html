@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>龙虎榜日报</title>
+    <link href="../css/pcreset.css" rel="stylesheet" type="text/css">
+    <link href="../css/base.css" rel="stylesheet" type="text/css">
+    <link href="../css/user_pr.css" rel="stylesheet" type="text/css">
+    <link href="../css/pro_list.css" rel="stylesheet" type="text/css">
+    <link href="../css/flip.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--head顶部导航栏-->
+<div class="min">
+<div class="head">
+    <div class="h_by w">
+        <div class="logo"><a href="#"><img src="../images/zqt_logo.png" alt="logo"> </a></div>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">VIP 直播室</a></li>
+            <li class="h_on"><a href="#">证券通产品</a></li>
+            <li><a href="#">视讯</a></li>
+            <li><a href="#">关于我们</a></li>
+        </ul>
+        <!--未登录-->
+        <div class="h_by_f"><a href="#">登录</a><i></i><a href="#">注册</a></div>
+        <!--已登录-->
+        <div class="h_by_d" style="display:none;">
+            <div class="h_by_da"><span>呆呆是只猫</span><img src="../images/user.png"></div>
+            <div class="h_by_db">
+                <a href="#">我的产品</a>
+                <a href="#">我的订单</a>
+                <a href="#">修改资料</a>
+                <a href="#">使用帮助</a>
+                <a href="#">退出登录</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--个人中心-->
+<div class="main w">
+    <!--左侧栏-->
+    <div class="side_left">
+        <div class="user">
+            <div><img src="../images/user.png"></div>
+            <p>呆呆是只猫</p>
+            <span><a href="#">退出登录 <i>></i></a></span>
+        </div>
+        <ul>
+            <li><a>我的主页<i class="iconfont">&#xe6b1;</i></a></li>
+            <li><a class="u_on user_click">我的产品<i class="iconfont">&#xe6b1;</i></a>
+                <div class="user_l_li" style="display: block;">
+                    <a class="th_on">解密龙虎榜<i class="iconfont">&#xe6b1;</i></a>
+                    <a>主题情报站<i class="iconfont">&#xe6b1;</i></a>
+                </div></li>
+            <li><a>我的订单<i class="iconfont">&#xe6b1;</i></a></li>
+            <li><a>修改密码<i class="iconfont">&#xe6b1;</i></a></li>
+        </ul>
+    </div>
+    <!--右侧栏-我的产品-->
+    <div class="side_right">
+        <div class="chpin_h"><span>您已获得龙虎榜VIP特权，有效期截止：<i>2017-05-07</i> 请在有效期前享受服务。</span></div>
+
+        <div class="chpin_t">
+            <ul>
+                <li>
+                    <div class="chpin_t_1"><span class="chpin_t_m1"></span></div>
+                    <em>全部产品</em>
+                </li>
+                <li>
+                    <div class="chpin_t_1"><span class="chpin_t_m2"></span><i>8</i></div>
+                    <em>龙虎精选</em>
+                </li>
+                <li class="chpin_t_on">
+                    <div class="chpin_t_1"><span class="chpin_t_m3"></span><i>8</i></div>
+                    <em>龙虎日报</em>
+                </li>
+                <li>
+                    <div class="chpin_t_1"><span class="chpin_t_m4"></span><i>8</i></div>
+                    <em>龙虎课程</em>
+                </li>
+                <li>
+                    <div class="chpin_t_1"><span class="chpin_t_m5"></span><i>8</i></div>
+                    <em>龙虎私享</em>
+                </li>
+            </ul>
+        </div>
+<!--龙虎榜日报-->
+        <div class="f_rbao clearfix">
+            <ul>
+<li>
+    <div class="f_bao_l"><a href="#"><img src="../images/class-demo.png"></a> </div>
+    <div class="f_bao_r">
+        <h6><a href="#">龙虎榜实战训练营</a></h6>
+        <p class="f_bao_r_1">5月11日星期四，沪深两市再度大幅低开，沪指不仅跌破前期低点3044 29点，并且一度考验3000点大关，最低跌至3016 53点，虽然大盘全线下挫，但是上海证券通资深投顾刘益良老师，于5月9日盘中提示买入的博深工具（002282）却逆势大涨，截止目前已经封死涨停板！</p>
+        <div class="f_bao_r_2"><span>2017-05-11 14:17</span><span>推荐</span></div>
+    </div>
+</li>
+                <li>
+                    <div class="f_bao_l"><a href="#"><img src="../images/class-demo.png"></a> </div>
+                    <div class="f_bao_r">
+                        <h6><a href="#">龙虎榜实战训练营</a></h6>
+                        <p class="f_bao_r_1">5月11日星期四，沪深两市再度大幅低开，沪指不仅跌破前期低点3044 29点，并且一度考验3000点大关，最低跌至3016 53点，虽然大盘全线下挫，但是上海证券通资深投顾刘益良老师，于5月9日盘中提示买入的博深工具（002282）却逆势大涨，截止目前已经封死涨停板！</p>
+                        <div class="f_bao_r_2"><span>2017-05-11 14:17</span><span>推荐</span></div>
+                    </div>
+                </li>
+            </ul>
+</div>
+        <!--翻页-->
+        <div id="page" class="flip">
+            <div class="nextpage">
+                <a class="prvepage" href="javascript:void(0)">&lt;上一页</a>
+                <a class="prvepage" href="javascript:void(0)">1</a>
+                <!--<a class="prvepage" href="javascript:void(0)">2</a>-->
+                <!--<a class="cur" href="javascript:void(0)">3</a>-->
+                <a class="prvepage" href="javascript:void(0)">4</a>
+                <a class="prvepage" href="javascript:void(0)">5</a>
+                <span>...</span>
+                <a class="prvepage" href="javascript:void(0)">12</a>
+                <a class="prvepage" href="javascript:void(0)">下一页&gt;</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!--底部栏-->
+<div class="footer">
+    <p>证券内容提供：上海证券通投资资讯科技有限公司（中国证监会核发证书编号：ZX0112），所载文章、数据仅供参考，据此入市，风险自负</p>
+    <p>客服电话：021-25055575<em>021-25055571</em> 投诉电话：021-34611119 地址：上海市杨浦区国权路98号国阳大厦7楼</p>
+    <p class="footer_ico">ICP证：沪ICP备14046450号-3<span>沪公网安备 31011002001832号</span></p>
+    <p>© 2016-2017 Zqt888.cn 版权所有</p>
+</div>
+
+<script src="../lib/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="../js/basej.js" type="text/javascript"></script>
+</body>
+</html>

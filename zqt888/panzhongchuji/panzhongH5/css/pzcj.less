@@ -1,0 +1,246 @@
+@import "less_base";
+@font: 75rem;
+.main{
+  width: 100%;
+  position: relative;
+  img{
+    width: 100%;
+    float: left;
+  }
+  .mg1{
+    margin-top: -2px;
+  }
+}
+.box{
+  width: 100%;
+  position: relative;
+  float: left;
+}
+.box1{
+  margin-top: -1px;
+}
+.gogo{
+  position: absolute;
+  width: 267/@font;
+  height: 68/@font;
+  left: 50%;
+  margin-left: -133/@font;
+  bottom: 40/@font;
+}
+.buy-btn{
+  position: absolute;
+  width: 500/@font;
+  height: 200/@font;
+  left: 50%;
+  margin-left: -250/@font;
+  z-index: 99;
+}
+.zhanji{
+  position: absolute;
+  width: 520/@font;
+  left: 50%;
+  margin-left: -260/@font;
+  top: 280/@font;
+}
+.zbx{
+  width: 100%;
+  float: left;
+  background: #e2e1e7;
+  margin-bottom: 37/@font;
+}
+.cn_top{
+  height: 294/@font;
+  position: relative;
+  width: 100%;
+  float: left;
+  img{
+    height: 294/@font;
+    width: 100%;
+  }
+  i{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    height: 41/@font;
+
+    line-height: 41/@font;
+    .font-size(20);
+    position: absolute;
+    text-align: center;
+    padding: 0 11/@font;
+    z-index: 9;
+  }
+  .name1{
+    top: 14/@font;
+    left:14/@font;
+  }
+  .name2{
+    top: 14/@font;
+    right:14/@font;
+  }
+}
+.cn_tn{
+  width: 100%;
+  float: left;
+  h3{
+    height: 84/@font;
+    line-height: 83/@font;
+    border-bottom: 1px solid #f2f2f2;
+    float: left;
+    color: #44414a;
+    padding: 0 30/@font;
+    .font-size(30);
+    width: 100%;
+  }
+}
+.cn_tt{
+  padding:18/@font 0/@font;
+  width: 100%;
+  float: left;
+  .cn_tl{
+    width: 40%;
+    text-align: center;
+    float: left;
+    .cn_p1{
+      color:#f54b4b;
+      .font-size(36);
+      font-weight: 600;
+      height: 36/@font;
+      line-height: 36/@font;
+      width: 100%;
+      float: left;
+    }
+    .cn_p2{
+      .font-size(18);
+      color: #98979d;
+      float: left;
+      width: 100%;
+      margin-top: 10/@font;
+    }
+  }
+  .cn_tr{
+    float: right;
+    width:59%;
+    line-height: 34/@font;
+    color: #292836;
+    .font-size(24);
+    text-align: left;
+  }
+}
+.lhby{
+  position: absolute;
+  width: 410/@font;
+  top: 300/@font;
+  left: 55/@font;
+  img{
+    width: 403/@font;
+    height: 226/@font;
+    float: left;
+    -webkit-box-shadow: 4px 4px 1px -1px rgba(1,1,1,0.25);
+  }
+  p{
+    color: #ab9893;
+    float: left;
+   line-height: 36/@font;
+    .font-size(24);
+    margin-top: 24/@font;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp: 16;
+    -webkit-box-orient:vertical;
+  }
+  .teacher-zy{
+    width: 180/@font;
+    height: 320/@font;
+    //background-color: rgba(250,250,250,0.5);
+    position: absolute;
+    top: -20/@font;
+    right: -230/@font;
+  }
+  .teacher-lls{
+    width: 180/@font;
+    height: 390/@font;
+    //background-color: rgba(250,250,250,0.5);
+    position: absolute;
+    top: 470/@font;
+    right: -230/@font;
+  }
+}
+.box .grade-img{
+  width: 100%;
+  height: 1180/@font;
+}
+.qr-box{
+  width: 180/@font;
+  height: 250/@font;
+  position: absolute;
+  top: -140/@font;
+  right: 30/@font;
+  text-align: center;
+  color: #fff;
+
+  p{
+    float: left;
+    margin-top: 10/@font;
+    width: 100%;
+  }
+}
+
+.mask{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+
+
+
+  .content{
+    width: 680/@font;
+    position: absolute;
+    top: 310/@font;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #f7f7f7;
+    border-radius: 12/@font;
+    padding: 25/@font;
+    .font-size(28);
+    line-height: 40/@font;
+  }
+  .title{
+    font-weight: 600;
+    .font-size(30);
+  }
+  .text{
+    margin: 15/@font 0;
+    color:rgba(60, 60, 62, 0.7);
+  }
+  .close-btn{
+    width: 50/@font;
+    height: 50/@font;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    line-height: 48/@font;
+    background: #fff;
+    position: absolute;
+    font-size: 48/@font;
+    top: -70/@font;
+    right: 20/@font;
+    &:before{
+      content: "";
+      position: absolute;
+      top:52/@font;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 6/@font;
+      height: 36/@font;
+      background: #fff;
+      z-index: -1;
+    }
+  }
+  }

@@ -1,0 +1,137 @@
+@import "less_base";
+@import "top1";
+@font: 37.5rem;
+.icon_delete:before { content: "\e69a"}
+body, html {
+  background-color: #f9fbfd;
+}
+.layout{
+  overflow: hidden;
+}
+.tab_top {
+  width: 100%;
+  height: 44/@font;
+
+  .font-size(32);
+  color: rgba(49, 45, 59, 0.54);
+  border-bottom: 1/@font solid #DFDFDF;
+  padding: 0 10/@font;
+  li {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    line-height: 42/@font;
+  }
+  .current {
+    color: #548BEE;
+    border-bottom: 2/@font solid #548BEE;
+  }
+}
+
+.tab_content {
+  .item {
+    width: 375/@font;
+    padding: 10/@font 15/@font 0;
+    border-top: 1/@font solid #E7E7E7;
+    border-bottom: 1/@font solid #E7E7E7;
+    background-color: #fff;
+    position: relative;
+    margin-bottom: 10/@font;
+  }
+  .content{
+    padding-bottom: 8/@font;
+    border-bottom: 2/@font solid #e7e7e7;
+  }
+  .img_box {
+    width: 130/@font;
+    position: relative;
+    img {
+      width: 100%;
+      height: 73/@font;
+    }
+  }
+  .text {
+    width: 205/@font;
+    .font-size(28);
+  }
+  .title{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #312D3B;
+    .font-size(34);
+  }
+  .teacher{
+    color: rgba(49,45,59,0.54);
+    line-height: 30/@font;
+  }
+  .price{
+    color: #F64D41;
+  }
+  .order_state{
+    height: 44/@font;
+    line-height: 44/@font;
+    .font-size(26);
+    span:nth-child(1){
+      color: rgba(49,45,59,0.38);
+    }
+    span:nth-child(2){
+      width: 80/@font;
+      height: 24/@font;
+      margin-top: 10/@font;
+      border-radius: 12/@font;
+      line-height: 24/@font;
+      text-align: center;
+    }
+    .success{
+      color: #548BEE;
+      border: 2px solid #548BEE;
+
+    }
+    .fail{
+      color: #F64D41;
+      border: 2px solid #F64D41;
+    }
+  }
+  .pending-list,.completed-list{
+    display: none;
+  }
+  .line-scroll-wrapper{
+    position: relative;
+  }
+  .line-btn-delete{
+    width: 74/@font;
+    height: 142/@font;
+    background-color: #F64D41;
+  }
+  .line-scroll-wrapper{
+    width:450/@font ;
+    button{
+        font-size: 15/@font;
+      color: #fff;
+      text-align: center;
+      width: 100%;
+      padding-top: 40/@font;
+    }
+    .iconfont:before{
+      font-size:44/@font;
+      display: block;
+
+    }
+  }
+  .empty{
+    width: 100/@font;
+    margin: 50/@font auto 0;
+    img{
+      width: 100%;
+    }
+    p{
+      text-align: center;
+      .font-size(28);
+      color: rgba(39,39,39,0.38);
+    }
+  }
+}
+
+
+

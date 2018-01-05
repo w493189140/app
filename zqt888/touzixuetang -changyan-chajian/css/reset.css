@@ -1,0 +1,23 @@
+﻿body,div,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,button,input,textarea,a,i,em,b,fieldset,form,label,legend{margin:0;padding:0;}
+body{font-family: "Microsoft YaHei" ,"Helvetica Neue","Helvetica","Arial","sans-serif";font-size:16px;-webkit-user-select: none;-webkit-tap-highlight-color:transparent;}
+ol,ul{list-style:none;}
+input,button,textarea,select{font-family: "Microsoft YaHei" ,"Helvetica Neue","Helvetica","Arial","sans-serif";font-size:16px;outline:none;border:none;-webkit-appearance: none;background: transparent;}
+a,a:hover, a:visited, a:link, a:active{text-decoration:none;color: #272727;}
+img{border:0;vertical-align:middle;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+i,em{font-style: normal;}
+b{font-weight: normal;}
+textarea{resize: none;}
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+*:before,*:after{-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+
+.f_left {
+  float: left;
+}
+.f_right {
+  float: right;
+}
+.img_box>img{
+  width: 100%;
+}

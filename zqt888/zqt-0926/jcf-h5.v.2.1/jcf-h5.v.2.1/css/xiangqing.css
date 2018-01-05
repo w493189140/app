@@ -1,0 +1,227 @@
+.icon_right_arrow:before {
+    content: "\e6d9";
+}
+header {
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(0deg, #4C4C50 1%, #2F3032 100%);
+    background-color: #4a4a4a;
+    height: 45px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    padding: 0px 10px;
+    height: 44px;
+    line-height: 44px;
+    z-index: 20;
+    color: #fff;
+}
+
+header h3 {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 44px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header a {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+a:visited{
+    color: #fff;
+}
+.top_zhanwei {
+    height: 45px;
+}
+a {
+    display: block;
+}
+.layout {
+    background-color: #f9fbfd;
+}
+.daily {
+    width: 100%;
+    height: 140px;
+    padding: 0 3%;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+.daily .title {
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.daily .title:before {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -5px;
+    width: 2px;
+    height: 12px;
+    background-color: #548BEE;
+}
+.daily .title .name {
+    color: #548BEE;
+    font-size: 16px;
+}
+.daily .title .change-time {
+    color: rgba(49, 45, 59, 0.54);
+    float: right;
+    font-size: 12px;
+}
+
+
+
+.daily .list {
+    width: 23%;
+    height: 80px;
+    background: #F9FBFD;
+    border: 1px solid #E7E7E7;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1.5%;
+}
+.daily .list h3 {
+    color: #666;
+    font-weight: 600;
+    line-height: 48px;
+    font-size: 13px;
+}
+.daily .list p {
+    background: #FEE1E0;
+    border: 1px solid #F64E41;
+    color: #F64E41;
+    border-radius: 14px;
+    width: 66px;
+    height: 25px;
+    line-height:25px;
+    margin: auto;
+    font-size: 12px;
+    margin-top: -8px;
+}
+.daily .list .down {
+    background: #E1ECD9;
+    border: 1px solid #4C8E1C;
+    color: #4C8E1C;
+}
+.daily .lists{
+    /*overflow-x: auto;*/
+    height: 90px;
+}
+.daily .lists ul {
+    white-space: nowrap;
+}
+.daily .current {
+    border: 1px solid #4A90E2;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+.daily .current:after {
+    content: "";
+    position: absolute;
+    width:10px;
+    height:10px;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #F9FBFD;
+    border-top: 1px solid #4A90E2;
+    border-left: 1px solid #4A90E2;
+    transform: rotate(-135deg);
+}
+.content .title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #E5EBF8;
+    padding: 0 10px;
+    color: #4A90E2;
+    font-size: 17px;
+}
+.content .info {
+    font-size: 12px;
+    padding: 10px;
+}
+.better {
+    padding-bottom: 50px;
+}
+.better .title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #E5EBF8;
+    padding: 0 10px;
+    color: #4A90E2;
+    font-size: 17px;
+}
+.better .info {
+    padding: 0 10px;
+    width: 100%;
+}
+.better .list {
+    padding: 10px 0;
+    float: left ;
+    width: 50%;
+}
+.better .name {
+    font-size: 14px;
+    line-height: 24px;
+    color: #3C3C3E;
+    float: left;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+.better .num {
+    float: left;
+    font-size: 12px;
+}
+.better .num span {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #F76147;
+    text-align: center;
+    width: 65px;
+}
+.better .num span:nth-child(1) {
+    border-radius:12px 0 0 14px;
+    border-right: 0;
+}
+.better .num span:nth-child(2) {
+    background: #FEE1E0;
+    border-radius: 0 12px 12px 0;
+}
+.better .down span:nth-child(1) {
+    background: #E1ECD9!important;
+    border-color: #4C8E1C!important;
+    color: #4C8E1C!important;
+}
+
+
+    .better .list{
+        text-align: center;
+    }
+    .better .name{
+        float: none;
+    }
+    .better .num{
+        float: none;
+        display: inline-block;
+    }
+
+
+    .daily .list p{
+        width: 62px;
+    }

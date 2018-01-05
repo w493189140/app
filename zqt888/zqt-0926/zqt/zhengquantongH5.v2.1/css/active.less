@@ -1,0 +1,302 @@
+@import "less_base";
+@import "top1";
+.icon-view:before {
+  content: "\e6f9";
+}
+.icon_success:before { content: "\e6f0"}
+.layout{
+  background-color: #f4ab15;
+}
+.moreoh{
+  color: #548BEE;
+}
+.title>img,.img_box>img{
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 800/@font;
+  > img {
+    width: 100%;
+  }
+
+}
+section{
+  width: 345/@font;
+  margin: 0 auto;
+  //box-shadow: 0 2px 17px 10px #ECA223;
+  .content{
+    background-color: #fff;
+  }
+}
+section>.title{
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 -7px 28px -9px #ECA223;
+  float: left;
+  background-color: #fff;
+}
+//课程类型
+
+.style {
+  margin-top: -170/@font;
+  .style_c{
+   // padding: 0 20/@font;
+    margin: auto;
+    width: 345/@font;
+    height: 518/@font;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    border-radius: 10/@font 10/@font 0 0 ;
+  }
+  .content_top{
+    height: 170/@font;
+    padding-top: 20/@font;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  .name{
+    .font-size(40);
+    color: #312D3B;
+    letter-spacing: 4.29px;
+  }
+  .price{
+    color:#FFB901;
+    font-size:24/@font ;
+    font-weight: 600;
+  }
+  .price_text{
+    font-size: 50/@font;
+
+  }
+  .describe{
+    .font-size(36);
+    color: #312D3B;
+    line-height: 30/@font;
+  }
+  .content{
+    p{
+      line-height: 60/@font;
+      .font-size(28);
+      height: 60/@font;
+      color: rgba(49,45,59,0.54);
+    }
+    .icon{
+      display: inline-block;
+      width: 150/@font;
+      .img_box{
+        margin: auto;
+        width: 80/@font;
+      }
+    }
+    .title{
+      .font-size(36);
+      color: #312D3B;
+      line-height: 40/@font;
+    }
+  }
+
+  .button{
+    width: 245/@font;
+    height: 52/@font;
+    line-height: 52/@font;
+    position: absolute;
+    bottom: 45/@font;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #FFB901;
+    box-shadow: 0 3px 12px 0 #b5a486;
+    border-radius: 100px;
+    font-size: 20/@font;
+    color: #fff;
+    letter-spacing: 4px;
+  }
+
+}
+
+
+/*四大优势*/
+.advantage{
+  .content{
+    padding: 25/@font 0;
+  }
+}
+
+//课程特色
+.introduce{
+  .content{
+    padding: 0 15/@font 25/@font;
+    .font-size(30);
+    color: rgba(49,45,59,0.70);
+    p{
+      text-indent: 2em;
+      line-height: 1.5;
+    }
+  }
+}
+
+
+/*课程简介*/
+.description{
+  .content{
+    padding: 10/@font;
+    .font-size(30);
+    .text{
+      padding: 10/@font 0 20/@font;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+
+/*老师简介*/
+.teacher{
+  padding-bottom: 76/@font;
+  .content{
+    padding: 10/@font;
+    border-radius: 0 0 10/@font 10/@font;
+    .font-size(30);
+    .text{
+      padding: 10/@font 0 20/@font;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
+/*底部工具栏*/
+.foottoll{
+  width: 100%;
+  height: 52/@font;
+  position: fixed;
+  bottom: 0;
+  z-index: 888;
+  background-color: #fff;
+  button{
+    .font-size(36);
+    text-align: center;
+    line-height: 52/@font;
+    height: 100%;
+  }
+  .btn_buy{
+    width: 100%;
+    background: #548BEE;
+    color: #fff;
+  }
+  .left{
+    width: 32%;
+    color: #312D3B;
+    background: #FFFFFF;
+    box-shadow: 0 0 0 0 #D7D7D7;
+  }
+  .right{
+    width: 68%;
+    background: #548BEE;
+    color: #fff;
+  }
+}
+/*购买弹出层*/
+.model{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,0.7);
+  top: 0;
+  z-index: 889;
+}
+
+.content_model{
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0px;
+  .font-size(32);
+  .title{
+    line-height: 45/@font;
+    border-bottom: 1px solid #ccc;
+    height: 50/@font;
+    padding: 0 15/@font;
+    .font-size(32);
+    a{
+      font-size: 30/@font;
+      color:rgba(49,45,59,0.54);
+    }
+  }
+  .period {
+    height: 94/@font;
+    margin:0 15/@font;
+    padding: 0;
+    border-bottom: 1px solid #ccc;
+    .class{
+      width: 300/@font;
+    }
+    .number{
+      line-height: 30/@font;
+      text-align: center;
+      display: inline-block;
+      background-color: #f7f7f7;
+      border: 1/@font solid #ccc;
+      border-radius: 2.5/@font;
+      width: 140/@font;
+      height:33/@font;
+      .font-size(28);
+      margin-top: 10/@font;
+      margin-right: 4/@font;
+    }
+    .now{
+      background: #F3F5F8;
+      border: 1px solid #548BEE;
+      color: #548BEE;
+    }
+    .name{
+      margin-top: 10/@font;
+      color: rgba(49,45,59,0.54);
+    }
+  }
+  .btn{
+    width: 100%;
+    border-radius: 0;
+  }
+  .price{
+    height: 65/@font;
+    line-height: 65/@font;
+    padding:  0 15/@font;
+    vertical-align: middle;
+    .number{
+      .font-size(48);
+      color: #F64D41;
+    vertical-align: middle;
+    }
+    .name{
+      margin-right: 10/@font;
+      color: rgba(49,45,59,0.54);
+    }
+
+  }
+
+  .btn{
+    background: #548BEE;
+    width: 100%;
+    height: 50/@font;
+    .font-size(40);
+    color: #FFFFFF;
+  }
+
+}
+.tip_content{
+  color: #fff;
+  .font-size(26);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  span{
+    color: #5fa9ff;
+  }
+  img{
+    width: 40%;
+  }
+}

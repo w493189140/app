@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body{
+        height: 100%;
+        background-color: #f5f6f8;
+    }
+    .box{
+        background-color: #fff;
+        width: 830px;
+        height: 320px;
+        margin: 50px auto;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<body>
+<div class="box">
+    <div id="main" class="main"></div>
+</div>
+<script src="../lib/jquery-2.1.1.min.js"></script>
+<script src="../lib/echarts.min.js"></script>
+<script>
+    //canvas
+    function toDecimal(x) {
+        var f = parseFloat(x);
+        if (isNaN(f)) {
+            return;
+        }
+        f = Math.round(x*100)/100;
+        return f;
+    }
+    var app = echarts.init(document.getElementById('main'));
+
+    app.title = '交易动态';
+    var data = [
+        {value: 15, name: '东斯蒂芬'},
+        {value: 10, name: '快来接撒'},
+        {value: 34, name: '牛股牛股你好'},
+        {value: 34, name: '加快速度'},
+        {value: 34, name: '视频呢'},
+        {value: 48, name: '搜索擎你'},
+        {value: 48, name: '呵呵呵'},
+        {value: 10, name: '你好'}
+    ];
+    var arrName = [];
+    var sum = 0;
+    var newObj={};
+    for (var i=0;i<data.length;i++){
+        sum = sum+data[i].value;
+        arrName.push(data[i].name);
+        newObj[data[i].name]=data[i].value;
+    }
+
+    option = {
+        // tooltip: {
+        // trigger: 'item',
+        // formatter: "{b}: {c} ({d}%)",
+        //label:{
+        //   show:false
+        //}
+        //  },
+        legend: {
+            name: ' ',
+            selectedMode: true,
+            itemWidth:12,
+            itemHeight:12,
+            icon: 'circle',
+            orient: 'horizontal',
+            x: '60%',
+            y:'23%',
+            width:'30%',
+            data: arrName,
+            textStyle:{
+                fontSize:16
+            },
+            formatter: function (name) {
+                var str = "";
+                var length = name.length;
+                if(length>6){
+                    str = name;
+                }else if (name.length>5){
+                    str = name+" ";
+                }else if (name.length>4){
+                    str = name+"      ";
+                }else if (name.length>3){
+                    str = name+"        ";
+                }else if (name.length>2){
+                    str = name+"            ";
+                }else {
+                    str = name+"               ";
+                }
+                var num = toDecimal(newObj[name]/sum*100);
+                var n = num.toString().split(".")[1].length;//小数点位数
+                if(num<10||n==1){
+                    num ="  " + num + "% "
+                }else{
+                    num = num + "% "
+                }
+                return str + num;
+            },
+
+        },
+        series: [
+            {
+                type: 'pie',
+                radius: ['50%', '80%'],
+                center:['30%','50%'],
+                avoidLabelOverlap: false,
+                startAngle:[150],
+                itemStyle: {
+                    normal: {
+                        label: {
+                            show: true,
+                            formatter: ['{x|{b}} ', '{y|数量：{c}}' , '{z|{d}%}'].join('\n'),
+                            rich: {
+                                x: {
+                                    color:"#666",
+                                    fontWeight: 'normal',//bold
+                                    fontSize:18,
+                                    lineHeight: 25,
+                                    height: 20,
+                                },
+                                y: {
+                                    color:"#666",
+                                    fontSize:14,
+                                    lineHeight: 20,
+                                    height: 30
+                                },
+                                z: {
+                                    color:"#666",
+                                    fontWeight: 'normal',
+                                    fontSize: 18,
+                                    fontFamily: 'Microsoft YaHei',
+                                    lineHeight: 25,
+                                    height: 20,
+                                }
+                            }
+                        },
+                    }
+                },
+                label: {
+                    normal: {
+                        show: false,
+                        position: 'center',
+
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '18',
+                            fontWeight: 'normal',
+                            color:'#666',
+                            lineHeight:1.5
+                        },
+
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: data
+            }
+        ],
+        color: ['#ffa59f','#b8e8d0','#bed5ff','#7dabff','#ac98fd','#f8dd98','rgb(204,157,161)','rgb(131,175,155)','rgb(131,175,155)']
+    }
+    //option.legend.selected[arrName[0]] = true;
+    app.setOption(option);
+    app.dispatchAction({
+        type: 'highlight',
+        //  type: 'showTip',
+        dataIndex: 0
+    });
+    app.dispatchAction({
+        type: 'showTip',
+        dataIndex: 0
+    })
+    app.on('mouseover', function (params) {
+        console.log(params)
+        if(params.dataIndex != 0){
+            app.dispatchAction({
+                type: 'downplay',
+                // type: 'hideTip',
+                dataIndex: 0,
+            })
+        }
+    });
+
+
+</script>
+</body>
+</html>

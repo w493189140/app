@@ -1,0 +1,89 @@
+@import "less_base";
+@import "top1";
+@font: 37.5rem;
+body, html {
+  background-color: #fff;
+}
+.layout{
+  overflow: hidden;
+}
+.m_top{
+  width: 100%;
+  height: 73/@font;
+  border-bottom: 1px solid #E7E7E7;
+  display: block;
+  padding: 15/@font 15/@font 0 15/@font;
+}
+.t_left{
+  width: 240/@font;
+  float: left;
+  h4{
+    color: #312D3B;
+    line-height: 21/@font;
+    height: 21/@font;
+    .font-size(36);
+    white-space: nowrap;
+    word-break: keep-all;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  p{
+    float: left;
+    width: 100%;
+    color: rgba(49,45,59,0.38);
+    line-height: 21/@font;
+    height: 21/@font;
+    .font-size(24);
+  }
+}
+.t_right{
+  width: 105/@font;
+  float: right;
+  margin-top: 1/@font;
+  text-align: right;
+  a{
+    .font-size(26);
+    color: rgba(49,45,59,0.54);
+    letter-spacing: -0.37px;
+    line-height: 20/@font;
+    height: 20/@font;
+    display: inline-block;
+  }
+  a:first-child{
+    margin-right: 10/@font;
+  }
+  a.t_on{
+    color: #548BEE;
+  }
+}
+.txt{
+  width: 100%;
+  display: block;
+  padding: 0 15/@font;
+  h5{
+    display: block;
+    color: #312D3B;
+    line-height: 21/@font;
+    .font-size(32);
+    margin-top: 15/@font;
+    font-weight: 900;
+  }
+  p{
+    color: #312D3B;
+    line-height: 20/@font;
+    .font-size(28);
+    margin-top: 10/@font;
+  }
+  .bg{
+    line-height: 24/@font;
+  }
+  .gx{
+    line-height: 24/@font;
+    i{
+      padding: 0 10/@font;
+      font-style: normal;
+    }
+  }
+}

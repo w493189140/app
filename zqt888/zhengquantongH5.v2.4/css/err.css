@@ -1,0 +1,46 @@
+﻿/*head*/
+.by{
+  margin-top: 3em;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.b_h2{
+  color: #333333;
+  font-size:1.1em;
+  display: block;
+  height:2em;
+  line-height: 2em;
+}
+.name1,.name2{
+  color: #848484;
+  font-size:0.8em;
+  display: block;
+  height:1.2em;
+  line-height: 1.4em;
+  margin-top:1em;
+}
+.by_b1{
+  background: #4d8dcb;
+  width: 80%;
+  margin: 0 1%;
+  height:3.4em;
+  line-height: 3.4em;
+  font-size: 0.8em;
+  color: #fff;
+  display: inline-block;
+  margin-top: 5em;
+  cursor: pointer;
+}
+.by_b1 span{
+  margin-left: 3px;
+}
+.by_b1 i{
+  margin-right: 2px;
+}
+.name2:hover{
+  text-decoration: underline;
+}
+.by_b2{
+  background:#ff9000;
+}

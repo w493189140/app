@@ -1,0 +1,666 @@
+/*个股详情*/
+.mian {
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 20px;
+}
+
+.mian h2 {
+    width: 100%;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: #979797;
+}
+
+.mian h2 a {
+    color: rgba(49, 45, 59, 0.54);
+    margin-right: 9px;
+    font-size: 14px;
+}
+
+.mian h2 span {
+    font-size: 14px;
+    margin-left: 9px;
+    color: #312D3B;
+}
+
+.mian h2 a:hover {
+    text-decoration: underline;
+}
+
+.gu_head_top {
+    background: rgba(241, 247, 252, 0.54);
+    background: #F8FAFF;
+    width: 1120px;
+    float: left;
+    border: 1px solid #DDDDDD;
+    position: relative;
+    padding: 23px 30px;
+}
+/*修改*/
+.gu_head_top_l {
+    width:695px;
+    float: left;
+    margin-top: 33px;
+    padding-bottom: 35px;
+}
+.gu_top_l_1{
+    width: 100%;
+    float: left;
+    margin-bottom: 47px;
+}
+.gu_top_l_2{
+    float: left;
+    margin-right: 24px;
+    width: 280px;
+}
+.gu_top_l_2 .gu_h_t_l_1 {
+    padding: 0 34px 0 13px;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: rgba(49, 45, 59, 0.54);
+    background: #EDEFF5 url("../images/icon_tip.png") no-repeat 147px 6px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    margin-left:7px;
+}
+
+.gu_top_l_2 h1 {
+    float: left;
+    height: 37px;
+    line-height: 37px;
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    padding-left: 7px;
+}
+.gu_top_l_2  h1 b {
+    font-size: 26px;
+    color: #312D3B;
+    margin-right: 10px;
+}
+
+.gu_top_l_2  h1 em {
+    font-size: 26px;
+    color: #F64D41;
+}
+.gu_top_l_3{
+    width: 100%;
+    float: left;
+}
+.gu_top_l_3 p{
+    float: left;
+    width:126px;
+    overflow: hidden;
+    text-align: center;
+}
+.gu_top_l_3 p:first-child{
+    width: 100px;
+}
+.gu_top_l_3 p span{
+    font-size: 16px;
+    color: rgba(49,45,59,0.54);
+    height: 22px;
+    line-height: 22px;
+    display: inline-block;
+}
+.gu_top_l_3 p strong{
+    float: left;
+    font-size: 15px;
+    color: rgba(49,45,59,0.54);
+    height: 36px;
+    margin-top:13px;
+    line-height: 36px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: keep-all;
+    overflow: hidden;
+    width: 100%;
+}
+.gu_top_l_3 p strong em{
+    font-size: 24px;
+    color: #F64D41;
+    margin-right: 3px;
+}
+.gu_top_l_3 .leiji{
+    font-size: 24px;
+    color: #1FC178;
+}
+.gu_top_l_3 i{
+    width: 1px;
+    border-right: 1px dashed #ddd;
+    float: left;
+    height: 30px;
+    margin: 26px 10px 0 10px;
+}
+.gu_head_btn {
+    width: 662px;
+    float: left;
+    padding: 14px 30px 14px 50px;
+    background:rgba(49,45,59,0.05);
+    border: 1px solid rgba(231,231,231,0.70);
+}
+
+.gu_head_btn ul li {
+    float: left;
+    width: 156px;
+}
+.gu_head_btn ul li:before{
+    content: "";
+    width: 1px;
+    border-left: 1px dashed #DDD;
+    height: 30px;
+    float: left;
+    margin-top: 15px;
+    padding-left: 35px;
+}
+.gu_head_btn ul li:first-child::before{
+display: none;
+}
+.gu_head_btn ul li:first-child{
+    width: 110px;
+}
+.gu_head_btn ul li p {
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: rgba(49, 45, 59, 0.54);
+    width: 110px;
+    float: left;
+    overflow: hidden;
+}
+
+.gu_head_btn ul li em {
+    font-size: 24px;
+    color: #548BEE;
+    width: 110px;
+    float: left;
+    height: 33px;
+    line-height: 33px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+/*修改结束*/
+
+.gu_head_top_r {
+    float: left;
+    text-align: center;
+    width: 400px;
+    margin-top: 25px;
+}
+.gu_head_top_r:before{
+    content: "";
+    width: 1px;
+    height: 100px;
+    background: #E7E7E7;
+    float: left;
+}
+.gu_head_top_r h2 {
+    width:399px;
+    float: left;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 36px;
+    color: #0f990f;
+}
+
+.gu_head_top_r p {
+    font-size: 24px;
+    color: #0f990f;
+    height: 33px;
+    line-height: 33px;
+    width:399px;
+    text-align: center;
+    float: left;
+}
+.gu_head_top_r span:first-child {
+    margin-right: 20px;
+}
+
+.gu_tuij {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.gu_tuij img {
+    width: 100%;
+}
+
+.gu_cen {
+    background: rgba(241, 247, 252, 0.54);
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    float: left;
+    margin-top: 23px;
+}
+
+.gu_cen h2 {
+    height: 53px;
+    float: left;
+    width: 100%;
+    background: rgba(241,247,252,0.54);
+    background: #F7F7F7;
+    border: 1px solid #F7F7F7;
+}
+
+.gu_cen h2 span {
+    float: left;
+    padding-left: 27px;
+    background: url("../images/icon_sidebar_02.png") no-repeat 0 0;
+    margin: 14px 0 0 29px;
+}
+.gu_cen h2 span img{
+    width: 67px;
+}
+.gu_tag{
+    width: 1058px;
+    float: left;
+    height:22px;
+    line-height: 22px;
+    margin: 25px 30px 15px 30px;
+    overflow: hidden;
+}
+.gu_tag span{
+    font-size: 16px;
+    color: #548BEE;
+    float: left;
+    padding-right:20px;
+    width: 235px;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+    /*溢出的文字自动省略号...*/
+   /* text-overflow: ellipsis;*/
+}
+.gu_tag span:first-child:before{
+    display: none;
+}
+.gu_tag span:last-child{
+    padding-right: 0;
+    width: 202px;
+}
+.gu_tag span:nth-child(2){
+    width: 202px;
+}
+.gu_tag span:before{
+    content: "";
+    width: 1px;
+    height: 16px;
+    background: #E7E7E7;
+    float: left;
+    margin: 3px 20px 0 0;
+}
+.gu_tag .gu_tag_on{
+    color: #F64D41;
+    width: 160px;
+}
+.gu_cen h2 a {
+    float: right;
+    color: rgba(49, 45, 59, 0.38);
+    cursor: pointer;
+}
+/*修改*/
+.gu_cen_txt {
+    width: 1058px;
+    float: left;
+    line-height: 30px;
+    font-size: 14px;
+    color: rgba(49, 45, 59, 0.54);
+    margin: 0 30px 30px 30px;
+}
+/*修改结束*/
+
+.gu_main {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.gu_main_l {
+    width: 835px;
+    float: left;
+    margin-right: 20px;
+}
+
+.gu_cen_mru, .gu_cen_mru h2 {
+    width: 100%;
+    float: left;
+}
+
+.gu_cen_mru h2 {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.gu_cen_mru h2 span {
+    float: left;
+    padding-left: 35px;
+    background: url("../images/icon_sidebar_03.png") no-repeat 0px 2px;
+    font-size: 20px;
+    color: #312D3B;
+}
+.gu_cen_mru .gu_time{
+    font-size: 12px;
+    color: rgba(49,45,59,0.54);
+    float: left;
+    margin-left: 20px;
+}
+.gu_cen_mru h2 em {
+    float: left;
+    font-size: 14px;
+    color: rgba(49, 45, 59, 0.54);
+    margin-left: 20px;
+    line-height: 36px;
+}
+
+.gu_cen_mru h2 a {
+    float: right;
+    font-size: 14px;
+    color: rgba(49, 45, 59, 0.54);
+    line-height: 36px;
+}
+
+.gu_cen_mrl {
+    width: 100%;
+    float: left;
+    border: 1px solid #DDDDDD;
+}
+
+.gu_cen_mrl table, .gu_cen_mrl tbody {
+    width: 100%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.gu_cen_mrl table tr {
+    width: 100%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #312D3B;
+}
+
+.gu_cen_mrl tbody {
+    width: 833px;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+.gu_cen_mrl table tr:first-child {
+    border: none;
+    height: 40px;
+    line-height: 40px;
+    color: rgba(49, 45, 59, 0.54);
+}
+
+.gu_cen_mrl table tr:nth-child(odd) {
+    background: #F7F7F7;
+}
+
+.gu_cen_mrl table tr th, .gu_cen_mrl table tr td {
+    float: left;
+    font-weight: normal;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.gu_cen_mrl .gu_col1 {
+    width: 160px;
+    margin-left: 39px;
+    position: relative;
+}
+
+.gu_col1 em {
+    width: 160px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+
+.gu_col1 b {
+    position: absolute;
+    left: 160px;
+    top: 14px;
+    height: 24px;
+    line-height: 24px;
+    background: #f2f2f2;
+    padding: 0px 10px;
+    color: #555;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    font-size: 13px;
+}
+
+.gu_cen_mrl .gu_col2 {
+    width: 120px;
+}
+
+.gu_cen_mrl .gu_col3 {
+    width: 100px;
+}
+
+.gu_cen_mrl .gu_col4 {
+    width: 110px;
+}
+
+.gu_cen_mrl .gu_col5 {
+    width: 100px;
+}
+
+.gu_cen_mrl .gu_col6 {
+    width: 80px;
+}
+
+.gu_cen_mrl table tr td.gu_col3{
+    color: #F64D41;
+}
+.gu_cen_mrl table tr td.gu_col5{
+    color: #0f990f;
+}
+
+.gu_cen_m_top {
+    margin-top: 40px;
+}
+
+.gu_main_r {
+    width: 265px;
+    float: right;
+    border: 1px solid #ddd;
+}
+
+.gu_main_r h5 {
+    background: #F8FBFF;
+    width: 100%;
+    float: left;
+    height: 52px;
+    line-height: 52px;
+    padding: 0 15px;
+}
+
+.gu_main_r h5 span {
+    float: left;
+    padding-left: 30px;
+    background: url("../images/icon_sidebar_01.png") no-repeat 0px 16px;
+    font-size: 16px;
+    color: #548BEE;
+}
+
+.gu_main_r ul li {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #ddd;
+    padding: 15px;
+}
+
+.gu_main_r ul li h6 {
+    width: 100%;
+    float: left;
+    height: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #DDD;
+    line-height: 25px;
+}
+
+.gu_main_r ul li h6 strong {
+    font-size: 18px;
+    color: #548BEE;
+}
+
+.gu_main_r ul li h6 em {
+    font-size: 18px;
+    color: #F64D41;
+    margin-left: 12px;
+}
+
+.gu_main_r ul li h6 i {
+    color: #D9D9D9;
+    float: right;
+    font-size: 13px;
+}
+
+.gu_main_r ul li p {
+    height: 40px;
+    line-height: 20px;
+    margin-top: 5px;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    color: rgba(49, 45, 59, 0.54);
+    overflow: hidden;
+}
+.zhuti_table{
+    width: 100%;
+    float: left;
+    border: 1px solid #DDDDDD;
+    font-size: 16px;
+}
+.zhuti_table dl dt{
+    width:200px;
+    float: left;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    background: #F7F7F7;
+    color: rgba(49,45,59,0.54);
+    border-top: 1px solid #DDDDDD;
+}
+.zhuti_table dl dd{
+    width:216px;
+    float: left;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    background: #fff;
+    color: #312D3B;
+    border-top: 1px solid #DDDDDD;
+    border-right:  1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+    overflow: hidden;
+}
+.zhuti_table dl:nth-child(1) dt,.zhuti_table dl:nth-child(2) dt,.zhuti_table dl:nth-child(1) dd,.zhuti_table dl:nth-child(2) dd{
+    border-top: none;
+}
+.zhuti_table dl:nth-child(even) dd{
+    border-right:none;
+    width: 217px;
+}
+.zhuti_by{
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    float: left;
+    margin-top: 20px;
+    padding: 30px 40px 0 40px;
+}
+.zhuti_by h3{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #E7E7E7;
+    padding-bottom: 11px;
+    margin-bottom: 20px;
+}
+.zhuti_by h3 span{
+    font-size: 20px;
+    color: #312D3B;
+    border-bottom: 2px solid #548BEE;
+    padding-bottom: 8px;
+}
+.zhuti_by p,.zhuti_by_t1{
+    font-size: 14px;
+    color: rgba(-2147483648,-2147483648,-2147483648,0.70);
+    line-height: 31px;
+}
+.zhuti_by_t1{
+    margin-bottom: 50px;
+}
+.zhuti_by_t2 p{
+    margin-bottom: 30px;
+}
+.zhuti_by_t2 h4{
+    color: #548BEE;
+    font-size: 16px;
+    line-height: 31px;
+}
+/*新增*/
+.gu_h_r{
+    width: 348px;
+    float: left;
+    padding: 32px 9px 0 39px;
+}
+.gu_hr_t2{
+    width: 220px;
+    float: left;
+    text-align: center;
+    margin-top: 38px;
+}
+.gu_hr_t2 .name1{
+    font-size: 46px;
+    color: #1FC178;
+    width: 100%;
+    float: left;
+    height: 65px;
+    line-height: 65px;
+    overflow: hidden;
+    margin-bottom: 0;
+
+}
+.gu_hr_t2 .name2{
+    width: 100%;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    font-size: 20px;
+    color: #1FC178;
+    overflow: hidden;
+}
+.gu_hr_t2 .name2 span:first-child{
+    margin-right: 33px;
+}
