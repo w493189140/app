@@ -1,5 +1,6 @@
 @import "less_base";
 @import "top1";
+.icon_left_arrow:before{content: "\e6b1";}
 @font: 37.5rem;
 .icon {
   width: 32/@font; height: 32/@font;
@@ -30,7 +31,7 @@ body, html {
   ul{
     background-color: #fff;
   }
-  li{
+  .item{
     height: 51/@font;
     line-height: 51/@font;
     margin-left: 16/@font;
@@ -136,7 +137,6 @@ body, html {
 }
 .icon_left_arrow:before{
   color: #D9D9D9;
-  font-size: 26/@font;
 }
 .quit_btn{
   width: 345/@font;
@@ -202,3 +202,130 @@ body, html {
   }
 
 
+
+
+.filter-disabled {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.filter-box {
+  position: relative;
+  width: 130/@font;
+  float: right;
+}
+
+.filter-box select {
+  display: none;
+}
+
+.filter-text {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+
+.filter-text input {
+  .font-size(32);
+}
+
+.filter-text .filter-title {
+  width: 100%;
+  height: 36/@font;
+  line-height: 36/@font;
+  border: 0;
+  background-color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  padding: 0 10/@font;
+}
+
+.filter-list {
+  display: none;
+  width: 100%;
+  max-height: 300/@font;
+  background-color: #fff;
+  position: absolute;
+  top: 42/@font;
+  left: 0;
+  z-index: 99;
+  border: 1px solid #e6e6e6;
+  overflow: auto;
+}
+
+.filter-list li.filter-null a {
+  color: #d2d2d2;
+  padding: 0 10/@font;
+}
+
+.filter-list li a {
+  display: block;
+  line-height: 36/@font;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  .font-size(28);
+  padding: 0 10/@font;
+}
+
+.filter-list li:hover {
+  background-color: #548BEE;
+}
+
+.filter-list li.filter-selected {
+  background-color: #548BEE;
+}
+
+.filter-list li.filter-selected a{
+  display: block;
+  color: #fff;
+}
+
+.filter-list li.filter-disabled {
+  background-color: #fff;
+}
+
+.filter-list li.filter-disabled a{
+  display: block;
+  color: #d2d2d2;
+}
+
+.filter-list li.filter-disabled:hover a {
+  cursor: not-allowed!important;
+  background-color: #fff;
+}
+
+
+
+.icon_left_arrow {
+  right: 5/@font;
+  top: 2/@font;
+  transition: all .2s;
+  position: absolute;
+}
+
+.icon_left_arrow.filter-show {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.filter-list::-webkit-scrollbar {
+  width: 4/@font;
+  height: 4/@font;
+}
+
+.filter-list::-webkit-scrollbar-track {
+  background: #fff
+}
+
+.filter-list::-webkit-scrollbar-thumb {
+  background: #CBCBCB;
+}

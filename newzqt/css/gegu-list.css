@@ -1,0 +1,229 @@
+.icon_right_arrow:before {
+  content: "\e6d9";
+}
+header {
+  width: 100%;
+  height: 1.2rem;
+  background-image: linear-gradient(0deg, #4C4C50 1%, #2F3032 100%);
+  background-color: #4c4c50;
+  line-height: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 888;
+}
+[data-dpr='1'] header {
+  font-size: 16px;
+}
+[data-dpr='2'] header {
+  font-size: 32px;
+}
+[data-dpr='3'] header {
+  font-size: 48px;
+}
+header .icon_right_arrow {
+  color: #fff;
+  position: relative;
+  z-index: 5;
+}
+[data-dpr='1'] header .icon_right_arrow {
+  font-size: 15px;
+}
+[data-dpr='2'] header .icon_right_arrow {
+  font-size: 30px;
+}
+[data-dpr='3'] header .icon_right_arrow {
+  font-size: 45px;
+}
+header .icon_right_arrow:before {
+  color: #fff;
+  margin: 0 0.10666667rem 0 0.2rem;
+  margin-top: 0.04rem;
+  vertical-align: middle;
+}
+[data-dpr='1'] header .icon_right_arrow:before {
+  font-size: 22px;
+}
+[data-dpr='2'] header .icon_right_arrow:before {
+  font-size: 44px;
+}
+[data-dpr='3'] header .icon_right_arrow:before {
+  font-size: 66px;
+}
+header h3 {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.top_zhanwei {
+  height: 1.2rem;
+}
+.layout {
+  background-color: #f9fbfd;
+}
+.icon_left_arrow:before {
+  content: "\e6b1";
+}
+.icon_down_arrow:before {
+  content: "\e69d";
+}
+.gegu-product {
+  background-color: #fff;
+  margin-bottom: 0.26666667rem;
+}
+.gegu-product .title-top {
+  color: rgba(49, 45, 59, 0.54);
+  height: 1.28rem;
+  padding: 0 0.4rem;
+  border-bottom: 1px solid #EAEAEA;
+  position: relative;
+}
+[data-dpr='1'] .gegu-product .title-top {
+  font-size: 12px;
+}
+[data-dpr='2'] .gegu-product .title-top {
+  font-size: 24px;
+}
+[data-dpr='3'] .gegu-product .title-top {
+  font-size: 36px;
+}
+.gegu-product .title-top .name {
+  color: #40404A;
+  float: left;
+  line-height: 1.28rem;
+}
+[data-dpr='1'] .gegu-product .title-top .name {
+  font-size: 16px;
+}
+[data-dpr='2'] .gegu-product .title-top .name {
+  font-size: 32px;
+}
+[data-dpr='3'] .gegu-product .title-top .name {
+  font-size: 48px;
+}
+.gegu-product .title-top .change-time {
+  color: rgba(49, 45, 59, 0.54);
+  float: right;
+  line-height: 1.28rem;
+}
+[data-dpr='1'] .gegu-product .title-top .change-time {
+  font-size: 12px;
+}
+[data-dpr='2'] .gegu-product .title-top .change-time {
+  font-size: 24px;
+}
+[data-dpr='3'] .gegu-product .title-top .change-time {
+  font-size: 36px;
+}
+.gegu-product .content {
+  border-bottom: 1px solid #EAEAEA;
+  width: 100%;
+}
+.gegu-product .product {
+  width: 2.56rem;
+  height: 2.13333333rem;
+  border: 1px solid #DDDDDD;
+  border-radius: 2px;
+  text-align: center;
+}
+.gegu-product .day-list {
+  padding: 0.26666667rem;
+  height: 2.66666667rem;
+  width: 100%;
+}
+.gegu-product .day-list:not(:nth-last-child(1)) {
+  border-bottom: 1px solid #EAEAEA;
+}
+.gegu-product .info {
+  width: 6.56rem;
+  height: 2.13333333rem;
+}
+.gegu-product .info .title {
+  color: #666;
+  font-weight: 600;
+}
+[data-dpr='1'] .gegu-product .info .title {
+  font-size: 17px;
+}
+[data-dpr='2'] .gegu-product .info .title {
+  font-size: 34px;
+}
+[data-dpr='3'] .gegu-product .info .title {
+  font-size: 51px;
+}
+.gegu-product .info .btn {
+  border-radius: 100px;
+  width: 1.97333333rem;
+  height: 0.64rem;
+  line-height: 0.64rem;
+  text-align: center;
+  float: right;
+  border: 1px solid #F64D41;
+  color: #F64D41;
+}
+[data-dpr='1'] .gegu-product .info .btn {
+  font-size: 12px;
+}
+[data-dpr='2'] .gegu-product .info .btn {
+  font-size: 24px;
+}
+[data-dpr='3'] .gegu-product .info .btn {
+  font-size: 36px;
+}
+.gegu-product .info .change {
+  color: #7DABFF;
+  border: 1px solid #7DABFF;
+}
+.gegu-product .info .des {
+  margin-top: 0.26666667rem;
+  color: rgba(49, 45, 59, 0.54);
+  line-height: 0.48rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+[data-dpr='1'] .gegu-product .info .des {
+  font-size: 13px;
+}
+[data-dpr='2'] .gegu-product .info .des {
+  font-size: 26px;
+}
+[data-dpr='3'] .gegu-product .info .des {
+  font-size: 39px;
+}
+.gegu-product .num {
+  font-size: 0.61333333rem;
+  color: #F64D41;
+  letter-spacing: -0.35px;
+  line-height: 0.90666667rem;
+  margin-top: 0.26666667rem;
+}
+.gegu-product .name {
+  color: rgba(49, 45, 59, 0.38);
+}
+.gegu-product .tip_top {
+  height: 0.90666667rem;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: -0.90666667rem;
+  border-bottom: 1px solid #EAEAEA;
+}
+.gegu-product .tip_top img {
+  height: 100%;
+}
+.gegu-product .tip_bottom {
+  width: 100%;
+  height: 0.90666667rem;
+  position: absolute;
+  bottom: -0.90666667rem;
+  text-align: center;
+}
+.gegu-product .tip_bottom img {
+  height: 100%;
+}

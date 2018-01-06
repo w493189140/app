@@ -2,8 +2,11 @@
 $(function(){
     //支付方式选择
     $(".paytype").on("click","li",function () {
-        $(this).addClass("select").find(".iconfont").attr("class","f_right iconfont icon_continue_hover");
-        $(this).siblings().removeClass("select").find(".iconfont").attr("class","f_right iconfont icon_select");
+        if ($(this).hasClass('select')){
+            $(this).removeClass("select").find(".iconfont").attr("class","f_right iconfont icon_select");
+        }else {
+            $(this).addClass("select").find(".iconfont").attr("class","f_right iconfont icon_continue_hover");
+        }
     });
     //模态框行为
     $(".quit_btn").click(function(){

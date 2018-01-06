@@ -407,6 +407,10 @@ background: #f5f6fa;
     line-height: 17px;
     float: left;
     margin-top: 10px;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 @media screen and (max-width:1400px) {
     .kecheng .icon_play{
